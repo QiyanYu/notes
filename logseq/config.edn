@@ -190,4 +190,5 @@
 
  ;; Extra CodeMirror options
  ;; :editor/extra-codemirror-options {:keyMap "emacs" :lineWrapping true}
+ :custom-css-url "@import url('https://cdn.jsdelivr.net/gh/g1eny0ung/logseq-github-theme@master/light.css');"
  }
