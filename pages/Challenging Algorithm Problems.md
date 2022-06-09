@@ -1,0 +1,6 @@
+- #algorithm
+- # Arrays:
+	- [[Arrrrghrays]] [[Mar 8th, 2022]]
+	- [[Higher Order Functions and Arrays]] [[Mar 8th, 2022]]
+- # Recursion:
+	- [[Tideman]]

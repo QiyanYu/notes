@@ -1,0 +1,55 @@
+- You can download the tutorial right now using this link: https://javascript.info/download/12k4wah/js-ui.zip. The link will be active for 1 year, with the latest tutorial build.
+- # Basic
+	- ## Data Types
+		- ### Primitive Data Types
+			- *Immutable*
+			- 1. NumbersBigInt
+			  2. BigInt
+			  3. Strings 
+			  4. Booleans
+			  5. Null - empty value or no value: For `Null`, it's like we have a label and put an empty box on the shelf.
+			  6. Undefined - a declared variable without a given value. For `Undefined`, it's like we only put a label on the shelf to take one position and haven't put the box.
+			- `==` when apply on primitive data types, it only compares the value.
+		- ### Non-Primitive Data Types
+			- *Mutable*
+			- 1. Objects
+			  2. Functions
+			- `==` when apply on non-primitive data types, it compares the address.
+		- ### How to represent data in memory?
+			- Like there is a shelf, which is memory, if we need to put data on to the shelf, we need a *box* to carry the data and a *label* to indicate its name.
+			- For `primitive data types`, it stores the actual value inside the box.
+			- For `non-primitive data types`, it stores the address or reference inside the box.
+		- ### `==` compare
+			- Primitive data types variables store the real value, but non-primitive data types variables store the address to that object.
+			- When applying `==` in JS, it compares the value of the variable, so for primitive data types, it compares the value. But for non-primitive data types, it compares the address of the variables, so even if the values of the two object are identical, it will still result `false`.
+		- `random`
+			- ```Js
+			  const num = Math.floor(Math.random () * 11) // creates random number between 0 and 10
+			  ```
+		- ### Type Conversions
+			- String Conversion
+				- `String(null) // "null"`
+			- Numeric Conversion
+				- Numeric conversion happens in math functions and expressions automatically.
+				- usage: `alert('6' / '2')` `Number('123')`
+				- `alert(+true);` -> 1
+				- `alert(+"")` -> 0
+				- If the string is not a valid number, the result will be `NaN`.
+				- Rules:
+					- `Number(undefined) -> NaN`
+					- `Number(null) -> 0`
+					- `true and false -> 1, 0`
+					- After trimming the string, if it's empty, return `0`, or converting make an error return `NaN`.
+			- Boolean Conversion
+				- Rules:
+					- `Boolean("") -> false`
+					- `Boolean(null) -> false`
+					- `Boolean(0) -> false`
+					- `Boolean(NaN) -> false`
+					- `Boolean(undefined) -> false`
+					- `Boolean("0") -> true`
+					- `Boolean(" ") -> true`
+			- #### Note:
+				- `"  -9  " + 5 = "  -9  5"`
+				- `" \t  \n" -2 = -2`
+-

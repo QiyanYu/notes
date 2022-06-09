@@ -1,0 +1,4 @@
+- #java
+- All variables inside the static method must be static.
+- Each variables inside the instance method may be static variables.
+-

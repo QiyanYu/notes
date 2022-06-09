@@ -1,0 +1,12 @@
+- #java #static-class
+- ### Nested Class
+	- Can combine two classes into one file.
+	- Nested Classes are useful when a class doesn't stand on its own and is obviously subordinate to another class.
+	- Make the nested class private if other classes should never use the nested class.
+- ### Static Nested Class
+	- If the nested class never uses any instance variables or methods of the outer class, declare it static.
+	- This means the `inner class` doesn't get a reference to it boss.
+	- Static classes cannot access outer class's instance variables and methods.
+	- Results in a minor savings of memory, since each `inner static class` no longer needs to keep track of how to access its enclosing `outer class`.
+	- **Note:** it can access `outer class static variables`.
+-

@@ -1,0 +1,26 @@
+- #cs50 #introduction
+- ## Lecture
+	- `http-server` only serves static context, it cannot process the data that coming into it.
+	- You don't want to use client's side safety check since clients can use chrome development tool to remove the restrictions on HTML and tease your server.
+	- MVC model (vs Swift MVVM model)
+- ## Shorts
+	- ### Flask
+		- Flask has a number of functions within its module that will be useful for application development.
+			- `url_for()`
+			- `redirect()`
+			- `session()`
+			- `render_template()`
+		- Always comes with  [Jinja](http://jinja.pocoo.org/) to mix HTML and Python.
+	- ### Ajax
+		- Asynchronous JavaScript and XML
+		- Ajax allows us to dynamically update a webpage even more dynamically.
+		- Central to our ability to asynchronously update our pages is to make use of a special JavaScript object called an XMLHttpRequest.
+		- `var xhttp = new XMLHttpRequest();`
+		- After obtaining your new object, you need to define its `onreadystatechange` behavior.
+			- This is a function (typically an anonymous function) that will be called when the asynchronous HTTP request has completed, and thus typically defines what is expected to change on your site.
+		- XMLHttpRequsts have two additional properties that are used to detect when the page finishes loading.
+			- The `readyState` property will change from 0 (request not yet initialized) to 1, 2, 3, and finally 4 (request finished, response ready).
+			- The `status` property will (hopefully!) be 200(OK).
+			- Then just make your asynchronous request using the `open()` method to define the request and the `send()` method to actually send it.
+		- More commonly, you'll see Ajax request written using jQuery instead of "raw" JavaScript.
+		-

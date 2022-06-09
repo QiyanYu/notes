@@ -1,0 +1,5 @@
+- #c
+- malloc() doesn't initialize the allocated memory which calloc does.
+- `void* malloc(size_t size);` if we try to access the content of memory block(before initializing), then we will get segmentation fault error.
+- `void* calloc(size_t num, size_t size);` allocates the memory and also initializes the allocated memory block to zero, if we try to access the content of these blocks then we will get 0.
+-

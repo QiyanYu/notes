@@ -1,0 +1,5 @@
+-
+- how to compile c program:
+	- `clang -o prog prog.c // -o means output`
+	- `make prog`
+-

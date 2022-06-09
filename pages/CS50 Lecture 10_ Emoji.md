@@ -1,0 +1,8 @@
+- #cs50 #introduction
+- ## Lecture
+	- Host a web site
+		- https://pages.github.com
+		- https://www.netlify.com
+	- Host a web app
+		- https://www.heroku.com/platform
+	-

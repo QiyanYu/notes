@@ -1,0 +1,8 @@
+- #c #c
+-
+- How to empty a C string: ` buffer[0] = '\0';`
+- How to get command line arguments using [[POSIX: getopt()]]
+- TODO Should I `malloc` memory for `struct`
+	- check notes from cs50
+- Check `NULL` after calling `malloc()`
+- `char *pointer = NULL` must assign pointer a value. `NULL` as default.
