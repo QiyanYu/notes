@@ -11,7 +11,7 @@ title:: CS Notes
 	- ## 2.1 Java
 		- ### [[2.1.1 Core Java 11th]]
 	- ## 2.2 JavaScript
-		- ### [[2.2.1 JS Introduction]]
+		- ### [[2.2.1 The Modern JavaScript Tutorial]]
 -
 -
 -
