@@ -10,7 +10,8 @@ title:: CS Notes
 - # 2. Languages & Frames
 	- ## 2.1 Java
 		- ### [[2.1.1 Core Java 11th]]
-	-
+	- ## 2.2 JavaScript
+		-
 -
 -
 -
