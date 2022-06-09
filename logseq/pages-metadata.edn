@@ -1,15 +1,15 @@
 [{:block/name "1.2.1 ucb cs61a notes",
   :block/created-at 1652461404249,
-  :block/updated-at 1653008371226}
+  :block/updated-at 1654790948110}
  {:block/name "1.3.1 ucb cs61b notes",
   :block/created-at 1650211443736,
   :block/updated-at 1654747378878}
  {:block/name "2.1.1 core java 11th",
   :block/created-at 1650211550056,
   :block/updated-at 1650211550056}
- {:block/name "60d34662-6747-46cd-a790-6dcb691b0256",
-  :block/created-at 1654749055164,
-  :block/updated-at 1654749055164}
+ {:block/name "2.2.1 the modern javascript tutorial",
+  :block/created-at 1645127054434,
+  :block/updated-at 1654791306955}
  {:block/name "a",
   :block/created-at 1646757913041,
   :block/updated-at 1646757913041}
@@ -79,9 +79,6 @@
  {:block/name "c programming tips",
   :block/created-at 1641854635172,
   :block/updated-at 1642046148110}
- {:block/name "canceled",
-  :block/created-at 1654749055159,
-  :block/updated-at 1654749055159}
  {:block/name "card",
   :block/created-at 1646757913041,
   :block/updated-at 1646757913041}
@@ -111,7 +108,7 @@
   :block/updated-at 1654736639468}
  {:block/name "cs notes",
   :block/created-at 1650210254286,
-  :block/updated-at 1652461409327}
+  :block/updated-at 1654791099914}
  {:block/name "cs50",
   :block/created-at 1646757913042,
   :block/updated-at 1646757913042}
@@ -232,12 +229,12 @@
  {:block/name "js",
   :block/created-at 1646777597287,
   :block/updated-at 1646777597287}
- {:block/name "js introduction",
-  :block/created-at 1645127054434,
-  :block/updated-at 1646777597287}
  {:block/name "jun 8th, 2022",
-  :block/created-at 1654736644393,
-  :block/updated-at 1654736644393}
+  :block/created-at 1654752057877,
+  :block/updated-at 1654752057877}
+ {:block/name "jun 9th, 2022",
+  :block/created-at 1654759573340,
+  :block/updated-at 1654759573340}
  {:block/name "junit",
   :block/created-at 1647564907395,
   :block/updated-at 1647564907395}
@@ -256,18 +253,9 @@
  {:block/name "lazy-calculation",
   :block/created-at 1648740587510,
   :block/updated-at 1648740587510}
- {:block/name "legseq dev theme",
-  :block/created-at 1654749102950,
-  :block/updated-at 1654749102950}
  {:block/name "linked-list",
   :block/created-at 1647467027563,
   :block/updated-at 1647467027563}
- {:block/name "logseq",
-  :block/created-at 1654749055163,
-  :block/updated-at 1654749055163}
- {:block/name "logseq theme",
-  :block/created-at 1654749055152,
-  :block/updated-at 1654749055152}
  {:block/name "malloc vs calloc",
   :block/created-at 1641873761915,
   :block/updated-at 1641874073319}
@@ -451,9 +439,6 @@
  {:block/name "tag_c_programming_tips",
   :block/created-at 1654736639012,
   :block/updated-at 1654736639012}
- {:block/name "tag_language_java-vs-other-languages",
-  :block/created-at 1654736643651,
-  :block/updated-at 1654736643651}
  {:block/name "test",
   :block/created-at 1647564637176,
   :block/updated-at 1647564637176}
@@ -476,8 +461,5 @@
   :block/created-at 1646757913043,
   :block/updated-at 1646757913043}
  {:block/name "waiting",
-  :block/created-at 1646757913041,
-  :block/updated-at 1646757913041}
- {:block/name "汉字测试",
-  :block/created-at 1654749055166, 
-  :block/updated-at 1654749055166}]
+  :block/created-at 1646757913041, 
+  :block/updated-at 1646757913041}]
