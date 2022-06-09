@@ -191,4 +191,5 @@
  ;; Extra CodeMirror options
  ;; :editor/extra-codemirror-options {:keyMap "emacs" :lineWrapping true}
  :default-home {:page "CS Notes" :sidebar "contents"}
+ :feature/enable-journals? true
  }
