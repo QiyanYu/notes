@@ -156,6 +156,7 @@
 	  of size 64 bits. Note that the variable does not store the entire object
 	  itself!</p>
 	- **Golden Rule of Equals** For primitives, the line `int y = x` copies the bits inside the `x` box into the `y` box. For reference types, we do the exact same thing. In the line `Walrus newWalrus = oldWalrus;`, we copy the 64 bit address in the `oldWalrus` box into the `newWalrus` box. So we can think of this golden rule of equals (GroE) as: when we assign a value with equals, we are just copying the bits from one memory box to another!
+	  id:: 62a14703-246b-4725-8e4a-aa9ac67e4d52
 	- <p><strong>Parameter Passing</strong> Say we have a method <code class="language-plaintext highlighter-rouge">average(double a, double b)</code>. This
 	  method takes two doubles as parameters. Parameter passing also follows the
 	  GRoE, i.e. when we call this method and pass in two doubles, we copy the bits
