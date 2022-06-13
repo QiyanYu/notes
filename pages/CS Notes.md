@@ -13,6 +13,8 @@ title:: CS Notes
 	- ## 2.2 JavaScript
 		- ### [[2.2.1 The Modern JavaScript Tutorial]]
 	- ## 2.3 Python
-		- ### [Design Patterns in Python for the Untrained Eye](https://arielortiz.info/s201911/pycon2019/docs/design_patterns.html)
+		- ### Readings:
+			- TODO [Design Patterns in Python for the Untrained Eye](https://arielortiz.info/s201911/pycon2019/docs/design_patterns.html)
+		-
 -
 -
