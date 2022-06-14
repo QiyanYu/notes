@@ -1,6 +1,6 @@
 [{:block/name "1.2.1 ucb cs61a notes",
   :block/created-at 1652461404249,
-  :block/updated-at 1654790948110}
+  :block/updated-at 1655184470522}
  {:block/name "1.3.1 ucb cs61b notes",
   :block/created-at 1650211443736,
   :block/updated-at 1654747378878}
@@ -108,7 +108,7 @@
   :block/updated-at 1654736639468}
  {:block/name "cs notes",
   :block/created-at 1650210254286,
-  :block/updated-at 1654791099914}
+  :block/updated-at 1655159847979}
  {:block/name "cs50",
   :block/created-at 1646757913042,
   :block/updated-at 1646757913042}
@@ -229,6 +229,18 @@
  {:block/name "js",
   :block/created-at 1646777597287,
   :block/updated-at 1646777597287}
+ {:block/name "jun 10th, 2022",
+  :block/created-at 1654844402163,
+  :block/updated-at 1654844402163}
+ {:block/name "jun 11th, 2022",
+  :block/created-at 1654933813258,
+  :block/updated-at 1654933813258}
+ {:block/name "jun 12th, 2022",
+  :block/created-at 1655028036785,
+  :block/updated-at 1655028036785}
+ {:block/name "jun 13th, 2022",
+  :block/created-at 1655103654051,
+  :block/updated-at 1655103654051}
  {:block/name "jun 8th, 2022",
   :block/created-at 1654752057877,
   :block/updated-at 1654752057877}
