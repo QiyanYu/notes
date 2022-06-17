@@ -1,4 +1,3 @@
 - #recursion
 -
-- [[Tideman]]
 -
