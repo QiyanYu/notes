@@ -1,6 +1,6 @@
 [{:block/name "1.2.1 ucb cs61a notes",
   :block/created-at 1652461404249,
-  :block/updated-at 1655865568673}
+  :block/updated-at 1656117300191}
  {:block/name "1.3.1 ucb cs61b notes",
   :block/created-at 1650211443736,
   :block/updated-at 1654747378878}
@@ -73,6 +73,9 @@
  {:block/name "bst",
   :block/created-at 1649701057192,
   :block/updated-at 1649701057192}
+ {:block/name "building",
+  :block/created-at 1656117283520,
+  :block/updated-at 1656117283520}
  {:block/name "c",
   :block/created-at 1646757913043,
   :block/updated-at 1646757913043}
@@ -250,6 +253,18 @@
  {:block/name "jun 21st, 2022",
   :block/created-at 1655833285826,
   :block/updated-at 1655833285826}
+ {:block/name "jun 22nd, 2022",
+  :block/created-at 1655881713543,
+  :block/updated-at 1655881713543}
+ {:block/name "jun 23rd, 2022",
+  :block/created-at 1655982390296,
+  :block/updated-at 1655982390296}
+ {:block/name "jun 24th, 2022",
+  :block/created-at 1656054037572,
+  :block/updated-at 1656054037572}
+ {:block/name "jun 25th, 2022",
+  :block/created-at 1656143284508,
+  :block/updated-at 1656143284508}
  {:block/name "junit",
   :block/created-at 1647564907395,
   :block/updated-at 1647564907395}
