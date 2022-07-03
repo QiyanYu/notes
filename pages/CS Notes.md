@@ -16,5 +16,8 @@ title:: CS Notes
 		- ### Readings:
 			- TODO [Design Patterns in Python for the Untrained Eye](https://arielortiz.info/s201911/pycon2019/docs/design_patterns.html)
 		-
--
--
+- # 3. Open source Code Study
+	- ## 3.1 Java
+		- ### 3.1.1 H2 SQL DB
+			- [GitHub Link](https://github.com/h2database/h2database)
+		- ### 3.1.2 Elastic Search
