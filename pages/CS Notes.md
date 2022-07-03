@@ -21,3 +21,7 @@ title:: CS Notes
 		- ### 3.1.1 H2 SQL DB
 			- [GitHub Link](https://github.com/h2database/h2database)
 		- ### 3.1.2 Elastic Search
+	- ## 3.2 C
+		- ### 3.2.1 Redis
+		- ### 3.2.2 SQLite
+		- ### 3.2.3 Nginx
