@@ -3,9 +3,11 @@ title:: CS Notes
 - # 1. Computer Science
 	- ## 1.1 Introduction
 	- ## 1.2 Programming
-		- ### [[1.2.1 UCB CS61A Notes]]
+		- ### 1.2.1 UC Berkeley CS 61A
+			- [[CS 61A Notes]]
 	- ## 1.3 Algorithms
-		- ### [[1.3.1 UCB CS61B Notes]]
+		- ### 1.3.1 UC Berkeley CS 61B
+			- [[CS 61B Notes]]
 	- ## 1.4 Computer Architecture
 - # 2. Languages & Frames
 	- ## 2.1 Java

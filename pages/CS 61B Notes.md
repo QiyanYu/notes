@@ -1,4 +1,4 @@
-title:: 1.3.1 UCB CS61B Notes
+title:: CS 61B Notes
 
 - All lectures, readings, exams and discussions are from [sp21](https://sp21.datastructur.es/index.html) .
   All labs, projects and homework are from [sp18](https://sp18.datastructur.es/).

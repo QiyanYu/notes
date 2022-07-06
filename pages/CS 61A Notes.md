@@ -1,4 +1,4 @@
-title:: 1.2.1 UCB CS61A Notes
+title:: CS 61A Notes
 
 - [Composing Programs - Textbook](https://composingprograms.com/)
 - All lectures, labs, discussions, homework and projects are from UC Berkeley [CS61A sp20](https://inst.eecs.berkeley.edu/~cs61a/sp20/)
