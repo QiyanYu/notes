@@ -391,7 +391,6 @@ title:: CS 61A Notes
 			  ```
 	- ## 2.3 Sequences
 		- ### Tree Abstraction
-		  collapsed:: true
 			- ![image.png](../assets/image_1656542361844_0.png)
 			- A tree has a label value and a list of branches
 			- ```python
@@ -461,5 +460,9 @@ title:: CS 61A Notes
 			      # paramater will be None.
 			      return tree(label(t) + 1, [increment(b) for b in branches(t)])
 			  ```
+-
+-
+-
+-
 -
 - ![cs61a_homepage.pdf](../assets/cs61a_homepage_1656114998394_0.pdf)
