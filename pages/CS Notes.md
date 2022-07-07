@@ -5,6 +5,7 @@ title:: CS Notes
 	- ## 1.2 Programming
 		- ### 1.2.1 UC Berkeley CS 61A
 			- [[CS 61A Notes]]
+			- [[CS 61A My Solutions]]
 	- ## 1.3 Algorithms
 		- ### 1.3.1 UC Berkeley CS 61B
 			- [[CS 61B Notes]]
