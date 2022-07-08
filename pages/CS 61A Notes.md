@@ -461,6 +461,8 @@ title:: CS 61A Notes
 			      return tree(label(t) + 1, [increment(b) for b in branches(t)])
 			  ```
 	- ## 2.4 Mutable Data
+		- `nonlocal`
+			- **Effect:** Future assignments to that name change its pre-existing binding in the **first**
 		-
 -
 -
