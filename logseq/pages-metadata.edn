@@ -114,7 +114,7 @@
   :block/updated-at 1657242046787}
  {:block/name "cs 61a notes",
   :block/created-at 1652461404249,
-  :block/updated-at 1657237890691}
+  :block/updated-at 1657321627256}
  {:block/name "cs 61b notes",
   :block/created-at 1650211443736,
   :block/updated-at 1654747378878}
@@ -270,7 +270,7 @@
   :block/updated-at 1657236383324}
  {:block/name "jul 8th, 2022",
   :block/created-at 1657278102193,
-  :block/updated-at 1657278102193}
+  :block/updated-at 1657310150716}
  {:block/name "jun 16th, 2022",
   :block/created-at 1655445496396,
   :block/updated-at 1655445496396}
