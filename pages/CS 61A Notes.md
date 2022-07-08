@@ -463,6 +463,14 @@ title:: CS 61A Notes
 	- ## 2.4 Mutable Data
 		- `nonlocal <name>` statements
 			- ```python
+			  def make_withdraw(balance):
+			    	def withdraw(amount):
+			        	nonlocal balance
+			          if amount > balance:
+			            	return "Insufficient funds."
+			          balance -= amount
+			          return balance
+			      return withdraw
 			  ```
 			- **Effect:** Future assignments to that name change its pre-existing binding in the **first non-local frame** of the current environment in which that name is bound.
 			- **From the Python 3 language reference:**
@@ -471,7 +479,14 @@ title:: CS 61A Notes
 			- ![image.png](../assets/image_1657321927764_0.png)
 		- Mutable values can be changed *without* a `nonlocal` statement.
 			- ```python
-			  def make_withdraw
+			  def make_withdraw_list(balance):
+			    	b = [balance]
+			      def withdraw(amount):
+			        	if amount > b[0]:
+			            	return "Insufficient funds."
+			          b[0] -= amount
+			          return b[0]
+			      return withdraw
 			  ```
 -
 -
