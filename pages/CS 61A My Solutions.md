@@ -9,7 +9,6 @@
 			  min(valid_words, key = lambda w: diff_function(user_word, w, limit))
 			  ```
 		- ### Problem 6
-		  collapsed:: true
 			- ```python
 			  # With helper function
 			  def sphinx_swap(start, goal, limit):
@@ -68,16 +67,14 @@
 				        	break
 				  ```
 - # Homework
-	- ### TODO hw02 q3 q4
+	- ## TODO hw02 q3 q4
 		- [hw02 q3 q4](https://github.com/QiyanYu/UCB_CS61A/blob/main/hw02/hw02.py)
 		- [Questions description](https://inst.eecs.berkeley.edu/~cs61a/sp20/hw/hw02/)
-	- ### HW 03 #recursion #recap
+	- ## HW 03 #recursion #recap
 		- [HW03-GitHub](https://github.com/QiyanYu/UCB_CS61A/blob/main/hw03/hw03.py)
-		- #### Q2: Ping-pong
-		  collapsed:: true
+		- ### Q2: Ping-pong
 			- ![image.png](../assets/image_1656198751231_0.png)
-		- #### Q3: Count change
-		  collapsed:: true
+		- ### Q3: Count change
 			- Given a positive integer `total` , a set of coins makes change for `total` if the sum of the values of the coins is `total` . For example, the following sets make change for `7` :
 				- 7 1-cent coins
 				- 5 1-cent, 1 2-cent coins
@@ -107,20 +104,19 @@
 				      strings = apply_to_all_link(lambda s: join_link(s, " + "), lists)
 				      print(join_link(strings, "\n"))
 				  ```
-		- #### Q6: Anonymous factorial
-		  collapsed:: true
+		- ### Q6: Anonymous factorial
 			- To write a recursive function, we have always given it a name using a `def` or assignment statement so that we can refer to the function within its own body. In this question, your job is to define fact recursively without giving it a name!
 - # Labs
-	- ### Lab 04 #recursion #recap
+	- ## Lab 04 #recursion #recap
 		- [lab 04](https://inst.eecs.berkeley.edu/~cs61a/sp20/lab/lab04/)
 		- [lab04-GitHub](https://github.com/QiyanYu/UCB_CS61A/blob/main/lab04/lab04.py)
-		- #### Q5: Maximum Subsequence
+		- ### Q5: Maximum Subsequence
 			- There are two key insights for this problem
 				- You need to split into the cases where the ones digit is used and the one where it is not. In the case where it is, we want to reduce `l` since we used one of the digits, and in the case where it isn't we do not.
 				- In the case where we are using the ones digit, you need to put the digit back onto the end, and the way to attach a digit `d` to the end of a number `n` is `10 * n + d` .
-	- ### Lab 05: Python Lists, Data Abstraction, Trees
+	- ## Lab 05: Python Lists, Data Abstraction, Trees
 		- [GitHub Link: Lab 05](https://github.com/QiyanYu/UCB_CS61A/blob/main/lab05/lab05.py)
-		- #### Q7: Sprout leaves
+		- ### Q7: Sprout leaves
 			- ```python
 			  def sprout_leaves(t, values):
 			    	# if is_leaf(t):
@@ -141,13 +137,14 @@
 			      else:
 			          return tree(label(t), [sprout_leaves(b, values) for b in branches(t)])
 			  ```
+		- ### Q9: Add trees
+			-
 - # Discussion
-	- ### Disc02 Higher-Order Functions, Self Reference
+	- ## Disc02: Higher-Order Functions, Self Reference
 		- ![disc02.pdf](../assets/disc02_1655417678490_0.pdf)
-	- ### Disc 03: Recursion #recursion #recap
+	- ## Disc 03: Recursion #recursion #recap
 		- ![disc03.pdf](../assets/disc03_1655858888105_0.pdf)
-		- #### Q4: Is Prime
-		  collapsed:: true
+		- ### Q4: Is Prime
 			- ```python
 			  def is_prime(n):
 			    	"""Returns True if n is a prime number and False otherwise.
@@ -166,8 +163,7 @@
 			            	return helper(i + 1)
 			      return helper(2) # this is the same as k = 2
 			  ```
-		- #### Q5: Write a procedure *merge(n1, n2)* which takes numbers with digits in decreasing order and returns a single number with all of the digits of the two, in decreasing order. treat 0 as having no digits.
-		  collapsed:: true
+		- ### Q5: Write a procedure *merge(n1, n2)* which takes numbers with digits in decreasing order and returns a single number with all of the digits of the two, in decreasing order. treat 0 as having no digits.
 			- ```python
 			  def merge(n1, n2):
 			    	"""
@@ -188,7 +184,7 @@
 			      else: 
 			        	return merge(n1, n2 // 10) * 10 + n2 % 10
 			  ```
-	- ### Disc 04: Tree Recursion and Lists #recursion #recap
+	- ## Disc 04: Tree Recursion and Lists #recursion #recap
 		- ![disc04-sol.pdf](../assets/disc04-sol_1656437137988_0.pdf)
 		- Q1, Q2: a tree recursive problem also involves iteration
 		- **Q5: Max Product**
@@ -249,7 +245,7 @@
 			      return helper(n, True)
 			  ```
 - # Guerrilla
-	- ### Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control
+	- ## Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control
 		- ![guer00.pdf](../assets/guer00_1655443645108_0.pdf)
 		- `is_palindrome` #algorithm #palindrome
 			- ```python
