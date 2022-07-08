@@ -140,6 +140,15 @@
 		- ### Q9: Add trees
 			- zip() will stop at shortest list, so we need to add the difference of branches back.
 				- ```python
+				  def add_tree(t1, t2):
+				   	branches1, branches2 = branches(t1), branches(t2)
+				      label_add = (label(t1) + label(t2)
+				      if is_leaf(t1) or is_leaf(t2):
+				        	return tree(label_add, (branches1 + branches2))
+				      else:
+				        	len1, len2 = len(branches1), len(branches2)
+				          bran_diff = branches1[len2:] if len1 > len2 else branches2[len1:]
+				          return tree()
 				  ```
 - # Discussion
 	- ## Disc02: Higher-Order Functions, Self Reference
