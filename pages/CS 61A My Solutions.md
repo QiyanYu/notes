@@ -138,7 +138,9 @@
 			          return tree(label(t), [sprout_leaves(b, values) for b in branches(t)])
 			  ```
 		- ### Q9: Add trees
-			-
+			- zip() will stop at shortest list, so we need to add the difference of branches back.
+				- ```python
+				  ```
 - # Discussion
 	- ## Disc02: Higher-Order Functions, Self Reference
 		- ![disc02.pdf](../assets/disc02_1655417678490_0.pdf)
