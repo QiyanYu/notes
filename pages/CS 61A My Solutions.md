@@ -148,7 +148,8 @@
 				      else:
 				        	len1, len2 = len(branches1), len(branches2)
 				          bran_diff = branches1[len2:] if len1 > len2 else branches2[len1:]
-				          return tree()
+				          return tree(label_add, [add_trees(b1, b2) for b1, b2
+				                               in zip(branches1, branches2)] + bran_diff)
 				  ```
 - # Discussion
 	- ## Disc02: Higher-Order Functions, Self Reference
