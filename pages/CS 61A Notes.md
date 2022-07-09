@@ -461,7 +461,7 @@ title:: CS 61A Notes
 			      return tree(label(t) + 1, [increment(b) for b in branches(t)])
 			  ```
 	- ## 2.4 Mutable Data
-		- `nonlocal <name>` statements
+		- ### `nonlocal <name>` statements
 			- ```python
 			  def make_withdraw(balance):
 			    	def withdraw(amount):
@@ -488,7 +488,7 @@ title:: CS 61A Notes
 			          return b[0]
 			      return withdraw
 			  ```
--
+		- ### ````
 -
 -
 -
