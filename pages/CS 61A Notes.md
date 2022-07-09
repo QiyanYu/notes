@@ -488,7 +488,8 @@ title:: CS 61A Notes
 			          return b[0]
 			      return withdraw
 			  ```
-		- ### ````
+		- ### `is` and `==` Identity and Equality
+			- Identity is a stronger condition than equality.
 -
 -
 -
