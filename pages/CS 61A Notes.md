@@ -493,6 +493,11 @@ title:: CS 61A Notes
 				- [Python Particulars](https://composingprograms.com/pages/24-mutable-data.html#dictionaries)
 		- ### `is` and `==` Identity and Equality
 			- Identity is a stronger condition than equality.
+		- ### Dispatch Dictionaries
+			- The dispatch function is a general method for implementing a message passing interface for abstract data.
+			-
+			- ```python
+			  ```
 -
 -
 -
