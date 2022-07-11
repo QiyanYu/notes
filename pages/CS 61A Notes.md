@@ -477,17 +477,20 @@ title:: CS 61A Notes
 				- Names listed in a nonlocal statement must refer to pre-existing bindings in an enclosing scope.
 				- Names listed in a nonlocal statement must not collide with pre-existing bindings in the local scope.
 			- ![image.png](../assets/image_1657321927764_0.png)
-		- Mutable values can be changed *without* a `nonlocal` statement.
-			- ```python
-			  def make_withdraw_list(balance):
-			    	b = [balance]
-			      def withdraw(amount):
-			        	if amount > b[0]:
-			            	return "Insufficient funds."
-			          b[0] -= amount
-			          return b[0]
-			      return withdraw
-			  ```
+			- Mutable values can be changed *without* a `nonlocal` statement.
+				- ```python
+				  def make_withdraw_list(balance):
+				    	b = [balance]
+				      def withdraw(amount):
+				        	if amount > b[0]:
+				            	return "Insufficient funds."
+				          b[0] -= amount
+				          return b[0]
+				      return withdraw
+				  ```
+			- `UnboundLocalError` in Python
+				- As we study interpreter design, we will see that pre-computing facts about a function body before executing it is quite common.
+				- [Python Particulars](https://composingprograms.com/pages/24-mutable-data.html#dictionaries)
 		- ### `is` and `==` Identity and Equality
 			- Identity is a stronger condition than equality.
 -
