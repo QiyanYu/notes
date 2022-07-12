@@ -544,6 +544,9 @@ title:: CS 61A Notes
 				  withdraw(a, 17)
 				  check_balance(a)
 				  ```
+		- ### Propagating Constraints
+			- [2.4.9 Propagating Constraints - Textbook](https://composingprograms.com/pages/24-mutable-data.html#propagating-constraints)
+			-
 -
 -
 -
