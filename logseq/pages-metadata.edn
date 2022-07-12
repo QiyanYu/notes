@@ -114,7 +114,7 @@
   :block/updated-at 1657242046787}
  {:block/name "cs 61a notes",
   :block/created-at 1652461404249,
-  :block/updated-at 1657321627256}
+  :block/updated-at 1657597198973}
  {:block/name "cs 61b notes",
   :block/created-at 1650211443736,
   :block/updated-at 1654747378878}
@@ -247,6 +247,15 @@
  {:block/name "js",
   :block/created-at 1646777597287,
   :block/updated-at 1646777597287}
+ {:block/name "jul 10th, 2022",
+  :block/created-at 1657436450793,
+  :block/updated-at 1657436450793}
+ {:block/name "jul 11th, 2022",
+  :block/created-at 1657522851278,
+  :block/updated-at 1657575800443}
+ {:block/name "jul 12th, 2022",
+  :block/created-at 1657615476104,
+  :block/updated-at 1657615476104}
  {:block/name "jul 1st, 2022",
   :block/created-at 1656661955624,
   :block/updated-at 1656661955624}
@@ -270,7 +279,10 @@
   :block/updated-at 1657236383324}
  {:block/name "jul 8th, 2022",
   :block/created-at 1657278102193,
-  :block/updated-at 1657310150716}
+  :block/updated-at 1657324774698}
+ {:block/name "jul 9th, 2022",
+  :block/created-at 1657350049611,
+  :block/updated-at 1657350049611}
  {:block/name "jun 16th, 2022",
   :block/created-at 1655445496396,
   :block/updated-at 1655445496396}
