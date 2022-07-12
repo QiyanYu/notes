@@ -544,7 +544,7 @@ title:: CS 61A Notes
 				  withdraw(a, 17)
 				  check_balance(a)
 				  ```
-		- ### Propagating Constraints
+		- ### [#A] Propagating Constraints
 			- [2.4.9 Propagating Constraints - Textbook](https://composingprograms.com/pages/24-mutable-data.html#propagating-constraints)
 			- Computer programs are traditionally organized as one-directional computations, but we often want to model systems in terms of relations among quantities which is not one-directional.
 			- The non-directionality of computation is the distinguishing feature of constraint-based systems.
