@@ -284,6 +284,8 @@
 				- `append(el)`: Adds `el` to the end of the list, and returns `None`
 				- `extend(lst)`: Extends the list by concatenating it with `lst`, and returns `None`
 			- After copy a list, the sublist inside the original list and copied list both point to the same object.
+			-
+			- So Many Options:
 - # Guerrilla
 	- ## Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control
 		- ![guer00.pdf](../assets/guer00_1655443645108_0.pdf)
