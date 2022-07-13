@@ -256,6 +256,9 @@
 			          return (x % 10) > ((x // 10) % 10) and helper(x // 10, False)
 			      return helper(n, True)
 			  ```
+	- ## Disc 05: Data Abstraction, Trees, Mutability
+		- ![disc05_sol.pdf](../assets/disc05_sol_1657736690813_0.pdf)
+		-
 - # Guerrilla
 	- ## Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control
 		- ![guer00.pdf](../assets/guer00_1655443645108_0.pdf)
