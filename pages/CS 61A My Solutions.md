@@ -258,6 +258,17 @@
 			  ```
 	- ## Disc 05: Data Abstraction, Trees, Mutability
 		- ![disc05_sol.pdf](../assets/disc05_sol_1657736690813_0.pdf)
+		- q 1.3 #recursion
+			- ![image.png](../assets/image_1657745766779_0.png)
+			- ```python
+			  def find_path(tree, x):
+			    	if label(tree) == x:
+			        	return [x]
+			      for b in branches(tree):
+			        	path = find_path(b, x)
+			          if path:
+			            	return [label(tree)] + path
+			  ```
 		-
 - # Guerrilla
 	- ## Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control
