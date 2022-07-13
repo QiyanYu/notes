@@ -309,6 +309,18 @@
 		- ### So Many Options (b): #recursion
 			- Return the minimum number of elements from the list that need to be summed in order to add up to `T`.The same element can be used multiple times in the sum. For example, for `T = 11` and `lst = [5,4,1]` we should return 3 because at minimum we need to add 3 numbers together (5, 5, and 1). You can assume that there always exists a linear combination of the elements in `lst` that equals `T`.
 			- ```python
+			  def min_elements(T, lst):
+			    	"""
+			      >>> min_elements(10, [4, 2, 1]) # 4 + 4 + 2
+			      3 
+			      >>> min_elements(12, [9, 4, 1]) # 4 + 4 + 4
+			      3
+			      >>> min_elements(0, [1, 2, 3]) 
+			      0
+			      """
+			      if T == 0:
+			        	return 0
+			      return min([1 + min_elements(T-i, lst) for i in lst if i <= T])
 			  ```
 - # Guerrilla
 	- ## Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control
