@@ -270,16 +270,18 @@
 			            	return [label(tree)] + path
 			  ```
 		- Q 2.1:
+			- ```python
+			  lst1 = [1, 2, 3]
+			  lst2 = lst1
+			  lst2.extend([5, 6]) # [1, 2, 3, 5, 6]
+			  lst1.append([-1, 0, 1]) # [1, 2, 3, 5, 6, [-1, 0, 1]]
+			  lst3 = lst2[:] # lst3 copy lst1, but point to the same [-1,0.1] object
+			  lst3[5] is lst2[5] # True
+			  ```
 			- `append()` vs `extend()` #python
 				- `append(el)`: Adds `el` to the end of the list, and returns `None`
 				- `extend(lst)`: Extends the list by concatenating it with `lst`, and returns `None`
-				- ```python
-				  lst1 = [1, 2, 3]
-				  lst2 = lst1
-				  lst2.extend([5, 6]) # [1, 2, 3, 5, 6]
-				  lst1.append([-1, 0, 1]) # [1, 2, 3, 5, 6, [-1, 0, 1]]
-				  ```
-		-
+			-
 - # Guerrilla
 	- ## Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control
 		- ![guer00.pdf](../assets/guer00_1655443645108_0.pdf)
