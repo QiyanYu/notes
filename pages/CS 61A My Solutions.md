@@ -258,7 +258,7 @@
 			  ```
 	- ## Disc 05: Data Abstraction, Trees, Mutability
 		- ![disc05_sol.pdf](../assets/disc05_sol_1657736690813_0.pdf)
-		- q 1.3 #recursion
+		- Q 1.3: #recursion
 			- ![image.png](../assets/image_1657745766779_0.png)
 			- ```python
 			  def find_path(tree, x):
@@ -269,6 +269,16 @@
 			          if path:
 			            	return [label(tree)] + path
 			  ```
+		- Q 2.1:
+			- `append()` vs `extend()` #python
+				- `append(el)`: Adds `el` to the end of the list, and returns `None`
+				- `extend(lst)`: Extends the list by concatenating it with `lst`, and returns `None`
+				- ```python
+				  lst1 = [1, 2, 3]
+				  lst2 = lst1
+				  lst2.extend([5, 6]) # [1, 2, 3, 5, 6]
+				  lst1.append([-1, 0, 1]) # [1, 2, 3, 5, 6, [-1, 0, 1]]
+				  ```
 		-
 - # Guerrilla
 	- ## Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control
