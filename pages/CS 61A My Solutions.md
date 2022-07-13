@@ -258,7 +258,7 @@
 			  ```
 	- ## Disc 05: Data Abstraction, Trees, Mutability
 		- ![disc05_sol.pdf](../assets/disc05_sol_1657736690813_0.pdf)
-		- Q 1.3: #recursion
+		- ### Q 1.3: #recursion
 			- ![image.png](../assets/image_1657745766779_0.png)
 			- ```python
 			  def find_path(tree, x):
@@ -269,7 +269,7 @@
 			          if path:
 			            	return [label(tree)] + path
 			  ```
-		- Q 2.1:
+		- ### Q 2.1:
 			- ```python
 			  lst1 = [1, 2, 3]
 			  lst2 = lst1
@@ -284,8 +284,32 @@
 				- `append(el)`: Adds `el` to the end of the list, and returns `None`
 				- `extend(lst)`: Extends the list by concatenating it with `lst`, and returns `None`
 			- After copy a list, the sublist inside the original list and copied list both point to the same object.
-			-
-			- So Many Options:
+		- ### So Many Options (a): #recursion
+			- Implement the following function `partition_options` which outputs all the ways to partition a number `total` using numbers no larger than `biggest`.
+			- ```python
+			  def partition_options(total, biggest):
+			    	"""
+			      >>> partition_options(2, 2)
+			      [[2], [1, 1]]
+			      >>> partition_options(3, 3)
+			      [[3], [2, 1], [1, 1, 1]]
+			      >>> partition_options(4, 3)
+			      [[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]]
+			      """
+			      if total == 0:
+			        	return [[]]
+			      elif total < 0 or biggest == 0:
+			        	return []
+			      else:
+			        	with_biggest = partiton_options(total-biggest, biggest)
+			          without_biggest = partition_options(total, biggest-1)
+			          with_biggest = [[biggest] + elem for elem in with_biggest]
+			          return with_biggest + without_biggest
+			  ```
+		- ### So Many Options (b): #recursion
+			- Return the minimum number of elements from the list that need to be summed in order to add up to `T`.The same element can be used multiple times in the sum. For example, for `T = 11` and `lst = [5,4,1]` we should return 3 because at minimum we need to add 3 numbers together (5, 5, and 1). You can assume that there always exists a linear combination of the elements in `lst` that equals `T`.
+			- ```python
+			  ```
 - # Guerrilla
 	- ## Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control
 		- ![guer00.pdf](../assets/guer00_1655443645108_0.pdf)
