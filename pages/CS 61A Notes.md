@@ -364,6 +364,7 @@ title:: CS 61A Notes
 			- `float` values should be treated as approximations to real values.
 			- Combining `float` values can lead to approximation errors.
 	- ## 2.2 Data Abstraction
+	  collapsed:: true
 		- A methodology by which functions enforce an abstraction barrier between **representation** and **use**.
 		- Lists in Python(and also in most other programming languages) are 0-indexed. One intuition that supports this indexing convention is that the index represents how far an element is offset from the beginning of the list.
 		- Abstraction barriers make programs easier to maintain and to modify. The fewer functions that depend on a particular representation, the fewer changes are required when one wants to change that representation.
@@ -390,6 +391,7 @@ title:: CS 61A Notes
 			    	return p[i]
 			  ```
 	- ## 2.3 Sequences
+	  collapsed:: true
 		- ### Tree Abstraction
 			- ![image.png](../assets/image_1656542361844_0.png)
 			- A tree has a label value and a list of branches
@@ -461,6 +463,7 @@ title:: CS 61A Notes
 			      return tree(label(t) + 1, [increment(b) for b in branches(t)])
 			  ```
 	- ## 2.4 Mutable Data
+	  collapsed:: true
 		- ### `nonlocal <name>` statements
 			- ```python
 			  def make_withdraw(balance):
@@ -548,6 +551,12 @@ title:: CS 61A Notes
 			- [2.4.9 Propagating Constraints - Textbook](https://composingprograms.com/pages/24-mutable-data.html#propagating-constraints)
 			- Computer programs are traditionally organized as one-directional computations, but we often want to model systems in terms of relations among quantities which is not one-directional.
 			- The non-directionality of computation is the distinguishing feature of constraint-based systems.
+		-
+- # Chapter 4: Data Processing
+	- ## 4.2 Implicit sequences
+		- ### A dictionary, its keys, its values, and its items are all iterable values. #python
+			- The order of items in a dictionary is the order in which they were added (Python 3.6+).
+			- Historically, items appeared in an arbitrary order (Python 3.5 and earlier).
 		-
 -
 -
