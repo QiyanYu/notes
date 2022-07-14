@@ -557,7 +557,7 @@ title:: CS 61A Notes
 		- ### A dictionary, its keys, its values, and its items are all iterable values. #python
 			- The order of items in a dictionary is the order in which they were added (Python 3.6+).
 			- Historically, items appeared in an arbitrary order (Python 3.5 and earlier).
-		-
+		- lazy computation
 -
 -
 -
