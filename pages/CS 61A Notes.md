@@ -557,7 +557,10 @@ title:: CS 61A Notes
 		- ### A dictionary, its keys, its values, and its items are all iterable values. #python
 			- The order of items in a dictionary is the order in which they were added (Python 3.6+).
 			- Historically, items appeared in an arbitrary order (Python 3.5 and earlier).
-		- lazy computation
+		- ### lazy computation
+			- In computer science, *lazy computation* describes any program that delays the computation of a value until that value is needed.
+			- We can represent very large ranges of integers without using large blocks of memory. We compute elements on demand.
+		-
 -
 -
 -
