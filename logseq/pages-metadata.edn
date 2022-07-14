@@ -111,10 +111,10 @@
   :block/updated-at 1654736639468}
  {:block/name "cs 61a my solutions",
   :block/created-at 1657217952014,
-  :block/updated-at 1657242046787}
+  :block/updated-at 1657752640774}
  {:block/name "cs 61a notes",
   :block/created-at 1652461404249,
-  :block/updated-at 1657653445181}
+  :block/updated-at 1657837401232}
  {:block/name "cs 61b notes",
   :block/created-at 1650211443736,
   :block/updated-at 1654747378878}
@@ -208,6 +208,9 @@
  {:block/name "hls__disc04-sol_1656437305043_0",
   :block/created-at 1656437640006,
   :block/updated-at 1656437640006}
+ {:block/name "hls__disc05_sol_1657736690813_0",
+  :block/created-at 1657739875652,
+  :block/updated-at 1657739875652}
  {:block/name "hof",
   :block/created-at 1655444702523,
   :block/updated-at 1655444702523}
@@ -258,7 +261,10 @@
   :block/updated-at 1657615476104}
  {:block/name "jul 13th, 2022",
   :block/created-at 1657695629606,
-  :block/updated-at 1657695629606}
+  :block/updated-at 1657840928096}
+ {:block/name "jul 14th, 2022",
+  :block/created-at 1657783202467,
+  :block/updated-at 1657840931339}
  {:block/name "jul 1st, 2022",
   :block/created-at 1656661955624,
   :block/updated-at 1656661955624}
