@@ -552,6 +552,14 @@ title:: CS 61A Notes
 			- Computer programs are traditionally organized as one-directional computations, but we often want to model systems in terms of relations among quantities which is not one-directional.
 			- The non-directionality of computation is the distinguishing feature of constraint-based systems.
 		-
+	- ## 2.5 Object-Oriented Programming
+		- ### A metaphor for computation using distributed state
+			- Each *object* has its own local state.
+			- Each object also knows how to manage its own local state, based on method calls.
+			- Method calls are *messages* passed between objects.
+			- Several objects may all be instances of a common type.
+			- Different types may relate to each other.
+		-
 - # Chapter 4: Data Processing
 	- ## 4.2 Implicit sequences
 		- ### A dictionary, its keys, its values, and its items are all iterable values. #python
