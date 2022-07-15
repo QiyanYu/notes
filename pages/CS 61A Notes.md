@@ -559,7 +559,13 @@ title:: CS 61A Notes
 			- Method calls are *messages* passed between objects.
 			- Several objects may all be instances of a common type.
 			- Different types may relate to each other.
-		-
+		- ### Methods vs Functions
+			- *Functions*, which we have been creating since the beginning of the course.
+			- *Bound Methods*, which couple together a function and the object on which that method will be invoked.
+			- ```python
+			  >>> type(Account.deposit)
+			  <class 'function'>
+			  ```
 - # Chapter 4: Data Processing
 	- ## 4.2 Implicit sequences
 		- ### A dictionary, its keys, its values, and its items are all iterable values. #python

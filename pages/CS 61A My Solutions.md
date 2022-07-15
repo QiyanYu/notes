@@ -67,7 +67,7 @@
 				        	break
 				  ```
 - # Homework
-	- ## TODO hw02 q3 q4
+	- ## hw02 q3 q4
 		- [hw02 q3 q4](https://github.com/QiyanYu/UCB_CS61A/blob/main/hw02/hw02.py)
 		- [Questions description](https://inst.eecs.berkeley.edu/~cs61a/sp20/hw/hw02/)
 	- ## HW 03 #recursion #recap
