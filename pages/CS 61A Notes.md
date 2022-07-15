@@ -553,6 +553,7 @@ title:: CS 61A Notes
 			- The non-directionality of computation is the distinguishing feature of constraint-based systems.
 		-
 	- ## 2.5 Object-Oriented Programming
+	  collapsed:: true
 		- ### A metaphor for computation using distributed state
 			- Each *object* has its own local state.
 			- Each object also knows how to manage its own local state, based on method calls.

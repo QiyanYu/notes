@@ -334,3 +334,9 @@
 			        	x, y = x // 10, f()
 			      return y == n
 			  ```
+- # Misc
+	- ## Sp18 Midterm 2 Problem 4(b): #recursion
+		- Implement `combo`, which takes two non-negative integers `a` and `b`. It returns the smallest integer that contains all of the digits of `a` in order, as well as all of the digits of `b` in order.
+		- ```python
+		  ```
+-
