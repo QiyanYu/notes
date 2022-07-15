@@ -338,5 +338,23 @@
 	- ## Sp18 Midterm 2 Problem 4(b): #recursion
 		- Implement `combo`, which takes two non-negative integers `a` and `b`. It returns the smallest integer that contains all of the digits of `a` in order, as well as all of the digits of `b` in order.
 		- ```python
+		  def combo(a, b):
+		    	""" Return the smallest integer with all of the digits of a and b (in order)
+		      
+		      >>> combo(531, 432) # 45312 contains both _531_ and 4_3_2.
+		      45312
+		      >>> comnbo(531, 4321) # 45321 contains both _53_1 and 4_321.
+		      45321
+		      >>>combo(0, 321) # The number 0 has no digits, so 0 is not in the result.
+		      321
+		      """
+		      if a == 0 or b == 0:
+		        	return a + b
+		      elif a % 10 == b % 10:
+		        	return combo(a // 10, b // 10) * 10 + a % 10
+		      return min(combo(a // 10, b) * 10 + a % 10,
+		                 combo(a, b // 10) * 10 + b % 10)
 		  ```
+		- {{video https://youtu.be/Z3l0XAE2Cas?t=226}}
+		- {{youtube-timestamp 226}}
 -
