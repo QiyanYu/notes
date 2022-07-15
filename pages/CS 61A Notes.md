@@ -565,7 +565,15 @@ title:: CS 61A Notes
 			- ```python
 			  >>> type(Account.deposit)
 			  <class 'function'>
+			  >>> type(tom_account.deposit)
+			  <class 'method'>
+			  
+			  >>> Account.deposit(tom_account, 1001)
+			  1011
+			  >>> tom_account.deposit(1000)
+			  2011
 			  ```
+		-
 - # Chapter 4: Data Processing
 	- ## 4.2 Implicit sequences
 		- ### A dictionary, its keys, its values, and its items are all iterable values. #python
