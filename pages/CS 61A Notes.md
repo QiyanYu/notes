@@ -568,7 +568,7 @@ title:: CS 61A Notes
 			  >>> type(tom_account.deposit)
 			  <class 'method'>
 			  
-			  >>> Account.deposit(tom_account, 1001)
+			  >>> Account.deposit(tom_account, 1001) # The deposit function takes 2 arguments
 			  1011
 			  >>> tom_account.deposit(1000)
 			  2011
