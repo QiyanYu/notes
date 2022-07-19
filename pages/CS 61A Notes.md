@@ -474,7 +474,7 @@ title:: CS 61A Notes
 			          return balance
 			      return withdraw
 			  ```
-			- **Effect:** A variable is **nonlocal** to a frame if it is defined in the environment that the frame belongs to but not the frame itself, i.e. in its parent or ancestor frame. Using **nonlocal** keyword, it allows us to update a variable in a parent frame.
+			- **Effect:** A variable is **nonlocal** to a frame if it is defined in the environment that the frame belongs to but not the frame itself, i.e. in its parent or ancestor frame. The `nonlocal` keyword can be used to modify a binding in a parent frame.
 			- #### Some important things to keep in mind when using `nonlocal`:
 				- `nonlocal` cannot be used with global variables (names defined in the global frame).
 				- If no nonlocal variable is found with the given name, a `SyntaxError` is raised.
