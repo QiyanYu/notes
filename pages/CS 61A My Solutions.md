@@ -172,10 +172,39 @@
 			      yield from map(lambda x: x * multiplier, it)
 			  ```
 			- Cannot use `yield from [x * multiplier for x in it]`, since it cannot compute infinite sequences.
+		- ### Q4: hailstone
+			- [description](https://inst.eecs.berkeley.edu/~cs61a/sp20/lab/lab06/#q4)
+			- Using recursion and `yield from`
+			- ```python
+			  def hailstone(n):
+			      """
+			      >>> for num in hailstone(10):
+			      ...     print(num)
+			      ...
+			      10
+			      5
+			      16
+			      8
+			      4
+			      2
+			      1
+			      """
+			      def helper(x):
+			        	if x == 1:
+			            	return [x]
+			          else:
+			            	return [x] + helper(x//2 if x%2 == 0 else 3*x+1)
+			  	yield from helper(n)
+			  ```
 - # Discussion
+	- ## Disc01: Control, Environment Diagrams
+	  collapsed:: true
+		- ![disc01_sol.pdf](../assets/disc01_sol_1658209016336_0.pdf)
 	- ## Disc02: Higher-Order Functions, Self Reference
+	  collapsed:: true
 		- ![disc02.pdf](../assets/disc02_1655417678490_0.pdf)
 	- ## Disc 03: Recursion #recursion #recap
+	  collapsed:: true
 		- ![disc03.pdf](../assets/disc03_1655858888105_0.pdf)
 		- ### Q4: Is Prime
 			- ```python
@@ -218,6 +247,7 @@
 			        	return merge(n1, n2 // 10) * 10 + n2 % 10
 			  ```
 	- ## Disc 04: Tree Recursion and Lists #recursion #recap
+	  collapsed:: true
 		- ![disc04-sol.pdf](../assets/disc04-sol_1656437137988_0.pdf)
 		- Q1, Q2: a tree recursive problem also involves iteration
 		- **Q5: Max Product**
@@ -278,6 +308,7 @@
 			      return helper(n, True)
 			  ```
 	- ## Disc 05: Data Abstraction, Trees, Mutability
+	  collapsed:: true
 		- ![disc05_sol.pdf](../assets/disc05_sol_1657736690813_0.pdf)
 		- ### Q 1.3: #recursion
 			- ![image.png](../assets/image_1657745766779_0.png)
@@ -343,6 +374,9 @@
 			        	return 0
 			      return min([1 + min_elements(T-i, lst) for i in lst if i <= T])
 			  ```
+	- ## Disc 06: Nonlocal, Iterators & Generators
+		- ![disc06_sol.pdf](../assets/disc06_sol_1658208927119_0.pdf)
+		-
 - # Guerrilla
 	- ## Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control
 		- ![guer00.pdf](../assets/guer00_1655443645108_0.pdf)
