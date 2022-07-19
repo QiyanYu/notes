@@ -463,7 +463,6 @@ title:: CS 61A Notes
 			      return tree(label(t) + 1, [increment(b) for b in branches(t)])
 			  ```
 	- ## 2.4 Mutable Data
-	  collapsed:: true
 		- ### `nonlocal <name>` statements
 			- ```python
 			  def make_withdraw(balance):
@@ -475,7 +474,7 @@ title:: CS 61A Notes
 			          return balance
 			      return withdraw
 			  ```
-			- **Effect:** Future assignments to that name change its pre-existing binding in the **first non-local frame** of the current environment in which that name is bound.
+			- **Effect:**
 			- **From the Python 3 language reference:**
 				- Names listed in a nonlocal statement must refer to pre-existing bindings in an enclosing scope.
 				- Names listed in a nonlocal statement must not collide with pre-existing bindings in the local scope.
