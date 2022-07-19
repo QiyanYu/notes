@@ -463,7 +463,7 @@ title:: CS 61A Notes
 			      return tree(label(t) + 1, [increment(b) for b in branches(t)])
 			  ```
 	- ## 2.4 Mutable Data
-		- ### `nonlocal <name>` statements
+		- ### `nonlocal <name>` statements #python
 			- ```python
 			  def make_withdraw(balance):
 			    	def withdraw(amount):
@@ -474,11 +474,15 @@ title:: CS 61A Notes
 			          return balance
 			      return withdraw
 			  ```
-			- **Effect:**
+			- **Effect:** A variable is **nonlocal** to a frame if it is defined in the environment that the frame belongs to but not the frame itself, i.e. in its parent or ancestor frame. Using **nonlocal** keyword, it allows us to update a variable in a parent frame.
+			- #### Some important things to keep in mind when using `nonlocal`:
+				- `nonlocal` cannot be used with global variables (names defined in the global frame).
+				- If no nonlocal variable is found with the given name, a `SyntaxError` is raised.
+				- A name that is already local to a frame cannot be declared as nonlocal.
+			- ![image.png](../assets/image_1657321927764_0.png)
 			- **From the Python 3 language reference:**
 				- Names listed in a nonlocal statement must refer to pre-existing bindings in an enclosing scope.
 				- Names listed in a nonlocal statement must not collide with pre-existing bindings in the local scope.
-			- ![image.png](../assets/image_1657321927764_0.png)
 			- Mutable values can be changed *without* a `nonlocal` statement.
 				- ```python
 				  def make_withdraw_list(balance):
