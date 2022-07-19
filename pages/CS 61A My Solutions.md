@@ -151,6 +151,10 @@
 				          return tree(label_add, [add_trees(b1, b2) for b1, b2
 				                               in zip(branches1, branches2)] + bran_diff)
 				  ```
+	- ## Lab 06: Nonlocal & Generators
+		- ### Q3:Scale
+			- [description](https://inst.eecs.berkeley.edu/~cs61a/sp20/lab/lab06/#q3)
+			- Using ``
 - # Discussion
 	- ## Disc02: Higher-Order Functions, Self Reference
 		- ![disc02.pdf](../assets/disc02_1655417678490_0.pdf)
