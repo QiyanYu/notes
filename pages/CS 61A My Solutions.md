@@ -389,6 +389,10 @@
 			        	x, y = x // 10, f()
 			      return y == n
 			  ```
+	- ## Guerrilla 01: Python Lists, Recursion, Tree Recursion
+		- ![guer01.pdf](../assets/guer01_1658274713061_0.pdf)
+	- ## Guerrilla 02: Data Abstraction, Trees, Nonlocal, Iterators & Generators
+		- ![guer02.pdf](../assets/guer02_1658274771831_0.pdf)
 - # Misc
 	- ## Sp18 Midterm 2 Problem 4(b): #recursion
 		- Implement `combo`, which takes two non-negative integers `a` and `b`. It returns the smallest integer that contains all of the digits of `a` in order, as well as all of the digits of `b` in order.
