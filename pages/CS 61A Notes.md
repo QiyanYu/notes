@@ -590,6 +590,14 @@ title:: CS 61A Notes
 			- Calling the `iter` function on a generator object returns the same object without modifying its current state.
 			- `yield from` will yield all values from an iterator or iterable.
 				- ```python
+				  def gen_list(lst):
+				    	yield from lst
+				      
+				  >>> g = gen_list([1, 2, 3, 4])
+				  >>> next(g)
+				  1
+				  >>> next(g)
+				  2
 				  ```
 -
 -
