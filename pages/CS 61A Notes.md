@@ -588,7 +588,9 @@ title:: CS 61A Notes
 		- ### Generator
 			- A generator should not restart unless it's defined that way. To start over from the first element in a generator, just call the generator function again to create a new generator.
 			- Calling the `iter` function on a generator object returns the same object without modifying its current state.
-			-
+			- `yield from` will yield all values from an iterator or iterable.
+				- ```python
+				  ```
 -
 -
 -
