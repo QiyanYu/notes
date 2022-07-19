@@ -585,7 +585,10 @@ title:: CS 61A Notes
 		- ### lazy computation
 			- In computer science, *lazy computation* describes any program that delays the computation of a value until that value is needed.
 			- We can represent very large ranges of integers without using large blocks of memory. We compute elements on demand.
-		-
+		- ### Generator
+			- A generator should not restart unless it's defined that way. To start over from the first element in a generator, just call the generator function again to create a new generator.
+			- Calling the `iter` function on a generator object returns the same object without modifying its current state.
+			-
 -
 -
 -
