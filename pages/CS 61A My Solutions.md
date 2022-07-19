@@ -154,7 +154,24 @@
 	- ## Lab 06: Nonlocal & Generators
 		- ### Q3:Scale
 			- [description](https://inst.eecs.berkeley.edu/~cs61a/sp20/lab/lab06/#q3)
-			- Using ``
+			- Using `yield from`
+			- ```python
+			  def scale(it, multiplier):
+			    	"""Yield elements of the iterable it scaled by a number multiplier.
+			      
+			      >>> m = scale([1, 5, 2], 5)
+			      >>> type(m) 
+			      <class 'generator'>
+			      >>> list(m)
+			      [5, 25, 10]
+			      
+			      >>> m = scale(naturals(), 2)
+			      >>> [next(m) for _ in range(5)]
+			      [2, 4, 6, 8, 10]
+			      """
+			      yield from map(lambda x: x * multiplier, it)
+			  ```
+			- Cannot use `yield from [x * multiplier for x in it]`, since it cannot compute infinite sequences.
 - # Discussion
 	- ## Disc02: Higher-Order Functions, Self Reference
 		- ![disc02.pdf](../assets/disc02_1655417678490_0.pdf)
