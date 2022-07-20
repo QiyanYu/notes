@@ -381,6 +381,31 @@
 		- ![disc06_sol.pdf](../assets/disc06_sol_1658208927119_0.pdf)
 		- ### 1.3 Write a function that takes in no arguments and returns two functions, `prepend` and `get`, which represent the “add to front of list” and “get the ith item” operations, respectively.  Do not use any python built-in data structures like lists or dictionaries.You do not necessarily need to use all the lines.
 			- ```python
+			  def nonlocalist():
+			    	"""
+			      >>> prepend, get = nonlocalist()
+			      >>> prepend(2)
+			      >>> prepend(3)
+			      >>> prepend(4)
+			      >>> get(0)
+			      4
+			      >>> get(1)
+			      3
+			      >>> get(2)
+			      2
+			      >>> prepend(8)
+			      >>> get(2)
+			      3
+			      """
+			      get = lambda x: "Index out of range!"
+			      def prepend(value):
+			        	nonlocal get
+			      	f = get
+			          def get(i):
+			            	if i == 0:
+			                	return value
+			              return f(i-1)
+			  	return prepend, lambda x: get(x)
 			  ```
 - # Guerrilla
 	- ## Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control
