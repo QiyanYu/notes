@@ -111,10 +111,10 @@
   :block/updated-at 1654736639468}
  {:block/name "cs 61a my solutions",
   :block/created-at 1657217952014,
-  :block/updated-at 1658209016876}
+  :block/updated-at 1658294649799}
  {:block/name "cs 61a notes",
   :block/created-at 1652461404249,
-  :block/updated-at 1658205437663}
+  :block/updated-at 1658275029489}
  {:block/name "cs 61b notes",
   :block/created-at 1650211443736,
   :block/updated-at 1654747378878}
@@ -279,10 +279,13 @@
   :block/updated-at 1658181933616}
  {:block/name "jul 19th, 2022",
   :block/created-at 1658214036249,
-  :block/updated-at 1658214036249}
+  :block/updated-at 1658256307704}
  {:block/name "jul 1st, 2022",
   :block/created-at 1656661955624,
   :block/updated-at 1656661955624}
+ {:block/name "jul 20th, 2022",
+  :block/created-at 1658300457114,
+  :block/updated-at 1658300457114}
  {:block/name "jul 2nd, 2022",
   :block/created-at 1656824733703,
   :block/updated-at 1656824733703}
