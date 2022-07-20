@@ -427,6 +427,8 @@
 			        for s in sum_paths_gen(t):
 			          	yield s + label(t)
 			  ```
+		- ### Trie Recursion #recursion #trie
+			- A ****
 - # Guerrilla
 	- ## Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control
 		- ![guer00.pdf](../assets/guer00_1655443645108_0.pdf)

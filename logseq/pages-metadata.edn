@@ -111,7 +111,7 @@
   :block/updated-at 1654736639468}
  {:block/name "cs 61a my solutions",
   :block/created-at 1657217952014,
-  :block/updated-at 1658294649799}
+  :block/updated-at 1658353675442}
  {:block/name "cs 61a notes",
   :block/created-at 1652461404249,
   :block/updated-at 1658275029489}
@@ -187,6 +187,9 @@
  {:block/name "garbage-collect",
   :block/created-at 1647377211852,
   :block/updated-at 1647377211852}
+ {:block/name "generator",
+  :block/created-at 1658353270711,
+  :block/updated-at 1658353270711}
  {:block/name "generic",
   :block/created-at 1647376535654,
   :block/updated-at 1647376535654}
@@ -279,13 +282,13 @@
   :block/updated-at 1658181933616}
  {:block/name "jul 19th, 2022",
   :block/created-at 1658214036249,
-  :block/updated-at 1658256307704}
+  :block/updated-at 1658335526794}
  {:block/name "jul 1st, 2022",
   :block/created-at 1656661955624,
   :block/updated-at 1656661955624}
  {:block/name "jul 20th, 2022",
   :block/created-at 1658300457114,
-  :block/updated-at 1658300457114}
+  :block/updated-at 1658338351177}
  {:block/name "jul 2nd, 2022",
   :block/created-at 1656824733703,
   :block/updated-at 1656824733703}
@@ -580,6 +583,9 @@
  {:block/name "todo",
   :block/created-at 1646757913042,
   :block/updated-at 1646757913042}
+ {:block/name "trie",
+  :block/created-at 1658353660676,
+  :block/updated-at 1658353660676}
  {:block/name "undefined",
   :block/created-at 1647799820510,
   :block/updated-at 1647799820510}
