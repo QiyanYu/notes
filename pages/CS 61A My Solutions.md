@@ -379,8 +379,8 @@
 			  ```
 	- ## Disc 06: Nonlocal, Iterators & Generators
 		- ![disc06_sol.pdf](../assets/disc06_sol_1658208927119_0.pdf)
-		- ### Q 1.3
-			- Write a function that takes in no arguments and returns two functions, `prepend` and `get`, which represent the “add to front of list” and “get the ith item” operations, respectively.  Do not use any python built-in data structures like lists or dictionaries.You do not necessarily need to use all the lines.
+		- ### [#A] Q 1.3 #recursion
+			- Write a function that takes in no arguments and returns two functions, `prepend` and `get`, which represent the “add to front of list” and “get the ith item” operations, respectively.  **Do not use any python built-in data structures like lists or dictionaries.**You do not necessarily need to use all the lines.
 			- ```python
 			  def nonlocalist():
 			    	"""
