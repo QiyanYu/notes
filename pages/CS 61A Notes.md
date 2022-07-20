@@ -478,7 +478,7 @@ title:: CS 61A Notes
 			- #### Some important things to keep in mind when using `nonlocal`:
 				- `nonlocal` cannot be used with global variables (names defined in the global frame).
 				- If no nonlocal variable is found with the given name, a `SyntaxError` is raised.
-				- A name that is already local to a frame cannot be declared as nonlocal.
+				- A name that is already local to a frame cannot be declared as nonlocal. This means we cannot have both a local and nonlocal binding with the same name in a single frame.
 			- ![image.png](../assets/image_1657321927764_0.png)
 			- **From the Python 3 language reference:**
 				- Names listed in a nonlocal statement must refer to pre-existing bindings in an enclosing scope.

@@ -108,6 +108,7 @@
 			- To write a recursive function, we have always given it a name using a `def` or assignment statement so that we can refer to the function within its own body. In this question, your job is to define fact recursively without giving it a name!
 - # Labs
 	- ## Lab 04 #recursion #recap
+	  collapsed:: true
 		- [lab 04](https://inst.eecs.berkeley.edu/~cs61a/sp20/lab/lab04/)
 		- [lab04-GitHub](https://github.com/QiyanYu/UCB_CS61A/blob/main/lab04/lab04.py)
 		- ### Q5: Maximum Subsequence
@@ -115,6 +116,7 @@
 				- You need to split into the cases where the ones digit is used and the one where it is not. In the case where it is, we want to reduce `l` since we used one of the digits, and in the case where it isn't we do not.
 				- In the case where we are using the ones digit, you need to put the digit back onto the end, and the way to attach a digit `d` to the end of a number `n` is `10 * n + d` .
 	- ## Lab 05: Python Lists, Data Abstraction, Trees
+	  collapsed:: true
 		- [GitHub Link: Lab 05](https://github.com/QiyanYu/UCB_CS61A/blob/main/lab05/lab05.py)
 		- ### Q7: Sprout leaves
 			- ```python
@@ -152,6 +154,7 @@
 				                               in zip(branches1, branches2)] + bran_diff)
 				  ```
 	- ## Lab 06: Nonlocal & Generators
+	  collapsed:: true
 		- ### Q3:Scale
 			- [description](https://inst.eecs.berkeley.edu/~cs61a/sp20/lab/lab06/#q3)
 			- Using `yield from`
