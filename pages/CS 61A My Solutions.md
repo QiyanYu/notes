@@ -428,7 +428,32 @@
 			          	yield s + label(t)
 			  ```
 		- ### Trie Recursion #recursion #trie
-			- A ****
+			- A **trie** is a type of tree where the values of each node are *letters* representing part of a larger *word*. Implement `collect_words`, which takes in a trie `t` and returns a Python list containing all the words contained in the trie.
+			- ```python
+			  >>> print_tree(greetings)
+			  h 
+			   i
+			   e
+			    l
+			     l
+			      o
+			    y
+			     
+			  def collect_words(t):
+			    	"""Return a list of all the words contained in the tree 
+			      where the value of each node in the tree is an individual
+			      letter. Words terminate at the leaf of a tree.
+			      
+			      >>> collect_words(greetings)
+			      ['hi', 'hello', 'hey']
+			      """
+			      if is_leaf(t):
+			        	return [label(t)]
+			      words = []
+			      for branch in branches(t):
+			        	words += [label(t) + word for word in collect_words(branch)]
+			      return words
+			  ```
 - # Guerrilla
 	- ## Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control
 		- ![guer00.pdf](../assets/guer00_1655443645108_0.pdf)
