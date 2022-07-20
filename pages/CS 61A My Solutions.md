@@ -408,6 +408,25 @@
 			              return f(i-1)
 			  	return prepend, lambda x: get(x)
 			  ```
+		- ### Q 2.3 #recursion #generator
+			- Implement `sum_paths_gen`, which takes in a tree `t` and and returns a generator which
+			  yields the sum of all the nodes from a path from the root of a tree to a leaf.
+			- ```python
+			  def sum_paths_gen(t):
+			    	"""
+			      >>> t1 = tree(5)
+			      >>> next(sum_paths_gen(t1))
+			      5
+			      >>> t2 = tree(1, [tree(2, [tree(3), tree(4)]), tree(9)])
+			      >>> sorted(sum_paths_gen(t2))
+			      [6, 7, 10]
+			      """
+			      if is_leaf(t):
+			        	yield label(t)
+			    	for b in branches(t):
+			        for s in sum_paths_gen(t):
+			          	yield s + label(t)
+			  ```
 - # Guerrilla
 	- ## Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control
 		- ![guer00.pdf](../assets/guer00_1655443645108_0.pdf)
