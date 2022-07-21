@@ -1,6 +1,7 @@
 - [GitHub Link](https://github.com/QiyanYu/UCB_CS61A) of My solution for homework and course projects
 - # Projects
 	- ## CATS
+	  collapsed:: true
 		- [GitHub Link](https://github.com/QiyanYu/UCB_CS61A/blob/main/cats/cats.py)
 		- [Description](https://inst.eecs.berkeley.edu/~cs61a/sp20/proj/cats/)
 		- ### Problem 5
@@ -66,6 +67,9 @@
 				      else:
 				        	break
 				  ```
+	- ## Ants
+		- In Python 3, the plain `int` type is unbound. So if we need a maximum number, use `float("inf")`
+		-
 - # Homework
 	- ## hw02 q3 q4
 		- [hw02 q3 q4](https://github.com/QiyanYu/UCB_CS61A/blob/main/hw02/hw02.py)
