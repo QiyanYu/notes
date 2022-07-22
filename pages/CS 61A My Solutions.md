@@ -72,6 +72,12 @@
 		- ### Problem 5
 			- > To damage the `FireAnt`, call the `reduce_armor` method inherited from `Ant`. Do *not* call `self.reduce_armor`, or you'll end up stuck in a recursive loop.
 			- This is because currently we are in the `self.reduce_armor()`, if we call `self.reduce_armor` again, it will go into an infinite loop.
+		- ### Problem 7
+			- If we need to modify a list while iterating it, we should get a copy of list to loop.
+			- ```python
+			  for x in lst[:]:
+			  ```
+		-
 - # Homework
 	- ## hw02 q3 q4
 		- [hw02 q3 q4](https://github.com/QiyanYu/UCB_CS61A/blob/main/hw02/hw02.py)
