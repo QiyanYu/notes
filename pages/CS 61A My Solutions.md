@@ -69,7 +69,9 @@
 				  ```
 	- ## Ants
 		- In Python 3, the plain `int` type is unbound. So if we need a maximum number, use `float("inf")`
-		-
+		- ### Problem 5
+			- > To damage the `FireAnt`, call the `reduce_armor` method inherited from `Ant`. Do *not* call `self.reduce_armor`, or you'll end up stuck in a recursive loop.
+			- This is because currently we are in the `self.reduce_armor()`, if we call `self.reduce_armor` again, it will go into an infinite loop.
 - # Homework
 	- ## hw02 q3 q4
 		- [hw02 q3 q4](https://github.com/QiyanYu/UCB_CS61A/blob/main/hw02/hw02.py)
