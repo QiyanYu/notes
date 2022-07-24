@@ -111,7 +111,7 @@
   :block/updated-at 1654736639468}
  {:block/name "cs 61a my solutions",
   :block/created-at 1657217952014,
-  :block/updated-at 1658442994181}
+  :block/updated-at 1658514366669}
  {:block/name "cs 61a notes",
   :block/created-at 1652461404249,
   :block/updated-at 1658275029489}
@@ -264,13 +264,13 @@
   :block/updated-at 1657615476104}
  {:block/name "jul 13th, 2022",
   :block/created-at 1657695629606,
-  :block/updated-at 1657840928096}
+  :block/updated-at 1658444294997}
  {:block/name "jul 14th, 2022",
   :block/created-at 1657783202467,
-  :block/updated-at 1657842354048}
+  :block/updated-at 1658444285429}
  {:block/name "jul 15th, 2022",
   :block/created-at 1657868455796,
-  :block/updated-at 1657914659357}
+  :block/updated-at 1658444195005}
  {:block/name "jul 16th, 2022",
   :block/created-at 1657954856547,
   :block/updated-at 1657954856547}
@@ -282,7 +282,7 @@
   :block/updated-at 1658181933616}
  {:block/name "jul 19th, 2022",
   :block/created-at 1658214036249,
-  :block/updated-at 1658335526794}
+  :block/updated-at 1658444457167}
  {:block/name "jul 1st, 2022",
   :block/created-at 1656661955624,
   :block/updated-at 1656661955624}
@@ -291,7 +291,16 @@
   :block/updated-at 1658338351177}
  {:block/name "jul 21st, 2022",
   :block/created-at 1658387902135,
-  :block/updated-at 1658387902135}
+  :block/updated-at 1658444511459}
+ {:block/name "jul 22nd, 2022",
+  :block/created-at 1658473201210,
+  :block/updated-at 1658473201210}
+ {:block/name "jul 23rd, 2022",
+  :block/created-at 1658561211215,
+  :block/updated-at 1658561211215}
+ {:block/name "jul 24th, 2022",
+  :block/created-at 1658649794795,
+  :block/updated-at 1658649794795}
  {:block/name "jul 2nd, 2022",
   :block/created-at 1656824733703,
   :block/updated-at 1656824733703}
