@@ -586,6 +586,16 @@ title:: CS 61A Notes
 				- The `str` is legible to humans.
 				- The `repr` is legible to the Python interpreter
 			- ```python
+			  >>> from fractions import Fraction
+			  >>> half = Fraction(1, 2)
+			  >>> repr(half)
+			  'Fraction(1, 2)'
+			  >>> str(half)
+			  '1/2'
+			  >>> eval(repr(half))
+			  Fraction(1, 2)
+			  >>> eval(str(half))
+			  0.5
 			  ```
 - # Chapter 4: Data Processing
 	- ## 4.2 Implicit sequences
