@@ -77,7 +77,7 @@
 			- ```python
 			  for x in lst[:]:
 			  ```
-		-
+		- LATER Extra Credit & Optional Problem
 - # Homework
 	- ## hw02 q3 q4
 		- [hw02 q3 q4](https://github.com/QiyanYu/UCB_CS61A/blob/main/hw02/hw02.py)

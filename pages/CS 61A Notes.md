@@ -463,6 +463,7 @@ title:: CS 61A Notes
 			      return tree(label(t) + 1, [increment(b) for b in branches(t)])
 			  ```
 	- ## 2.4 Mutable Data
+	  collapsed:: true
 		- ### `nonlocal <name>` statements #python
 			- ```python
 			  def make_withdraw(balance):
@@ -556,6 +557,7 @@ title:: CS 61A Notes
 			- The non-directionality of computation is the distinguishing feature of constraint-based systems.
 		-
 	- ## 2.5 Object-Oriented Programming
+	  collapsed:: true
 		- ### A metaphor for computation using distributed state
 			- Each *object* has its own local state.
 			- Each object also knows how to manage its own local state, based on method calls.
@@ -577,8 +579,17 @@ title:: CS 61A Notes
 			  2011
 			  ```
 		-
+	- ## 2.7 Object Abstraction
+		- ### String Representations
+			- Strings are important: they represent language and programs.
+			- In Python, all objects produce two string representations:
+				- The `str` is legible to humans.
+				- The `repr` is legible to the Python interpreter
+			- ```python
+			  ```
 - # Chapter 4: Data Processing
 	- ## 4.2 Implicit sequences
+	  collapsed:: true
 		- ### A dictionary, its keys, its values, and its items are all iterable values. #python
 			- The order of items in a dictionary is the order in which they were added (Python 3.6+).
 			- Historically, items appeared in an arbitrary order (Python 3.5 and earlier).
