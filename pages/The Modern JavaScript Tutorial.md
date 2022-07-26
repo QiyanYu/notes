@@ -1,4 +1,4 @@
-title:: 2.2.1 The Modern JavaScript Tutorial
+title:: The Modern JavaScript Tutorial
 
 - #js
 - # Basic

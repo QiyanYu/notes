@@ -10,11 +10,15 @@ title:: CS Notes
 		- ### 1.3.1 UC Berkeley CS 61B
 			- [[CS 61B Notes]]
 	- ## 1.4 Computer Architecture
+		- ### 1.4.1 Nand2Tetris
+			- [[Nand2Tetris Notes]]
 - # 2. Languages & Frames
 	- ## 2.1 Java
-		- ### [[2.1.1 Core Java 11th]]
+		- ### 2.1.1 Book: Core Java 11th
+			- [[Core Java 11th]]
 	- ## 2.2 JavaScript
-		- ### [[2.2.1 The Modern JavaScript Tutorial]]
+		- ### 2.2.1 Book: The Modern JavaScript Tutorial
+			- [[The Modern JavaScript Tutorial]]
 	- ## 2.3 Python
 		- ### Readings:
 			- TODO [Design Patterns in Python for the Untrained Eye](https://arielortiz.info/s201911/pycon2019/docs/design_patterns.html)
