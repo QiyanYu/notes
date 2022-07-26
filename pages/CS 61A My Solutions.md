@@ -68,6 +68,7 @@
 				        	break
 				  ```
 	- ## Ants
+	  collapsed:: true
 		- In Python 3, the plain `int` type is unbound. So if we need a maximum number, use `float("inf")`
 		- ### Problem 5
 			- > To damage the `FireAnt`, call the `reduce_armor` method inherited from `Ant`. Do *not* call `self.reduce_armor`, or you'll end up stuck in a recursive loop.
@@ -80,9 +81,11 @@
 		- LATER Extra Credit & Optional Problem
 - # Homework
 	- ## hw02 q3 q4
+	  collapsed:: true
 		- [hw02 q3 q4](https://github.com/QiyanYu/UCB_CS61A/blob/main/hw02/hw02.py)
 		- [Questions description](https://inst.eecs.berkeley.edu/~cs61a/sp20/hw/hw02/)
 	- ## HW 03 #recursion #recap
+	  collapsed:: true
 		- [HW03-GitHub](https://github.com/QiyanYu/UCB_CS61A/blob/main/hw03/hw03.py)
 		- ### Q2: Ping-pong
 			- ![image.png](../assets/image_1656198751231_0.png)
@@ -118,8 +121,57 @@
 				  ```
 		- ### Q6: Anonymous factorial
 			- To write a recursive function, we have always given it a name using a `def` or assignment statement so that we can refer to the function within its own body. In this question, your job is to define fact recursively without giving it a name!
+	- ## HW 05
+		- ### Q4: Generate Paths
+			- Define a generator function  `generate_paths`  which takes in a Tree  `t` , a value  `value` , and returns a generator object which yields each path from the root of  `t`  to a node that has label  `value` .
+			- ```python
+			  def generate_paths(t, value):
+			      """Yields all possible paths from the root of t to a node with the label value
+			      as a list.
+			  
+			      >>> t1 = Tree(1, [Tree(2, [Tree(3), Tree(4, [Tree(6)]), Tree(5)]), Tree(5)])
+			      >>> print(t1)
+			      1
+			        2
+			          3
+			          4
+			            6
+			          5
+			        5
+			      >>> next(generate_paths(t1, 6))
+			      [1, 2, 4, 6]
+			      >>> path_to_5 = generate_paths(t1, 5)
+			      >>> sorted(list(path_to_5))
+			      [[1, 2, 5], [1, 5]]
+			  
+			      >>> t2 = Tree(0, [Tree(2, [t1])])
+			      >>> print(t2)
+			      0
+			        2
+			          1
+			            2
+			              3
+			              4
+			                6
+			              5
+			            5
+			      >>> path_to_2 = generate_paths(t2, 2)
+			      >>> sorted(list(path_to_2))
+			      [[0, 2], [0, 2, 1, 2]]
+			      """
+			  
+			      "*** YOUR CODE HERE ***"
+			  	if t.label == value:
+			        	yield [value]
+			      for bran in t.branches:
+			        	for b in generate_paths(bran, value):
+			            	yield [t.label] + b 
+			  
+			              "*** YOUR CODE HERE ***"
+			  ```
 - # Labs
 	- ## Lab 04 #recursion #recap
+	  collapsed:: true
 		- [lab 04](https://inst.eecs.berkeley.edu/~cs61a/sp20/lab/lab04/)
 		- [lab04-GitHub](https://github.com/QiyanYu/UCB_CS61A/blob/main/lab04/lab04.py)
 		- ### Q5: Maximum Subsequence
@@ -127,6 +179,7 @@
 				- You need to split into the cases where the ones digit is used and the one where it is not. In the case where it is, we want to reduce `l` since we used one of the digits, and in the case where it isn't we do not.
 				- In the case where we are using the ones digit, you need to put the digit back onto the end, and the way to attach a digit `d` to the end of a number `n` is `10 * n + d` .
 	- ## Lab 05: Python Lists, Data Abstraction, Trees
+	  collapsed:: true
 		- [GitHub Link: Lab 05](https://github.com/QiyanYu/UCB_CS61A/blob/main/lab05/lab05.py)
 		- ### Q7: Sprout leaves
 			- ```python
@@ -164,6 +217,7 @@
 				                               in zip(branches1, branches2)] + bran_diff)
 				  ```
 	- ## Lab 06: Nonlocal & Generators
+	  collapsed:: true
 		- ### Q3:Scale
 			- [description](https://inst.eecs.berkeley.edu/~cs61a/sp20/lab/lab06/#q3)
 			- Using `yield from`
