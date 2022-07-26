@@ -580,6 +580,7 @@ title:: CS 61A Notes
 			  ```
 		-
 	- ## 2.7 Object Abstraction
+	  collapsed:: true
 		- ### String Representations
 			- Strings are important: they represent language and programs.
 			- In Python, all objects produce two string representations:
@@ -597,6 +598,8 @@ title:: CS 61A Notes
 			  >>> eval(str(half))
 			  0.5
 			  ```
+	- ## 2.9 Recursive Objects
+		-
 - # Chapter 4: Data Processing
 	- ## 4.2 Implicit sequences
 	  collapsed:: true

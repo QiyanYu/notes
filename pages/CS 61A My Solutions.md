@@ -521,6 +521,7 @@
 - # Guerrilla
   collapsed:: true
 	- ## Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control
+	  collapsed:: true
 		- ![guer00.pdf](../assets/guer00_1655443645108_0.pdf)
 		- `is_palindrome` #algorithm #palindrome
 			- ```python
@@ -532,8 +533,10 @@
 			      return y == n
 			  ```
 	- ## Guerrilla 01: Python Lists, Recursion, Tree Recursion
+	  collapsed:: true
 		- ![guer01.pdf](../assets/guer01_1658274713061_0.pdf)
 	- ## Guerrilla 02: Data Abstraction, Trees, Nonlocal, Iterators & Generators
+	  collapsed:: true
 		- ![guer02.pdf](../assets/guer02_1658274771831_0.pdf)
 - # Misc
 	- ## Sp18 Midterm 2 Problem 4(b): #recursion
