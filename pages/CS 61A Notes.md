@@ -599,7 +599,13 @@ title:: CS 61A Notes
 			  0.5
 			  ```
 	- ## 2.9 Recursive Objects
-		-
+		- ### Linked List Mutation
+			- [#A] Adding to an Ordered List
+				- ![image.png](../assets/image_1658811738877_0.png)
+				- ![image.png](../assets/image_1658811753272_0.png)
+				- ![image.png](../assets/image_1658811780721_0.png)
+				- ![image.png](../assets/image_1658811804965_0.png)
+				-
 - # Chapter 4: Data Processing
 	- ## 4.2 Implicit sequences
 	  collapsed:: true
