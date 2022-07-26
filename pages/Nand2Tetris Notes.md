@@ -1,6 +1,6 @@
 - # Boolean Functions and Gate Logic
 	- ## Unit 1.1: Boolean logic
-		- ![image.png](../assets/image_1658850612467_0.png)
+		- ![image.png](../assets/image_1658865223522_0.png){:height 388, :width 494}
 	- ## Unit 1.2: Boolean Functions Synthesis
 		- ### NAND
 			- ![image.png](../assets/image_1658860482582_0.png){:height 197, :width 164}
