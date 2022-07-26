@@ -609,6 +609,15 @@ title:: CS 61A Notes
 				-
 		- ### Tree class vs Tree function #tree
 			- ![image.png](../assets/image_1658814762880_0.png)
+		- ### Pruning Trees #tree
+			- Removing subtrees from a tree is call *pruning*
+			- ```python
+			  def prune(t, n):
+			    	"""Prune all sub-trees whose label is n."""
+			      t.branches = [b for b in t.branches if b.label != n]
+			      for b in t.branches:
+			        	prune(b, n)
+			  ```
 - # Chapter 4: Data Processing
 	- ## 4.2 Implicit sequences
 	  collapsed:: true
