@@ -14,4 +14,5 @@
 	- ## Unit 1.3: Logic Gates
 		- ### Logic Gates:
 			- Elementary(Nand, And, Or, Not)
-			-
+	- ## Unit 1.4: Hardware Description Language
+		-
