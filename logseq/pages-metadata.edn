@@ -59,8 +59,8 @@
   :block/created-at 1646783692860,
   :block/updated-at 1647467301052}
  {:block/name "book: the elements of computing systems",
-  :block/created-at 1658947906934,
-  :block/updated-at 1658953770629}
+  :block/created-at 1658947786318,
+  :block/updated-at 1658954674024}
  {:block/name "bst",
   :block/created-at 1649701057192,
   :block/updated-at 1649701057192}
@@ -101,8 +101,8 @@
   :block/created-at 1650690507588,
   :block/updated-at 1650690507588}
  {:block/name "core java 11th",
-  :block/created-at 1658947718802,
-  :block/updated-at 1658947718802}
+  :block/created-at 1658947642506,
+  :block/updated-at 1658947642506}
  {:block/name "course: cs 50 introduction to computer science",
   :block/created-at 1654736639468,
   :block/updated-at 1654736639468}
@@ -117,7 +117,7 @@
   :block/updated-at 1654747378878}
  {:block/name "cs notes",
   :block/created-at 1650210254286,
-  :block/updated-at 1657217952015}
+  :block/updated-at 1658947786319}
  {:block/name "cs50",
   :block/created-at 1646757913042,
   :block/updated-at 1646757913042}
@@ -178,6 +178,9 @@
  {:block/name "fibonacci",
   :block/created-at 1646107412989,
   :block/updated-at 1646109207344}
+ {:block/name "file",
+  :block/created-at 1658947647251,
+  :block/updated-at 1658947647251}
  {:block/name "functional-programming",
   :block/created-at 1647970174482,
   :block/updated-at 1647970174482}
@@ -278,14 +281,14 @@
   :block/created-at 1658649794795,
   :block/updated-at 1658684351664}
  {:block/name "jul 25th, 2022",
-  :block/created-at 1658947715175,
-  :block/updated-at 1658947715175}
+  :block/created-at 1658947638698,
+  :block/updated-at 1658947638698}
  {:block/name "jul 26th, 2022",
-  :block/created-at 1658947715140,
-  :block/updated-at 1658947715140}
+  :block/created-at 1658947638663,
+  :block/updated-at 1658947638663}
  {:block/name "jul 27th, 2022",
-  :block/created-at 1658947715107,
-  :block/updated-at 1658949585264}
+  :block/created-at 1658947638628,
+  :block/updated-at 1658954350161}
  {:block/name "jul 4th, 2022",
   :block/created-at 1656918008740,
   :block/updated-at 1656958599329}
@@ -297,7 +300,7 @@
   :block/updated-at 1657324774698}
  {:block/name "jun 25th, 2022",
   :block/created-at 1656143284508,
-  :block/updated-at 1658809410024}
+  :block/updated-at 1656143284508}
  {:block/name "jun 29th, 2022",
   :block/created-at 1656486032156,
   :block/updated-at 1656545362083}
@@ -425,8 +428,8 @@
   :block/created-at 1655700069707,
   :block/updated-at 1655700069707}
  {:block/name "nand2tetris notes",
-  :block/created-at 1658947718800,
-  :block/updated-at 1658947718800}
+  :block/created-at 1658947642505,
+  :block/updated-at 1658947642505}
  {:block/name "now",
   :block/created-at 1646757913043,
   :block/updated-at 1646757913043}
@@ -524,8 +527,8 @@
   :block/created-at 1647564637176,
   :block/updated-at 1647564637176}
  {:block/name "the modern javascript tutorial",
-  :block/created-at 1658947718803,
-  :block/updated-at 1658947718803}
+  :block/created-at 1658947642507,
+  :block/updated-at 1658947642507}
  {:block/name "tideman",
   :block/created-at 1646757913041,
   :block/updated-at 1655445463569}
@@ -536,8 +539,8 @@
   :block/created-at 1646757913042,
   :block/updated-at 1646757913042}
  {:block/name "tree",
-  :block/created-at 1658947717591,
-  :block/updated-at 1658947717591}
+  :block/created-at 1658947641213,
+  :block/updated-at 1658947641213}
  {:block/name "trie",
   :block/created-at 1658353660676,
   :block/updated-at 1658353660676}

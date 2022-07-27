@@ -1,6 +1,19 @@
 title:: Book: The Elements of Computing Systems
 
-- # Boolean Logic
-	- ## Boolean Algebra
-		- ### Boolean Functions
-		-
+- # 1. Boolean Logic
+	- ## 1.1 Boolean Algebra
+		- Boolean Functions
+			- truth table
+			- boolean expressions
+		- Boolean Operators
+	- ## 1.2 Logic Gates
+		- Boolean algebra can be used to abstract the behavior of logic gates.
+		- Don't worry about physical artifacts.
+		- **The art of logic design:** Given a gate abstraction (also referred to as *specification* or *interface*), find an efficient way to implement it using other gates that were already implemented.
+	- ## 1.3 Hardware Construction
+		- ### Hardware Description Language (HDL)
+		- ### Simulator
+	- ## 1.4 Specification
+		- Multi-Bit Version of Basic Gates
+			- The bits are indexed from right to left, the rightmost bit being the 0'th bit and the leftmost bit being the 15'th bit (in a 16-bit setting).
+	-
