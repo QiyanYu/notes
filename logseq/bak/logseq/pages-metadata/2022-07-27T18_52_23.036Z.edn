@@ -1,4 +1,10 @@
-[{:block/name "a",
+[{:block/name "2.1.1 core java 11th",
+  :block/created-at 1650211550056,
+  :block/updated-at 1650211550056}
+ {:block/name "2.2.1 the modern javascript tutorial",
+  :block/created-at 1645127054434,
+  :block/updated-at 1654791306955}
+ {:block/name "a",
   :block/created-at 1646757913041,
   :block/updated-at 1646757913041}
  {:block/name "a*",
@@ -58,12 +64,12 @@
  {:block/name "basic git",
   :block/created-at 1646783692860,
   :block/updated-at 1647467301052}
- {:block/name "book: the elements of computing systems",
-  :block/created-at 1658947906934,
-  :block/updated-at 1658947906934}
  {:block/name "bst",
   :block/created-at 1649701057192,
   :block/updated-at 1649701057192}
+ {:block/name "building",
+  :block/created-at 1656117283520,
+  :block/updated-at 1656117283520}
  {:block/name "c",
   :block/created-at 1646757913043,
   :block/updated-at 1646757913043}
@@ -100,9 +106,6 @@
  {:block/name "contents",
   :block/created-at 1650690507588,
   :block/updated-at 1650690507588}
- {:block/name "core java 11th",
-  :block/created-at 1658947718802,
-  :block/updated-at 1658947718802}
  {:block/name "course: cs 50 introduction to computer science",
   :block/created-at 1654736639468,
   :block/updated-at 1654736639468}
@@ -178,9 +181,6 @@
  {:block/name "fibonacci",
   :block/created-at 1646107412989,
   :block/updated-at 1646109207344}
- {:block/name "file",
-  :block/created-at 1658947723612,
-  :block/updated-at 1658947723612}
  {:block/name "functional-programming",
   :block/created-at 1647970174482,
   :block/updated-at 1647970174482}
@@ -253,9 +253,15 @@
  {:block/name "js",
   :block/created-at 1646777597287,
   :block/updated-at 1646777597287}
+ {:block/name "jul 10th, 2022",
+  :block/created-at 1657436450793,
+  :block/updated-at 1657436450793}
  {:block/name "jul 11th, 2022",
   :block/created-at 1657522851278,
   :block/updated-at 1657575800443}
+ {:block/name "jul 12th, 2022",
+  :block/created-at 1657615476104,
+  :block/updated-at 1657615476104}
  {:block/name "jul 13th, 2022",
   :block/created-at 1657695629606,
   :block/updated-at 1658444294997}
@@ -265,42 +271,99 @@
  {:block/name "jul 15th, 2022",
   :block/created-at 1657868455796,
   :block/updated-at 1658444195005}
+ {:block/name "jul 16th, 2022",
+  :block/created-at 1657954856547,
+  :block/updated-at 1657954856547}
+ {:block/name "jul 17th, 2022",
+  :block/created-at 1658041258150,
+  :block/updated-at 1658041258150}
  {:block/name "jul 18th, 2022",
   :block/created-at 1658167803076,
   :block/updated-at 1658181933616}
  {:block/name "jul 19th, 2022",
   :block/created-at 1658214036249,
   :block/updated-at 1658444457167}
+ {:block/name "jul 1st, 2022",
+  :block/created-at 1656661955624,
+  :block/updated-at 1656661955624}
  {:block/name "jul 20th, 2022",
   :block/created-at 1658300457114,
   :block/updated-at 1658338351177}
  {:block/name "jul 21st, 2022",
   :block/created-at 1658387902135,
   :block/updated-at 1658444511459}
+ {:block/name "jul 22nd, 2022",
+  :block/created-at 1658473201210,
+  :block/updated-at 1658473201210}
+ {:block/name "jul 23rd, 2022",
+  :block/created-at 1658561211215,
+  :block/updated-at 1658561211215}
  {:block/name "jul 24th, 2022",
   :block/created-at 1658649794795,
   :block/updated-at 1658684351664}
- {:block/name "jul 25th, 2022",
-  :block/created-at 1658947715175,
-  :block/updated-at 1658947715175}
- {:block/name "jul 26th, 2022",
-  :block/created-at 1658947715140,
-  :block/updated-at 1658947715140}
- {:block/name "jul 27th, 2022",
-  :block/created-at 1658947715107,
-  :block/updated-at 1658947715107}
+ {:block/name "jul 2nd, 2022",
+  :block/created-at 1656824733703,
+  :block/updated-at 1656824733703}
+ {:block/name "jul 3rd, 2022",
+  :block/created-at 1656831607648,
+  :block/updated-at 1656831607648}
  {:block/name "jul 4th, 2022",
   :block/created-at 1656918008740,
   :block/updated-at 1656958599329}
+ {:block/name "jul 5th, 2022",
+  :block/created-at 1657004409491,
+  :block/updated-at 1657004409491}
+ {:block/name "jul 6th, 2022",
+  :block/created-at 1657093059206,
+  :block/updated-at 1657093059206}
  {:block/name "jul 7th, 2022",
   :block/created-at 1657177240402,
   :block/updated-at 1657236383324}
  {:block/name "jul 8th, 2022",
   :block/created-at 1657278102193,
   :block/updated-at 1657324774698}
+ {:block/name "jul 9th, 2022",
+  :block/created-at 1657350049611,
+  :block/updated-at 1657350049611}
+ {:block/name "jun 16th, 2022",
+  :block/created-at 1655445496396,
+  :block/updated-at 1655445496396}
+ {:block/name "jun 17th, 2022",
+  :block/created-at 1655449261500,
+  :block/updated-at 1655449261500}
+ {:block/name "jun 18th, 2022",
+  :block/created-at 1655537407316,
+  :block/updated-at 1655537407316}
+ {:block/name "jun 19th, 2022",
+  :block/created-at 1655624384819,
+  :block/updated-at 1655624384819}
+ {:block/name "jun 20th, 2022",
+  :block/created-at 1655708781388,
+  :block/updated-at 1655708781388}
+ {:block/name "jun 21st, 2022",
+  :block/created-at 1655833285826,
+  :block/updated-at 1655833285826}
+ {:block/name "jun 22nd, 2022",
+  :block/created-at 1655881713543,
+  :block/updated-at 1655881713543}
+ {:block/name "jun 23rd, 2022",
+  :block/created-at 1655982390296,
+  :block/updated-at 1655982390296}
+ {:block/name "jun 24th, 2022",
+  :block/created-at 1656054037572,
+  :block/updated-at 1656054037572}
  {:block/name "jun 25th, 2022",
   :block/created-at 1656143284508,
   :block/updated-at 1656143284508}
+ {:block/name "jun 26th, 2022",
+  :block/created-at 1656286110990,
+  :block/updated-at 1656286110990}
+ {:block/name "jun 27th, 2022",
+  :block/created-at 1656313746057,
+  :block/updated-at 1656313746057}
+ {:block/name "jun 28th, 2022",
+  :block/created-at 1656402752753,
+  :block/updated-at 1656402752753}
  {:block/name "jun 29th, 2022",
   :block/created-at 1656486032156,
   :block/updated-at 1656545362083}
@@ -427,9 +490,6 @@
  {:block/name "mutual-recursion",
   :block/created-at 1655700069707,
   :block/updated-at 1655700069707}
- {:block/name "nand2tetris notes",
-  :block/created-at 1658947718800,
-  :block/updated-at 1658947718800}
  {:block/name "now",
   :block/created-at 1646757913043,
   :block/updated-at 1646757913043}
@@ -526,9 +586,6 @@
  {:block/name "test",
   :block/created-at 1647564637176,
   :block/updated-at 1647564637176}
- {:block/name "the modern javascript tutorial",
-  :block/created-at 1658947718803,
-  :block/updated-at 1658947718803}
  {:block/name "tideman",
   :block/created-at 1646757913041,
   :block/updated-at 1655445463569}
@@ -538,9 +595,6 @@
  {:block/name "todo",
   :block/created-at 1646757913042,
   :block/updated-at 1646757913042}
- {:block/name "tree",
-  :block/created-at 1658947717591,
-  :block/updated-at 1658947717591}
  {:block/name "trie",
   :block/created-at 1658353660676,
   :block/updated-at 1658353660676}
