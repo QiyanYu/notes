@@ -20,4 +20,5 @@ title:: Book: The Elements of Computing Systems
 		- General approaches:
 			- behavioral simulation
 			- hardware implementation
-		-
+- # 2. Boolean Arithmetic
+	- ## 2.1 Binary Numbers
