@@ -16,4 +16,8 @@ title:: Book: The Elements of Computing Systems
 	- ## 1.4 Specification
 		- Multi-Bit Version of Basic Gates
 			- The bits are indexed from right to left, the rightmost bit being the 0'th bit and the leftmost bit being the 15'th bit (in a 16-bit setting).
-	-
+	- ## 1.5 Implementation
+		- General approaches:
+			- behavioral simulation
+			- hardware implementation
+		-

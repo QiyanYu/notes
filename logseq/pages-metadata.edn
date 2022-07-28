@@ -60,7 +60,7 @@
   :block/updated-at 1647467301052}
  {:block/name "book: the elements of computing systems",
   :block/created-at 1658947786318,
-  :block/updated-at 1658954674024}
+  :block/updated-at 1658957875639}
  {:block/name "bst",
   :block/created-at 1649701057192,
   :block/updated-at 1649701057192}
@@ -288,7 +288,7 @@
   :block/updated-at 1658947638663}
  {:block/name "jul 27th, 2022",
   :block/created-at 1658947638628,
-  :block/updated-at 1658954350161}
+  :block/updated-at 1658955637790}
  {:block/name "jul 4th, 2022",
   :block/created-at 1656918008740,
   :block/updated-at 1656958599329}
