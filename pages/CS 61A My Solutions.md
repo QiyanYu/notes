@@ -122,6 +122,7 @@
 		- ### Q6: Anonymous factorial
 			- To write a recursive function, we have always given it a name using a `def` or assignment statement so that we can refer to the function within its own body. In this question, your job is to define fact recursively without giving it a name!
 	- ## HW 05
+	  collapsed:: true
 		- ### Q4: Generate Paths
 			- Define a generator function  `generate_paths`  which takes in a Tree  `t` , a value  `value` , and returns a generator object which yields each path from the root of  `t`  to a node that has label  `value` .
 			- ```python
@@ -169,6 +170,70 @@
 			  
 			              "*** YOUR CODE HERE ***"
 			  ```
+		- ### Q7: Remove All
+			- Implement a function  `remove_all`  that takes a  `Link` , and a  `value` , and remove any linked list node containing that value. You can assume the list already has at least one node containing  `value`  and the first element is never removed. Notice that you are not returning anything, so you should mutate the list.
+			- ```python
+			  def remove_all(link , value):
+			      """Remove all the nodes containing value in link. Assume that the
+			      first element is never removed.
+			  
+			      >>> l1 = Link(0, Link(2, Link(2, Link(3, Link(1, Link(2, Link(3)))))))
+			      >>> print(l1)
+			      <0 2 2 3 1 2 3>
+			      >>> remove_all(l1, 2)
+			      >>> print(l1)
+			      <0 3 1 3>
+			      >>> remove_all(l1, 3)
+			      >>> print(l1)
+			      <0 1>
+			      >>> remove_all(l1, 3)
+			      >>> print(l1)
+			      <0 1>
+			      """
+			      "*** YOUR CODE HERE ***"
+			      # Recursion version:
+			      if link.rest is Link.empty:
+			        	return 
+			      if link.rest.first == value:
+			        	link.rest = link.rest.rest
+			          remove_all(link, value)
+			      else:
+			        	remove_all(link.rest, value)
+			          
+			  	# Iteration version:
+			      prev, curr = link, link.rest
+			      while curr is not Link.empty:
+			        	if curr.first == value:
+			              prev.rest = curr.rest
+			  		else:
+			            	prev = curr
+			          curr = curr.rest
+			  ```
+		- ### Q8: Deep Map
+			- ```python
+			  def deep_map(f, link):
+			      """Return a Link with the same structure as link but with fn mapped over
+			      its elements. If an element is an instance of a linked list, recursively
+			      apply f inside that linked list as well.
+			  
+			      >>> s = Link(1, Link(Link(2, Link(3)), Link(4)))
+			      >>> print(deep_map(lambda x: x * x, s))
+			      <1 <4 9> 16>
+			      >>> print(s) # unchanged
+			      <1 <2 3> 4>
+			      >>> print(deep_map(lambda x: 2 * x, Link(s, Link(Link(Link(5))))))
+			      <<2 <4 6> 8> <<10>>>
+			      """
+			      "*** YOUR CODE HERE ***"
+			      if link is Link.empty:
+			          return Link.empty
+			      if isinstance(link.first, Link):
+			          first = deep_map(f, link.first)
+			      else:
+			          first = f(link.first)
+			      return Link(first, deep_map(f, link.rest))
+			  ```
+	-
 - # Labs
 	- ## Lab 04 #recursion #recap
 	  collapsed:: true
@@ -262,6 +327,24 @@
 			            	return [x] + helper(x//2 if x%2 == 0 else 3*x+1)
 			  	yield from helper(n)
 			  ```
+	- ## Lab 7: Object-Oriented Programming, Linked Lists, and Trees
+		- ### Q9: Nonlocal Environment Diagram
+		- Draw the environment diagram that results from running the following code.
+		- ```python
+		  def moon(f):
+		      sun = 0
+		      moon = [sun]
+		      def run(x):
+		          nonlocal sun, moon
+		          def sun(sun):
+		              return [sun]
+		          y = f(x)
+		          moon.append(sun(y))
+		          return moon[0] and moon[1]
+		      return run
+		  
+		  moon(lambda x: moon)(1)
+		  ```
 - # Discussion
 	- ## Disc01: Control, Environment Diagrams
 	  collapsed:: true
