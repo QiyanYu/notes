@@ -22,3 +22,5 @@ title:: Book: The Elements of Computing Systems
 			- hardware implementation
 - # 2. Boolean Arithmetic
 	- ## 2.1 Binary Numbers
+- # 3. Memory
+	- ##

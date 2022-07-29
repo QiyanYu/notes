@@ -345,6 +345,8 @@
 		  
 		  moon(lambda x: moon)(1)
 		  ```
+		- <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=def%20moon%28f%29%3A%0A%20%20%20%20sun%20%3D%200%0A%20%20%20%20moon%20%3D%20%5Bsun%5D%0A%20%20%20%20def%20run%28x%29%3A%0A%20%20%20%20%20%20%20%20nonlocal%20sun,%20moon%0A%20%20%20%20%20%20%20%20def%20sun%28sun%29%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20%5Bsun%5D%0A%20%20%20%20%20%20%20%20y%20%3D%20f%28x%29%0A%20%20%20%20%20%20%20%20moon.append%28sun%28y%29%29%0A%20%20%20%20%20%20%20%20return%20moon%5B0%5D%20and%20moon%5B1%5D%0A%20%20%20%20return%20run%0A%0Amoon%28lambda%20x%3A%20moon%29%281%29&codeDivHeight=400&codeDivWidth=350&cumulative=true&curInstr=0&origin=composingprograms.js&py=3&rawInputLstJSON=%5B%5D"> </iframe>
+		-
 - # Discussion
 	- ## Disc01: Control, Environment Diagrams
 	  collapsed:: true
