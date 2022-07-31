@@ -603,6 +603,14 @@
 			        	words += [label(t) + word for word in collect_words(branch)]
 			      return words
 			  ```
+	- ## Disc 07: Object-Oriented Programming, Linked Lists
+		- ![disc07_sol.pdf](../assets/disc07_sol_1659154854870_0.pdf)
+	- ## Disc 08: Efficiency
+		- ![disc08.pdf](../assets/disc08_1659154978217_0.pdf)
+	- ## Disc 09: Scheme
+		- ![disc09_sol.pdf](../assets/disc09_sol_1659154865647_0.pdf)
+	- ## Disc 10: Interpreters
+		- ![disc10_sol.pdf](../assets/disc10_sol_1659154881273_0.pdf)
 - # Guerrilla
   collapsed:: true
 	- ## Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control

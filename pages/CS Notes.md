@@ -12,7 +12,6 @@ title:: CS Notes
 	- ## 1.4 Computer Architecture
 		- ### 1.4.1 Nand2Tetris
 			- [[Nand2Tetris Notes]]
-			- [[Book: The Elements of Computing Systems]]
 - # 2. Languages & Frames
 	- ## 2.1 Java
 		- ### 2.1.1 Book: Core Java 11th
