@@ -51,4 +51,13 @@
 		- RAM: Random Access Memory, irrespective of the RAM size, every register can be accessed at the same time - instantaneously!
 	- ## Unit 3.4: Counters
 		-
--
+- # Machine Language
+	- ## Hack Programming
+		- ### Working with registers and memory
+			- ![image.png](../assets/image_1659547805041_0.png){:height 511, :width 563}
+		- ### Branching
+		- ### Variables
+		- ### Iteration
+		- ### Pointers
+		- ### Input/output
+	-
