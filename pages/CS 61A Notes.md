@@ -1,10 +1,10 @@
 title:: CS 61A Notes
 
 - [Composing Programs - Textbook](https://composingprograms.com/)
-- All lectures, labs, discussions, homework and projects are from UC Berkeley [CS61A sp20](https://inst.eecs.berkeley.edu/~cs61a/sp20/)
+- > All lectures, labs, discussions, homework and projects are from UC Berkeley [CS61A sp20](https://inst.eecs.berkeley.edu/~cs61a/sp20/)
+- {{renderer :tocgen}}
 - # Chapter 1: Building Abstractions with Functions
 	- ## 1.1 Getting Started
-	  collapsed:: true
 		- #### Expressions & Statements
 			- Computer programs consist of instructions of either:
 				- 1. Compute some value  
@@ -641,7 +641,6 @@ title:: CS 61A Notes
 				  >>> next(g)
 				  2
 				  ```
--
 -
 -
 - ![cs61a_homepage.pdf](../assets/cs61a_homepage_1656114998394_0.pdf)

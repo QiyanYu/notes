@@ -80,8 +80,7 @@
 			  ```
 		- LATER Extra Credit & Optional Problem
 - # Homework
-	- ## hw02 q3 q4
-	  collapsed:: true
+	- ## HW 02
 		- [hw02 q3 q4](https://github.com/QiyanYu/UCB_CS61A/blob/main/hw02/hw02.py)
 		- [Questions description](https://inst.eecs.berkeley.edu/~cs61a/sp20/hw/hw02/)
 	- ## HW 03 #recursion #recap
@@ -122,7 +121,6 @@
 		- ### Q6: Anonymous factorial
 			- To write a recursive function, we have always given it a name using a `def` or assignment statement so that we can refer to the function within its own body. In this question, your job is to define fact recursively without giving it a name!
 	- ## HW 05
-	  collapsed:: true
 		- ### Q4: Generate Paths
 			- Define a generator function  `generate_paths`  which takes in a Tree  `t` , a value  `value` , and returns a generator object which yields each path from the root of  `t`  to a node that has label  `value` .
 			- ```python

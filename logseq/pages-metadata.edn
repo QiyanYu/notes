@@ -46,6 +46,15 @@
  {:block/name "arrrrghrays",
   :block/created-at 1646692199667,
   :block/updated-at 1646696118772}
+ {:block/name "aug 1st, 2022",
+  :block/created-at 1659337221512,
+  :block/updated-at 1659368946156}
+ {:block/name "aug 2nd, 2022",
+  :block/created-at 1659428583596,
+  :block/updated-at 1659461403002}
+ {:block/name "aug 3rd, 2022",
+  :block/created-at 1659510057584,
+  :block/updated-at 1659547263754}
  {:block/name "autoboxing",
   :block/created-at 1648145010962,
   :block/updated-at 1648145010962}
@@ -58,9 +67,6 @@
  {:block/name "basic git",
   :block/created-at 1646783692860,
   :block/updated-at 1647467301052}
- {:block/name "book: the elements of computing systems",
-  :block/created-at 1658947786318,
-  :block/updated-at 1658957875639}
  {:block/name "bst",
   :block/created-at 1649701057192,
   :block/updated-at 1649701057192}
@@ -98,8 +104,8 @@
   :block/created-at 1648835426433,
   :block/updated-at 1648835426433}
  {:block/name "contents",
-  :block/created-at 1650690507588,
-  :block/updated-at 1650690507588}
+  :block/created-at 1659586549714,
+  :block/updated-at 1659586559415}
  {:block/name "core java 11th",
   :block/created-at 1658947642506,
   :block/updated-at 1658947642506}
@@ -108,16 +114,16 @@
   :block/updated-at 1654736639468}
  {:block/name "cs 61a my solutions",
   :block/created-at 1657217952014,
-  :block/updated-at 1658514366669}
+  :block/updated-at 1659586982565}
  {:block/name "cs 61a notes",
   :block/created-at 1652461404249,
-  :block/updated-at 1658275029489}
+  :block/updated-at 1659586242611}
  {:block/name "cs 61b notes",
   :block/created-at 1650211443736,
   :block/updated-at 1654747378878}
  {:block/name "cs notes",
   :block/created-at 1650210254286,
-  :block/updated-at 1658947786319}
+  :block/updated-at 1659282576856}
  {:block/name "cs50",
   :block/created-at 1646757913042,
   :block/updated-at 1646757913042}
@@ -288,7 +294,19 @@
   :block/updated-at 1658947638663}
  {:block/name "jul 27th, 2022",
   :block/created-at 1658947638628,
-  :block/updated-at 1658955637790}
+  :block/updated-at 1659017747277}
+ {:block/name "jul 28th, 2022",
+  :block/created-at 1658991633122,
+  :block/updated-at 1659072847808}
+ {:block/name "jul 29th, 2022",
+  :block/created-at 1659078004851,
+  :block/updated-at 1659154639130}
+ {:block/name "jul 30th, 2022",
+  :block/created-at 1659198683312,
+  :block/updated-at 1659198683312}
+ {:block/name "jul 31st, 2022",
+  :block/created-at 1659254749422,
+  :block/updated-at 1659282638389}
  {:block/name "jul 4th, 2022",
   :block/created-at 1656918008740,
   :block/updated-at 1656958599329}
@@ -429,7 +447,7 @@
   :block/updated-at 1655700069707}
  {:block/name "nand2tetris notes",
   :block/created-at 1658947642505,
-  :block/updated-at 1658947642505}
+  :block/updated-at 1659549215430}
  {:block/name "now",
   :block/created-at 1646757913043,
   :block/updated-at 1646757913043}
