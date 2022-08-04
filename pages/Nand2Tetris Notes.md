@@ -51,7 +51,7 @@
 		- RAM: Random Access Memory, irrespective of the RAM size, every register can be accessed at the same time - instantaneously!
 	- ## Unit 3.4: Counters
 		-
-- # Machine Language
+- # 4. Machine Language
 	- ## Hack Programming
 		- ### Working with registers and memory
 			- ![image.png](../assets/image_1659547805041_0.png){:height 511, :width 563}
@@ -60,4 +60,11 @@
 		- ### Iteration
 		- ### Pointers
 		- ### Input/output
+	- ## Hardware Elements
+		- Memory
+		- Processor
+		- Registers
+			- The CPU-resident registers fall into two categories: *data registers*, designed to hold data values, and *address registers*, designed to hold values that can be interpreted either as data values or as memory addresses.
+	- Low-level code that mentions no physical addresses is said to be *relocatable*.
+	-
 	-

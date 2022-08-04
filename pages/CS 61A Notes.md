@@ -2,7 +2,6 @@ title:: CS 61A Notes
 
 - [Composing Programs - Textbook](https://composingprograms.com/)
 - > All lectures, labs, discussions, homework and projects are from UC Berkeley [CS61A sp20](https://inst.eecs.berkeley.edu/~cs61a/sp20/)
-- {{renderer :tocgen}}
 - # Chapter 1: Building Abstractions with Functions
 	- ## 1.1 Getting Started
 		- #### Expressions & Statements
