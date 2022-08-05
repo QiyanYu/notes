@@ -66,5 +66,15 @@
 		- Registers
 			- The CPU-resident registers fall into two categories: *data registers*, designed to hold data values, and *address registers*, designed to hold values that can be interpreted either as data values or as memory addresses.
 	- Low-level code that mentions no physical addresses is said to be *relocatable*.
-	-
+	- ###  The Hack Machine Language
+		- ![image.png](../assets/image_1659649762308_0.png)
+		- Hack instructions are designed to manipulate three 16-bit registers: a data register, denoted D, an address register, denoted A, and a selected data memory register, denoted M.
+		- *D register*: To store a 16-bit value.
+		- *A register*:
+			- An address register: `@xxx` sets the A register to the value xxx. In addition, the @xxx instruction has two side effects.
+				- First, it makes the RAM register whose address is xxx the selected memory register, denoted M.
+				- Second, it makes the value of the ROM register whose address is xxx the selected instruction.
+			- A data register: this is the only way to get a constant into the Hack computer. `@17; D=A`
+- ### The Hack Language Specification
+	- ![image.png](../assets/image_1659652191360_0.png)
 	-
