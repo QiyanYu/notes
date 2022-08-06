@@ -597,6 +597,73 @@ title:: CS 61A Notes
 			  >>> eval(str(half))
 			  0.5
 			  ```
+	- ## 2.8 Efficiency
+		- ### Measuring Efficiency
+			- ```python
+			  def fib(n):
+			    	if n == 0 or n == 1:
+			        	return n
+			      else:
+			        	return fib(n-2) + fib(n-1)
+			        
+			  def count(f):
+			    	def counted(n):
+			        	counted.call_count += 1
+			          return f(n)
+			    	counted.call_count = 0
+			      return counted
+			    
+			  >>> fib = count(fib)
+			  >>> fib(5)
+			  5
+			  >>> fib.call_count
+			  15
+			  ```
+		- ### [#A] Memoization
+			- {{video https://youtu.be/IB8VSP9EZQs}}
+			- **Idea**: Remember the results that have been computed before.
+			- ```python
+			  def memo(f):
+			  	cache = {}
+			   	def memoized(n):
+			    		if n not in cache:
+			            	cache[n] = f(n)
+			          return cache[n]
+			      return memoized
+			    
+			  >>> fib = memo(fib)
+			  ```
+		- ### Exponentiation
+			- Even this is a simple implementation, it is slow.
+				- `Linear time`
+				- ![image.png](../assets/image_1659735184664_0.png){:height 115, :width 306}
+				- ```python
+				  def exp(b, n):
+				    	if n == 0:
+				        	return 1
+				      return b * exp(b, n-1)
+				  ```
+			- Complicated implementation but run faster.
+				- ![image.png](../assets/image_1659735260502_0.png){:height 157, :width 307}
+				- ```python
+				  def exp_fast(b, n):
+				    	if n == 0:
+				        	return 1
+				      elif n % 2 == 0:
+				        	return square(exp_fast(b, n//2)) # half the size
+				      else:
+				        	return b * exp_fast(b, n-1)
+				  
+				  def square(x):
+				    	return x * x
+				  ```
+				- This is not a tree recursive function, even though there are two different calls `exp_fast` in the body, only one of them is ever called. So this is an instance of linear recursion.
+				- `Logarithmic time`
+		- ### Orders of Growth
+			- ![image.png](../assets/image_1659736682224_0.png)
+		- ### Notation for Orders of Growth
+			- ![image.png](../assets/image_1659736725329_0.png)
+		- ### Space
 	- ## 2.9 Recursive Objects
 		- ### Linked List Mutation #linked-list
 		  collapsed:: true
