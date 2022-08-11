@@ -81,6 +81,7 @@
 		- LATER Extra Credit & Optional Problem
 - # Homework
 	- ## HW 02
+	  collapsed:: true
 		- [hw02 q3 q4](https://github.com/QiyanYu/UCB_CS61A/blob/main/hw02/hw02.py)
 		- [Questions description](https://inst.eecs.berkeley.edu/~cs61a/sp20/hw/hw02/)
 	- ## HW 03 #recursion #recap
@@ -326,6 +327,7 @@
 			  	yield from helper(n)
 			  ```
 	- ## Lab 7: Object-Oriented Programming, Linked Lists, and Trees
+	  collapsed:: true
 		- ### Q9: Nonlocal Environment Diagram
 		- Draw the environment diagram that results from running the following code.
 		- ```python
@@ -344,6 +346,100 @@
 		  moon(lambda x: moon)(1)
 		  ```
 		- <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=def%20moon%28f%29%3A%0A%20%20%20%20sun%20%3D%200%0A%20%20%20%20moon%20%3D%20%5Bsun%5D%0A%20%20%20%20def%20run%28x%29%3A%0A%20%20%20%20%20%20%20%20nonlocal%20sun,%20moon%0A%20%20%20%20%20%20%20%20def%20sun%28sun%29%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20%5Bsun%5D%0A%20%20%20%20%20%20%20%20y%20%3D%20f%28x%29%0A%20%20%20%20%20%20%20%20moon.append%28sun%28y%29%29%0A%20%20%20%20%20%20%20%20return%20moon%5B0%5D%20and%20moon%5B1%5D%0A%20%20%20%20return%20run%0A%0Amoon%28lambda%20x%3A%20moon%29%281%29&codeDivHeight=400&codeDivWidth=350&cumulative=true&curInstr=0&origin=composingprograms.js&py=3&rawInputLstJSON=%5B%5D"> </iframe>
+		-
+	- ## Lab 8: Midterm Review
+		- ### Q1: Insert #linked-list
+			- Implement a function  `insert`  that takes a  `Link` , a  `value` , and an  `index` , and inserts the  `value`  into the  `Link`  at the given  `index` . You can assume the linked list already has at least one element. Do not return anything --  `insert`  should mutate the linked list.
+			- ```python
+			  def insert(link, value, index):
+			      """Insert a value into a Link at the given index.
+			  
+			      >>> link = Link(1, Link(2, Link(3)))
+			      >>> print(link)
+			      <1 2 3>
+			      >>> insert(link, 9001, 0)
+			      >>> print(link)
+			      <9001 1 2 3>
+			      >>> insert(link, 100, 2)
+			      >>> print(link)
+			      <9001 1 100 2 3>
+			      >>> insert(link, 4, 5)
+			      IndexError
+			      """
+			  	if index == 0:
+			          curr, rst = link.first, link.rest
+			          link.first = value
+			          link.rest = Link(curr, rst)
+			      elif index > 0 and link.rest is not Link.empty:
+			          insert(link.rest, value, index-1)
+			      else:
+			          raise IndexError
+			  ```
+			- There is another way to achieve this function by returning the current link (node),  or add a helper function.
+			- But since in this question we cannot return anything, we need to come up another method.
+			- This is a single linked list, the key is to keep the previous linked list. So we don't insert the new linked list in the current position, we append a new linked list after current node, modify current node value, and "move" previous current node to next position.
+		- ### [#B] Subsequences #recursion
+			- A subsequence of a sequence  `S`  is a sequence of elements from  `S` , in the same order they appear in  `S` , but possibly with elements missing. Thus, the lists  `[]` ,  `[1, 3]` ,  `[2]` , and  `[1, 2, 3]`  are some (but not all) of the subsequences of  `[1, 2, 3]` . Write a function that takes a list and returns a list of lists, for which each individual list is a subsequence of the original input.
+			- In order to accomplish this, you might first want to write a function  `insert_into_all`  that takes an item and a list of lists, adds the item to the beginning of nested list, and returns the resulting list.
+			- ```python
+			  def insert_into_all(item, nested_list):
+			      """Assuming that nested_list is a list of lists, return a new list
+			      consisting of all the lists in nested_list, but with item added to
+			      the front of each.
+			  
+			      >>> nl = [[], [1, 2], [3]]
+			      >>> insert_into_all(0, nl)
+			      [[0], [0, 1, 2], [0, 3]]
+			      """
+			      return [[item] + l for l in nested_list]
+			  
+			  def subseqs(s):
+			      """Assuming that S is a list, return a nested list of all subsequences
+			      of S (a list of lists). The subsequences can appear in any order.
+			  
+			      >>> seqs = subseqs([1, 2, 3])
+			      >>> sorted(seqs)
+			      [[], [1], [1, 2], [1, 2, 3], [1, 3], [2], [2, 3], [3]]
+			      >>> subseqs([])
+			      [[]]
+			      """
+			      if len(s) == 0:
+			        	return [[]]
+			      else:
+			        	sub = subseqs(s[1:])
+			          return sub + insert_into_all(s[0],sub)
+			  ```
+		- ### [#A] Q4: Increasing Subsequences #recursion
+			- In [Lab 4](https://inst.eecs.berkeley.edu/~cs61a/sp20/lab/lab04/#q7), we examined the Subsequences problem. A subsequence of a sequence  `S`  is a sequence of elements from  `S` , in the same order they appear in  `S` , but possibly with elements missing. For example, the lists  `[]` ,  `[1, 3]` ,  `[2]` , and  `[1, 3, 2]`  are subsequences of  `[1, 3, 2]` . Again, we want to write a function that takes a list and returns a list of lists, where each individual list is a subsequence of the original input.
+			- This time we have another condition: we only want the subsequences for which consecutive elements are *nondecreasing*. For example,  `[1, 3, 2]`  is a subsequence of  `[1, 3, 2, 4]` , but since 2 < 3, this subsequence would *not* be included in our result.
+			- **Fill in the blanks** to complete the implementation of the  `inc_subseqs`  function. You may assume that the input list contains no negative elements.
+			- You may use the provided helper function  `insert_into_all` , which takes in an  `item`  and a list of lists and inserts the  `item`  to the front of each list.
+			- ```python
+			  def inc_subseqs(s):
+			      """Assuming that S is a list, return a nested list of all subsequences
+			      of S (a list of lists) for which the elements of the subsequence
+			      are strictly nondecreasing. The subsequences can appear in any order.
+			  
+			      >>> seqs = inc_subseqs([1, 3, 2])
+			      >>> sorted(seqs)
+			      [[], [1], [1, 2], [1, 3], [2], [3]]
+			      >>> inc_subseqs([])
+			      [[]]
+			      >>> seqs2 = inc_subseqs([1, 1, 2])
+			      >>> sorted(seqs2)
+			      [[], [1], [1], [1, 1], [1, 1, 2], [1, 2], [1, 2], [2]]
+			      """
+			      def subseq_helper(s, prev):
+			          if not s:
+			              return [[]]
+			          elif s[0] < prev:
+			              return subseq_helper(s[1:], prev)
+			          else:
+			              a = subseq_helper(s[1:], s[0])
+			              b = subseq_helper(s[1:], prev)
+			              return insert_into_all(s[0], a) + b
+			      return subseq_helper(s, 0)
+			  ```
 		-
 - # Discussion
 	- ## Disc01: Control, Environment Diagrams
@@ -602,9 +698,109 @@
 			      return words
 			  ```
 	- ## Disc 07: Object-Oriented Programming, Linked Lists
+	  collapsed:: true
 		- ![disc07_sol.pdf](../assets/disc07_sol_1659154854870_0.pdf)
+		- ### 3.2 Linked List #linked-list
+			- Write a function that takes in a Python list of linked lists and multiplies them
+			  element-wise. It should return a new linked list.
+			  If not all of the `Link` objects are of equal length, return a linked list whose length is that of the shortest linked list given. You may assume the `Link` objects are shallow linked lists, and that `lst_of_lnks` contains at least one linked list.
+			- ```python
+			  def multiply_lnks(lst_of_lnks): """
+			          >>> a = Link(2, Link(3, Link(5)))
+			          >>> b = Link(6, Link(4, Link(2)))
+			          >>> c = Link(4, Link(1, Link(0, Link(2))))
+			          >>> p = multiply_lnks([a, b, c])
+			          >>> p.first
+			          48
+			          >>> p.rest.first
+			          12
+			          >>> p.rest.rest.rest is Link.empty
+			          True
+			          """
+			  ```
+			- ```python
+			  # Recursive Version:
+			  product = 1
+			  for lnk in lst_of_lnks:
+			  	if lnk is Link.empty: 
+			        	return Link.empty
+			  	product *= lnk.first
+			  lst_of_lnks_rests = [lnk.rest for lnk in lst_of_lnks] 
+			  return Link(product, multiply_lnks(lst_of_lnks_rests))
+			  ```
+			- ```python
+			  # Iterative Version:
+			  import operator
+			  from functools import reduce 
+			  def prod(factors):
+			  	return reduce(operator.mul, factors, 1)
+			  
+			  head = Link.empty
+			  tail = head
+			  while Link.empty not in lst_of_lnks:
+			  	all_prod = prod([l.first for l in lst_of_lnks]) 
+			      if head is Link.empty:
+			        	head = Link(all_prod)
+			  		tail = head 
+			  	else:
+			      	tail.rest = Link(all_prod)
+			  		tail = tail.rest
+			  	lst_of_lnks = [l.rest for l in lst_of_lnks]
+			  return head
+			  ```
+		- ### 1. Midterm Review Snax #recursion
+			- ```python
+			  def feed(snax, x, y):
+			  	"""
+			  	>>> feed([1, 1, 1], 2, 2) # The two robots both refill once at the beginning
+			  	2
+			  	>>> feed([1, 2, 2], 2, 2) # Only one robot refills to feed the middle student
+			  	3
+			  	>>> feed([1, 1, 1, 2, 2], 2, 2)
+			  	4
+			  	>>> feed([3, 2, 1, 3, 2, 1, 1, 2, 3], 3, 3)
+			  	6
+			  	"""
+			  	def helper(lst, p, q):
+			  		if p < 0 or q < 0:
+			  			return float("inf")
+			  		elif not lst:
+			  			return 0
+			  		elif len(lst) == 1:
+			  			return not (p >= lst[0] or q >= lst[0])
+			  		else:
+			  			a = helper(lst[1:-1], p - lst[0], q - lst[-1]) # No one refills
+			  			b = 2 + helper(lst[1:-1], x - lst[0], y - lst[-1]) # Both refill
+			  			c = 1 + helper(lst[1:-1], x - lst[0], q - lst[-1]) # Only robot A refills
+			  			d = 1 + helper(lst[1:-1], p - lst[0], y - lst[-1]) # Only robot B refills
+			  			return min(a, b, c, d)
+			  	return helper(snax, 0, 0)
+			  ```
+			- For the base case:
+			  ```python
+			  elif len(lst) == 1:
+			    	return not (p >= lst[0] or q >= lst[0])
+			  ```
+			  The return value `True` or `False` means `1` or `0` in number, so in this case, if either `p` or `q` can satisfy the requirement, it returns `False` which equals to `0`, otherwise, it returns `1`.
 	- ## Disc 08: Efficiency
 		- ![disc08.pdf](../assets/disc08_1659154978217_0.pdf)
+		- ### Here are some general guidelines for finding the order of growth for the runtime of a function: #complexity
+			- #### If the function is recursive or iterative, you can subdivide the problem as seen above:
+				- Count the number of recursive calls/iterations that will be made in terms of input size n.
+				- Find how much work is done per recursive call or iteration in terms of input size n.
+			- The answer is usually the product of the above two, but be sure to pay attention to control flow!
+			- #### If the function calls helper functions that are not constant-time, you need to take the runtime of the helper functions into consideration.
+			- #### We can ignore constant factors. For example 1000000n and n steps are both linear.
+			- #### We can also ignore smaller factors. For example if `h` calls `f` and `g`, and `f` is Quadratic while `g` is linear, then `h` is Quadratic.
+			- #### For the purposes of this class, we take a fairly coarse view of efficiency. All the problems we cover in this course can be grouped as one of the following
+				- **Constant:** the amount of time does not change based on the input size.
+				  Rule: `n → 2n` means `t → t`.
+				- **Logarithmic:** the amount of time changes based on the logarithm of the input size. Rule: `n → 2n` means `t → t+k`.
+				- **Linear:** the amount of time changes based on the logarithm of the input size. 
+				  Rule: `n → 2n` means `t → 2t`.
+				- **Quadratic:** the amount of time changes based on the logarithm of the input size. 
+				  Rule: `n → 2n` means `t → 4t`.
+				- **Exponential:** the amount of time changes based on the logarithm of the input size. Rule: `n → n+1` means `t → 2t`.
 	- ## Disc 09: Scheme
 		- ![disc09_sol.pdf](../assets/disc09_sol_1659154865647_0.pdf)
 	- ## Disc 10: Interpreters
@@ -629,6 +825,8 @@
 	- ## Guerrilla 02: Data Abstraction, Trees, Nonlocal, Iterators & Generators
 	  collapsed:: true
 		- ![guer02.pdf](../assets/guer02_1658274771831_0.pdf)
+	- ## Guerrilla 03: Linked Lists, Object-Oriented Programming
+		- ![guer03.pdf](../assets/guer03_1660099193805_0.pdf)
 - # Misc
 	- ## Sp18 Midterm 2 Problem 4(b): #recursion
 		- Implement `combo`, which takes two non-negative integers `a` and `b`. It returns the smallest integer that contains all of the digits of `a` in order, as well as all of the digits of `b` in order.

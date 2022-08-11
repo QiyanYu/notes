@@ -58,6 +58,12 @@
  {:block/name "aug 4th, 2022",
   :block/created-at 1659596824328,
   :block/updated-at 1659596824328}
+ {:block/name "aug 5th, 2022",
+  :block/created-at 1660088820083,
+  :block/updated-at 1660088820083}
+ {:block/name "aug 9th, 2022",
+  :block/created-at 1660088824116,
+  :block/updated-at 1660088824116}
  {:block/name "autoboxing",
   :block/created-at 1648145010962,
   :block/updated-at 1648145010962}
@@ -117,7 +123,7 @@
   :block/updated-at 1654736639468}
  {:block/name "cs 61a my solutions",
   :block/created-at 1657217952014,
-  :block/updated-at 1659586982565}
+  :block/updated-at 1660099194341}
  {:block/name "cs 61a notes",
   :block/created-at 1652461404249,
   :block/updated-at 1659586242611}
