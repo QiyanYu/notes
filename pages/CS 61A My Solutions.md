@@ -440,7 +440,43 @@
 			              return insert_into_all(s[0], a) + b
 			      return subseq_helper(s, 0)
 			  ```
-		-
+		- ### [#A] Q5: Generate Permutations #recursion
+			- Given a sequence of unique elements, a *permutation* of the sequence is a list containing the elements of the sequence in some arbitrary order. For example,  `[2, 1, 3]` ,  `[1, 3, 2]` , and  `[3, 2, 1]`  are some of the permutations of the sequence  `[1, 2, 3]` .
+			- Implement  `permutations` , a generator function that takes in a sequence  `seq`  and returns a generator that yields all permutations of  `seq` .
+			- Permutations may be yielded in any order. Note that the doctests test whether you are yielding all possible permutations, but not in any particular order. The built-in  `sorted`  function takes in an iterable object and returns a list containing the elements of the iterable in non-decreasing order.
+			- ```python
+			  def permutations(seq):
+			      """Generates all permutations of the given sequence. Each permutation is a
+			      list of the elements in SEQ in a different order. The permutations may be
+			      yielded in any order.
+			  
+			      >>> perms = permutations([100])
+			      >>> type(perms)
+			      <class 'generator'>
+			      >>> next(perms)
+			      [100]
+			      >>> try:
+			      ...     next(perms)
+			      ... except StopIteration:
+			      ...     print('No more permutations!')
+			      No more permutations!
+			      >>> sorted(permutations([1, 2, 3])) # Returns a sorted list containing elements of the generator
+			      [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
+			      >>> sorted(permutations((10, 20, 30)))
+			      [[10, 20, 30], [10, 30, 20], [20, 10, 30], [20, 30, 10], [30, 10, 20], [30, 20, 10]]
+			      >>> sorted(permutations("ab"))
+			      [['a', 'b'], ['b', 'a']]
+			      """
+			      if not seq:
+			          yield []
+			      else:
+			          for perm in permutations(seq[1:]):
+			              for i in range(len(seq)):
+			                  yield perm[:i] + list(seq[0:1]) + perm[i:]
+			  ```
+			- We can get the initial permutations by taking all the permutation of the smaller list, and insert the first element into all possible position to get all kinds of permutations.
+			-
+-
 - # Discussion
 	- ## Disc01: Control, Environment Diagrams
 	  collapsed:: true

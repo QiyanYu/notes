@@ -690,7 +690,33 @@ title:: CS 61A Notes
 	- ## Scheme
 		- ### Lambda Expressions
 			- `(lambda (<formal-parameters>) <body>)`
-		-
+		- ### Let Expression
+			- The let special form binds symbols to values temporarily; just for one expression
+			- Different from Swift or JavaScript
+		- ### Scheme Lists
+			- **cons**: Two-argument procedure that creates a linked list
+			- **car**: Procedure that returns the first element of a list
+			- **cdr**: Procedure that returns the rest of a list
+			- **nil**: The empty list
+			- ![image.png](../assets/image_1660254663337_0.png){:height 301, :width 434}
+		- ### Programs as Data
+			- The built-in Scheme list data structure (which is a linked list) can represent combinations
+		- ### While Statements in Scheme
+			- ```python
+			  x = 2
+			  total = 0
+			  while x < 10: 
+			    	total += x * x
+			      x += 2
+			  ```
+			- ```scheme
+			  (begin
+			   (define (f x total)
+			     (if (< x 10)
+			         (f (+ x 2) (+ total (* x x)))
+			         total))
+			   (f 2 0))
+			  ```
 - # Chapter 4: Data Processing
 	- ## Python built-in functions examples
 	  collapsed:: true
