@@ -348,6 +348,7 @@
 		- <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=def%20moon%28f%29%3A%0A%20%20%20%20sun%20%3D%200%0A%20%20%20%20moon%20%3D%20%5Bsun%5D%0A%20%20%20%20def%20run%28x%29%3A%0A%20%20%20%20%20%20%20%20nonlocal%20sun,%20moon%0A%20%20%20%20%20%20%20%20def%20sun%28sun%29%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20%5Bsun%5D%0A%20%20%20%20%20%20%20%20y%20%3D%20f%28x%29%0A%20%20%20%20%20%20%20%20moon.append%28sun%28y%29%29%0A%20%20%20%20%20%20%20%20return%20moon%5B0%5D%20and%20moon%5B1%5D%0A%20%20%20%20return%20run%0A%0Amoon%28lambda%20x%3A%20moon%29%281%29&codeDivHeight=400&codeDivWidth=350&cumulative=true&curInstr=0&origin=composingprograms.js&py=3&rawInputLstJSON=%5B%5D"> </iframe>
 		-
 	- ## Lab 8: Midterm Review
+	  collapsed:: true
 		- ### Q1: Insert #linked-list
 			- Implement a function  `insert`  that takes a  `Link` , a  `value` , and an  `index` , and inserts the  `value`  into the  `Link`  at the given  `index` . You can assume the linked list already has at least one element. Do not return anything --  `insert`  should mutate the linked list.
 			- ```python
@@ -472,10 +473,89 @@
 			      else:
 			          for perm in permutations(seq[1:]):
 			              for i in range(len(seq)):
-			                  yield perm[:i] + list(seq[0:1]) + perm[i:]
+			                  yield perm[:i] + list(seq[:1]) + perm[i:]
 			  ```
 			- We can get the initial permutations by taking all the permutation of the smaller list, and insert the first element into all possible position to get all kinds of permutations.
-			-
+		- ### Q10: Deep Linked List Length #recursion
+			- A linked list that contains one or more linked lists as elements is called a *deep* linked list. Write a function  `deep_len`  that takes in a (possibly deep) linked list and returns the *deep length* of that linked list. The deep length of a linked list is the total number of non-link elements in the list, as well as the total number of elements contained in all contained lists. See the function's doctests for examples of the deep length of linked lists.
+			- ```python
+			  def deep_len(lnk):
+			      """ Returns the deep length of a possibly deep linked list.
+			  
+			      >>> deep_len(Link(1, Link(2, Link(3))))
+			      3
+			      >>> deep_len(Link(Link(1, Link(2)), Link(3, Link(4))))
+			      4
+			      >>> levels = Link(Link(Link(1, Link(2)), \
+			              Link(3)), Link(Link(4), Link(5)))
+			      >>> print(levels)
+			      <<<1 2> 3> <4> 5>
+			      >>> deep_len(levels)
+			      5
+			      """
+			      if lnk is Link.empty:
+			          return 0
+			      elif isinstance(lnk, int):
+			          return 1
+			      else:
+			          return deep_len(lnk.first) + deep_len(lnk.rest)
+			  ```
+		- ### Q12: Prune Small #recursion #tree
+			- Complete the function  `prune_small`  that takes in a  `Tree`   `t`  and a number  `n`  and prunes  `t`  mutatively. If  `t`  or any of its branches has more than  `n`  branches, the  `n`  branches with the smallest labels should be kept and any other branches should be *pruned*, or removed, from the tree.
+			- ```python
+			  def prune_small(t, n):
+			      """Prune the tree mutatively, keeping only the n branches
+			      of each node with the smallest label.
+			  
+			      >>> t1 = Tree(6)
+			      >>> prune_small(t1, 2)
+			      >>> t1
+			      Tree(6)
+			      >>> t2 = Tree(6, [Tree(3), Tree(4)])
+			      >>> prune_small(t2, 1)
+			      >>> t2
+			      Tree(6, [Tree(3)])
+			      >>> t3 = Tree(6, [Tree(1), Tree(3, [Tree(1), Tree(2), Tree(3)]), Tree(5, [Tree(3), Tree(4)])])
+			      >>> prune_small(t3, 2)
+			      >>> t3
+			      Tree(6, [Tree(1), Tree(3, [Tree(1), Tree(2)])])
+			      """
+			      while len(t.branches) > n:
+			          largest = max(t.branches, key=lambda x: x.label)
+			          t.branches.remove(largest)
+			      for b in t.branches:
+			          prune_small(b, n)
+			  ```
+		- ### [#A] Q13: Number of Trees #recursion #tree
+			- How many different possible full binary tree (each node has 2 branches or 0, but never 1) structures exist that have exactly n leaves?
+			- ```python
+			  # Recursion / Tree Recursion
+			  def num_trees(n):
+			      """How many full binary trees have exactly n leaves? E.g.,
+			  
+			      1   2        3       3    ...
+			      *   *        *       *
+			         / \      / \     / \
+			        *   *    *   *   *   *
+			                / \         / \
+			               *   *       *   *
+			  
+			      >>> num_trees(1)
+			      1
+			      >>> num_trees(2)
+			      1
+			      >>> num_trees(3)
+			      2
+			      >>> num_trees(8)
+			      429
+			  
+			      """
+			      if n <= 2:
+			          return 1
+			      return sum([num_trees(i) * num_trees(n - i) for i in range(1, n)])
+			  ```
+	- ## Lab 9: Scheme
+		-
 -
 - # Discussion
 	- ## Disc01: Control, Environment Diagrams
@@ -819,6 +899,7 @@
 			  ```
 			  The return value `True` or `False` means `1` or `0` in number, so in this case, if either `p` or `q` can satisfy the requirement, it returns `False` which equals to `0`, otherwise, it returns `1`.
 	- ## Disc 08: Efficiency
+	  collapsed:: true
 		- ![disc08.pdf](../assets/disc08_1659154978217_0.pdf)
 		- ### Here are some general guidelines for finding the order of growth for the runtime of a function: #complexity
 			- #### If the function is recursive or iterative, you can subdivide the problem as seen above:
@@ -839,6 +920,16 @@
 				- **Exponential:** the amount of time changes based on the logarithm of the input size. Rule: `n → n+1` means `t → 2t`.
 	- ## Disc 09: Scheme
 		- ![disc09_sol.pdf](../assets/disc09_sol_1659154865647_0.pdf)
+		- ### Questions 5.1
+			- Write a function which takes two lists and concatenates them.
+			- Notice that simply calling `(cons a b)` would not work because it will create a deep list. Do not call builtin procedure `append`, which does the same thing as `my-append`.
+			- ```scheme
+			  (define (my-append a b)
+			    if (null? a)
+			    b
+			    (cons (car a) (my-append (cdr a) b))
+			  )
+			  ```
 	- ## Disc 10: Interpreters
 		- ![disc10_sol.pdf](../assets/disc10_sol_1659154881273_0.pdf)
 - # Guerrilla

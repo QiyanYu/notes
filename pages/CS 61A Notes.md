@@ -717,6 +717,40 @@ title:: CS 61A Notes
 			         total))
 			   (f 2 0))
 			  ```
+		- ### Syntax
+			- The list procedure takes in an arbitrary amount of arguments. Because it is a procedure, all operands are evaluated when list is called. A list is constructed with the values of these operands and is returned.
+			- The quote special form takes in a single operand. It returns this operand exactly as is, without evaluating it. Note that this special form can be used to return any value, not just a list.
+			- ```scheme
+			  scm> (define x 2) 
+			  scm> (list 1 x 3)
+			  (1 2 3) 
+			  scm> (quote (1 x 3))
+			  (1 x 3) 
+			  scm> '(1 x 3) ; Equivalent to the previous quote expression(1 x 3)
+			  ```
+			- `=`, `eq?`, `equal?`
+				- `=` can only be used for comparing numbers.
+				- `eq?` behaves like `==` in Python for comparing two non-pairs (numbers, booleans, etc.). Otherwise, `eq?` behaves like `is` in Python.
+				- `equal?` compares pairs by determining if their cars are equal? and their cdrs are equal?(that is, they have the same contents). Otherwise, `equal?` behaves like `eq?`.
+			- ```scheme
+			  scm> (define a '(1 2 3)) 
+			  a 
+			  scm> (= a a) 
+			  Error 
+			  scm> (equal? a '(1 2 3))
+			  #t 
+			  scm> (eq? a '(1 2 3))
+			  #f 
+			  scm> (define b a) 
+			  b 
+			  scm> (eq? a b)
+			  #t
+			  ```
+			-
+		- ### Misc
+			- Only `#f` is a false-y value in Scheme, everything else is truth-y. In particular, 0 is **truthy**!
+			- All Scheme procedures are lambda procedures.
+			- All lists in Scheme are linked lists.
 - # Chapter 4: Data Processing
 	- ## Python built-in functions examples
 	  collapsed:: true
