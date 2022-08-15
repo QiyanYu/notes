@@ -746,11 +746,15 @@ title:: CS 61A Notes
 			  scm> (eq? a b)
 			  #t
 			  ```
-			-
+		- ### `If` Expression in Python vs. Scheme
+			- Although the if expression code in Python and Scheme may look the same, what happens when each block of code is evaluated is actually very different. Specifically, the Scheme expression, given that it is an expression, evaluates to some value. However, the Python  `if`  statement simply directs the flow of the program.
+			- Another difference between the two is that it's possible to add more lines of code into the suites of the Python  `if`  statement, while a Scheme  `if`  expression expects just a single expression for each of the true result and the false result.
+			- One final difference is that in Scheme, you cannot write  `elif`  cases. If you want to have multiple cases using the  `if`  expression, you would need multiple branched  `if`  expressions.
 		- ### Misc
 			- Only `#f` is a false-y value in Scheme, everything else is truth-y. In particular, 0 is **truthy**!
 			- All Scheme procedures are lambda procedures.
 			- All lists in Scheme are linked lists.
+			-
 - # Chapter 4: Data Processing
 	- ## Python built-in functions examples
 	  collapsed:: true
