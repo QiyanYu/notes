@@ -871,6 +871,19 @@ title:: CS 61A Course Notes
 				  2
 				  ```
 	- ## 4.3 Declarative Programming
+		- ### Execution Order
+			- We can also describe SQL's implementation using the following code as an example. Imagine the  `SELECT` ,  `FROM` ,  `WHERE` , and  `ORDER BY`  clauses are implemented as functions which act on rows. Here's a simplified view of how SQL might work, if implemented in simple Python.
+			- ```python
+			  output_table = []
+			  for row in FROM(*input_tables):
+			      if WHERE(row):
+			          output_table += [SELECT(row)]
+			  if ORDER_BY:
+			      output_table = ORDER_BY(output_table)
+			  if LIMIT:
+			      output_table = output_table[:LIMIT]
+			  ```
+			- **Note that** the  `ORDER BY`  and  `LIMIT`  clauses are applied only at the end after all the rows in the output table have been determined.
 		- ### Declarative Programming
 			- In **declarative programming** such as SQL & Prolog:
 				- A "program" is a description of the desired result.

@@ -981,6 +981,8 @@
 			  ```
 	- ## Disc 10: Interpreters
 		- ![disc10_sol.pdf](../assets/disc10_sol_1659154881273_0.pdf)
+	- ## Disc 11: SQL
+		-
 - # Guerrilla
   collapsed:: true
 	- ## Guerrilla 00: Higher-Order Functions, Environment Diagrams, Control
