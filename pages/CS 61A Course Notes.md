@@ -848,7 +848,6 @@ title:: CS 61A Course Notes
 			      # OR
 			      return all(map(lambda x: s.count(x) > 1, s))
 			  ```
-	-
 	- ## 4.2 Implicit sequences
 	  collapsed:: true
 		- ### A dictionary, its keys, its values, and its items are all iterable values. #python
@@ -871,6 +870,17 @@ title:: CS 61A Course Notes
 				  >>> next(g)
 				  2
 				  ```
--
+	- ## 4.3 Declarative Programming
+		- ### Declarative Programming
+			- In **declarative programming** such as SQL & Prolog:
+				- A "program" is a description of the desired result.
+				- The interpreter figures out how to generate the result.
+			- In **imperative language** such as Python & Scheme:
+				- A "program" is a description of computational process.
+				- The interpreter carries out execution/evaluation rules.
+		- ### Joining a Table with Itself
+			- Two tables may share a column name; dot expressions and aliases disambiguate column values
+			- ![image.png](../assets/image_1660714233143_0.png){:height 286, :width 685}
+			-
 -
 - ![cs61a_homepage.pdf](../assets/cs61a_homepage_1656114998394_0.pdf)
