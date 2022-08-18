@@ -15,7 +15,7 @@
   :block/updated-at 1646757913043}
  {:block/name "apr 12th, 2022",
   :block/created-at 1649746825864,
-  :block/updated-at 1649864239556}
+  :block/updated-at 1660693020736}
  {:block/name "apr 13th, 2022",
   :block/created-at 1649838203574,
   :block/updated-at 1649964220460}
@@ -46,6 +46,33 @@
  {:block/name "arrrrghrays",
   :block/created-at 1646692199667,
   :block/updated-at 1646696118772}
+ {:block/name "aug 10th, 2022",
+  :block/created-at 1660149959737,
+  :block/updated-at 1660149959737}
+ {:block/name "aug 11th, 2022",
+  :block/created-at 1660202338733,
+  :block/updated-at 1660202338733}
+ {:block/name "aug 12th, 2022",
+  :block/created-at 1660287645949,
+  :block/updated-at 1660342688618}
+ {:block/name "aug 13th, 2022",
+  :block/created-at 1660403927608,
+  :block/updated-at 1660403927608}
+ {:block/name "aug 14th, 2022",
+  :block/created-at 1660476659855,
+  :block/updated-at 1660476659855}
+ {:block/name "aug 15th, 2022",
+  :block/created-at 1660546800758,
+  :block/updated-at 1660604786070}
+ {:block/name "aug 16th, 2022",
+  :block/created-at 1660639559604,
+  :block/updated-at 1660717937895}
+ {:block/name "aug 17th, 2022",
+  :block/created-at 1660719618806,
+  :block/updated-at 1660762192579}
+ {:block/name "aug 18th, 2022",
+  :block/created-at 1660836666516,
+  :block/updated-at 1660836666516}
  {:block/name "aug 1st, 2022",
   :block/created-at 1659337221512,
   :block/updated-at 1659368946156}
@@ -121,12 +148,12 @@
  {:block/name "course: cs 50 introduction to computer science",
   :block/created-at 1654736639468,
   :block/updated-at 1654736639468}
- {:block/name "cs 61a my solutions",
-  :block/created-at 1657217952014,
-  :block/updated-at 1660099194341}
- {:block/name "cs 61a notes",
+ {:block/name "cs 61a course notes",
   :block/created-at 1652461404249,
-  :block/updated-at 1659586242611}
+  :block/updated-at 1660763066651}
+ {:block/name "cs 61a my solutions notes",
+  :block/created-at 1657217952014,
+  :block/updated-at 1660762362754}
  {:block/name "cs 61b notes",
   :block/created-at 1650211443736,
   :block/updated-at 1654747378878}
@@ -187,6 +214,9 @@
  {:block/name "equal",
   :block/created-at 1648136728133,
   :block/updated-at 1648136728133}
+ {:block/name "f",
+  :block/created-at 1660348564537,
+  :block/updated-at 1660348564537}
  {:block/name "favorites",
   :block/created-at 1646757913041,
   :block/updated-at 1646757913041}
@@ -196,6 +226,9 @@
  {:block/name "file",
   :block/created-at 1658947647251,
   :block/updated-at 1658947647251}
+ {:block/name "file-path",
+  :block/created-at 1660348559052,
+  :block/updated-at 1660348559052}
  {:block/name "functional-programming",
   :block/created-at 1647970174482,
   :block/updated-at 1647970174482}
@@ -229,6 +262,9 @@
  {:block/name "hls__disc05_sol_1657736690813_0",
   :block/created-at 1657739875652,
   :block/updated-at 1657739875652}
+ {:block/name "hls__disc09_sol_1659154865647_0",
+  :block/created-at 1660348559046,
+  :block/updated-at 1660348559046}
  {:block/name "hof",
   :block/created-at 1655444702523,
   :block/updated-at 1655444702523}
@@ -244,6 +280,9 @@
  {:block/name "interface",
   :block/created-at 1648006075642,
   :block/updated-at 1648006075642}
+ {:block/name "interpreting",
+  :block/created-at 1660242614874,
+  :block/updated-at 1660242614874}
  {:block/name "introduction",
   :block/created-at 1646757913041,
   :block/updated-at 1650210463901}
@@ -384,7 +423,7 @@
   :block/updated-at 1647536372825}
  {:block/name "mar 19th, 2022",
   :block/created-at 1647673215570,
-  :block/updated-at 1647819273849}
+  :block/updated-at 1660683656785}
  {:block/name "mar 20th, 2022",
   :block/created-at 1647760598551,
   :block/updated-at 1647820059768}
