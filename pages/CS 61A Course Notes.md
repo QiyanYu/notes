@@ -895,5 +895,10 @@ title:: CS 61A Course Notes
 			- Two tables may share a column name; dot expressions and aliases disambiguate column values
 			- ![image.png](../assets/image_1660714233143_0.png){:height 286, :width 685}
 			-
--
+- # Misc
+	- ## MapReduce #mapreduce #distributed-system
+		- Step 1: Each element in an input collection produces zero or more key-value pairs (map).
+		- Step 2: All key-value pairs that share a key are aggregated together (shuffle).
+		- Step 3: The values for a key are processed as a sequence (reduce).
+	-
 - ![cs61a_homepage.pdf](../assets/cs61a_homepage_1656114998394_0.pdf)
