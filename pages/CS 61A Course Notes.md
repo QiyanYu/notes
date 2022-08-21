@@ -894,7 +894,8 @@ title:: CS 61A Course Notes
 		- ### Joining a Table with Itself
 			- Two tables may share a column name; dot expressions and aliases disambiguate column values
 			- ![image.png](../assets/image_1660714233143_0.png){:height 286, :width 685}
-			-
+		- ### Aggregation
+			- In contrast to the `WHERE` clause, which filters out rows, the `HAVING` clause filters out entire groups.
 - # Misc
 	- ## MapReduce #mapreduce #distributed-system
 		- Step 1: Each element in an input collection produces zero or more key-value pairs (map).
