@@ -667,6 +667,7 @@ title:: CS 61A Course Notes
 			- ![image.png](../assets/image_1659736725329_0.png)
 		- ### Space
 	- ## 2.9 Recursive Objects
+	  collapsed:: true
 		- ### Linked List Mutation #linked-list
 		  collapsed:: true
 			- [#A] Adding to an Ordered List
@@ -775,9 +776,21 @@ title:: CS 61A Course Notes
 			  >>> invert_safe(1/0) # Not handled this case
 			  ```
 	- ## Interpreter
+		- ### Programming Languages
+			- **Machine Languages:** statements are interpreted by the hardware itself
+				- A fixed set of instructions invoke operations implemented by the circuitry of the CPU.
+				- Operations refer to specific hardware memory addresses; no abstraction mechanisms.
+			- **High-level languages:** statements & expressions are interpreted by another program or compiled (translated) into another language.
+				- Provide means of abstraction such as naming, function definition, and objects.
+				- Abstract away system details to be independent of hardware and operating system.
+			- ### Interpreting V.S. Compiling
+				- Interpreting involves reading the program and executing its behavior.
+				- Compiling involves translating it into another language, such as a machine language. So that it can be executed later.
+				- And many modern languages do a mixture of both of these, compiling parts just in time in order to be executed as if they were being interpreted interactively.
 		- ### Parser
 			- A Parser takes text and returns an expression.
-			- ![image.png](../assets/image_1660675279985_0.png)
+			- A parser is a composition of two components: a lexical analyzer and a syntactic analyzer.
+			- ![image.png](../assets/image_1660675279985_0.png){:height 309, :width 592}
 			-
 			-
 - # Chapter 4: Data Processing
