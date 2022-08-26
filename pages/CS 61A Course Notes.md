@@ -791,8 +791,9 @@ title:: CS 61A Course Notes
 			- A Parser takes text and returns an expression.
 			- A parser is a composition of two components: a lexical analyzer and a syntactic analyzer.
 			- ![image.png](../assets/image_1660675279985_0.png){:height 309, :width 592}
-			-
-			-
+		- ### REPL
+			- A read-eval-print-loop, which is a mode of interaction that reads an expression, evaluates it, and prints the result for the user.
+		-
 - # Chapter 4: Data Processing
 	- ## Python built-in functions examples
 	  collapsed:: true
