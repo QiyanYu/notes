@@ -2,6 +2,11 @@ title:: CS 61A Course Notes
 
 - [Composing Programs - Textbook](https://composingprograms.com/)
 - > All lectures, labs, discussions, homework and projects are from UC Berkeley [CS61A sp20](https://inst.eecs.berkeley.edu/~cs61a/sp20/)
+- TODO Final Review
+	- [Final Examples](https://www.youtube.com/watch?v=t2Xt1Qs1ka8&list=PL6BsET-8jgYVQm4_mxRk5m1stI2awF6GR)
+	- [Lab 12: Final Review](https://inst.eecs.berkeley.edu/~cs61a/sp20/lab/lab12/)
+	- [Disc 12: Final Review](https://inst.eecs.berkeley.edu/~cs61a/sp20/disc/disc12.pdf)
+	-
 - # Chapter 1: Building Abstractions with Functions
 	- ## 1.1 Getting Started
 	  collapsed:: true
