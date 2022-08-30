@@ -122,6 +122,7 @@
 		- ### Q6: Anonymous factorial
 			- To write a recursive function, we have always given it a name using a `def` or assignment statement so that we can refer to the function within its own body. In this question, your job is to define fact recursively without giving it a name!
 	- ## HW 05
+	  collapsed:: true
 		- ### Q4: Generate Paths
 			- Define a generator function  `generate_paths`  which takes in a Tree  `t` , a value  `value` , and returns a generator object which yields each path from the root of  `t`  to a node that has label  `value` .
 			- ```python
@@ -981,6 +982,34 @@
 			  ```
 	- ## Disc 10: Interpreters
 		- ![disc10_sol.pdf](../assets/disc10_sol_1659154881273_0.pdf)
+		- ### List Questions:
+			- A **run-length encoding** is a method of compressing a sequence of letters. The list
+			  `(a a a b a a a a)` can be compressed to `((a 3) (b 1) (a 4))`, where the compressed
+			  version of the sequence keeps track of how many letters appear consecutively.
+			- Write a function that takes a compressed sequence and expands it into the original
+			  sequence. *Hint*: You may want to use `my-append` and `replicate`.
+			- Recall `my-append` is as follows, where `my-append` takes in two lists and concatenates
+			  them together.
+			- ```scheme
+			  (define (my-append a b)
+			    	(if (null? a)
+			          b
+			          (cons (car a) (my-append (cdr a) b))))
+			  ```
+			- ```
+			  scm> (my-append `(1 2 3) `(2 3 4))
+			  (1 2 3 2 3 4)
+			  ```
+			- ```scheme
+			  (define (uncompress s)
+			    	(if (null? s)
+			          s
+			          (my-append 
+			           	(replicate (car (car s)) (car (cdr (car s))))
+			              (uncompress (cdr s)))))
+			  ```
+	-
+	-
 	- ## Disc 11: SQL
 		-
 - # Guerrilla
