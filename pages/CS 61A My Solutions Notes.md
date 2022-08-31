@@ -79,6 +79,52 @@
 			  for x in lst[:]:
 			  ```
 		- LATER Extra Credit & Optional Problem
+	- ## Scheme
+		- [Project description](https://inst.eecs.berkeley.edu/~cs61a/sp20/proj/scheme/)
+		- ### Problem 2
+			- > `lookup`  takes a symbol and returns the value bound to that name in the first  `Frame` that the name is found in the current environment. Recall that an *environment* is defined as a frame, its parent frame, and all its ancestor frames, including the Global Frame.
+			- ```python
+			  def lookup(self, symbol):
+			      """Return the value bound to SYMBOL. Errors if SYMBOL is not found."""
+			      # BEGIN PROBLEM 2
+			      "*** YOUR CODE HERE ***"
+			      if symbol in self.bindings.keys():
+			          return self.bindings[symbol]
+			      if self.parent:
+			          return self.parent.lookup(symbol)
+			      # END PROBLEM 2
+			      raise SchemeError('unknown identifier: {0}'.format(symbol))
+			  ```
+			- Using `lookup()` in `if self.parent:` is a recursive way to go through all the ancestors.
+		- ### Problem 5
+			- ![image.png](../assets/image_1661915732406_0.png)
+			- ```python
+			      if scheme_symbolp(target):
+			          # Checks that expressions is a list of length exactly 2
+			          validate_form(expressions, 2, 2)
+			          # BEGIN PROBLEM 5
+			          "*** YOUR CODE HERE ***"
+			          val = scheme_eval(expressions.rest.first, env)
+			          env.define(target, val)
+			          return target
+			          # END PROBLEM 5
+			  ```
+			- From the slide we will notice that the expression is `expressions.rest.first`
+		- ### Problem 14
+			- The  `let`  special form binds symbols to values locally, giving them their initial values. For example:
+			- ```scheme
+			  scm> (define x 5)
+			  x
+			  scm> (define y 'bye)
+			  y
+			  scm> (let ((x 42)
+			             (y (* x 10)))  ; x refers to the global value of x, not 42
+			         (list x y))
+			  (42 50)
+			  scm> (list x y)
+			  (5 bye)
+			  ```
+			-
 - # Homework
 	- ## HW 02
 	  collapsed:: true
