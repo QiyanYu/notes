@@ -124,7 +124,31 @@
 			  scm> (list x y)
 			  (5 bye)
 			  ```
-			-
+		- ### Problem 15
+			- Implement the  `enumerate`  procedure, which takes in a list of values and returns a list of two-element lists, where the first element is the index of the value, and the second element is the value itself.
+			- ```scheme
+			  scm> (enumerate '(3 4 5 6))
+			  ((0 3) (1 4) (2 5) (3 6))
+			  scm> (enumerate '())
+			  ()
+			  ```
+			- **Note:** Can not use `cons`, since this is like `append()` function in Python.
+			- ((62f2f201-6ae6-4496-a3ec-2c2574368100))
+			- ```scheme
+			  (define (enumerate s)
+			    (define (enum_helper i lst)
+			      (if (null? lst)
+			        nil
+			        (cons 
+			          ;list vs. cons like append() vs. extend() in Python
+			          (list i (car lst)) 
+			          (enum_helper (+ i 1) (cdr lst))
+			        )
+			      )
+			    )
+			    (enum_helper 0 s)
+			  )
+			  ```
 - # Homework
 	- ## HW 02
 	  collapsed:: true
@@ -790,6 +814,7 @@
 			  lst3[5] is lst2[5] # True
 			  ```
 			- `append()` vs `extend()` #python
+			  id:: 62f2f201-6ae6-4496-a3ec-2c2574368100
 				- `append(el)`: Adds `el` to the end of the list, and returns `None`
 				- `extend(lst)`: Extends the list by concatenating it with `lst`, and returns `None`
 			- After copy a list, the sublist inside the original list and copied list both point to the same object.
