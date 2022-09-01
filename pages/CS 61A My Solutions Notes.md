@@ -124,7 +124,7 @@
 			  scm> (list x y)
 			  (5 bye)
 			  ```
-		- ### Problem 15
+		- ### [#B] Problem 15
 			- Implement the  `enumerate`  procedure, which takes in a list of values and returns a list of two-element lists, where the first element is the index of the value, and the second element is the value itself.
 			- ```scheme
 			  scm> (enumerate '(3 4 5 6))
@@ -132,7 +132,7 @@
 			  scm> (enumerate '())
 			  ()
 			  ```
-			- **Note:** Can not use `cons`, since this is like `append()` function in Python.
+			- **Note:** Can not use `cons`, since this is like `extend()` function in Python.
 			- ((62f2f201-6ae6-4496-a3ec-2c2574368100))
 			- ```scheme
 			  (define (enumerate s)
@@ -148,6 +148,35 @@
 			    )
 			    (enum_helper 0 s)
 			  )
+			  ```
+		- ### [#A] Problem 17 #recursion
+			- Define a function  `nondecreaselist` , which takes in a scheme list of numbers and outputs a list of lists, which overall has the same numbers in the same order, but grouped into lists that are non-decreasing.
+			- For example, if the input is a list containing elements
+			- ```
+			     (1 2 3 4 1 2 3 4 1 1 1 2 1 1 0 4 3 2 1)
+			  ```
+			- the output should contain elements
+			- ```
+			     ((1 2 3 4) (1 2 3 4) (1 1 1 2) (1 1) (0 4) (3) (2) (1))
+			  ```
+			- Solution:
+			- ```scheme
+			  (define (nondecreaselist s)
+			  ; BEGIN PROBLEM 17
+			    (cond
+			      ((null? (cdr s)) (cons s nil))
+			      ((> (car s) (cadr s))
+			        (cons (cons (car s) nil) (nondecreaselist (cdr s)))
+			      )
+			      (else
+			        (cons 
+			          (cons (car s) (car (nondecreaselist (cdr s)))) 
+			          (cdr (nondecreaselist (cdr s)))
+			        )
+			      )
+			    )
+			  )
+			  ; END PROBLEM 17
 			  ```
 - # Homework
 	- ## HW 02

@@ -762,6 +762,7 @@ title:: CS 61A Course Notes
 			- All Scheme procedures are lambda procedures.
 			- All lists in Scheme are linked lists.
 	- ## Exceptions
+	  collapsed:: true
 		- ### Assertion
 			- `assert <expression>, <string>`
 			- Assertions are designed to be used liberally. They can be ignored to increase efficiency by running Python with the `-O` flag. `O` stands for optimized.
@@ -920,5 +921,23 @@ title:: CS 61A Course Notes
 		- Step 1: Each element in an input collection produces zero or more key-value pairs (map).
 		- Step 2: All key-value pairs that share a key are aggregated together (shuffle).
 		- Step 3: The values for a key are processed as a sequence (reduce).
-	-
+	- ## Tail Recursion
+		- ### Functional Programming
+			- All functions are pure functions. They don't have side-effects.
+			- No re-assignment and no mutable data types.
+			- Name-value binding are permanent.
+			- Advantages of functional programming:
+				- The value of an expression is independent of the order in which sub-expressions are evaluated.
+				- Sub-expressions can safely be evaluated in parallel or on demand (lazily).
+				- **Referential transparency:** The value of an expression does not change when we substitute one of its subexpression with the value of that subexpression.
+			- > But... no `for/while` statements! How can we make basic iteration efficient?
+		- ### Tail Calls
+			- A procedure call that has not yet returned is *active*. Some procedure calls are *tail calls*. A Scheme interpreter should support an *unbounded number* of active tail calls using only a *constant* amount of space.
+			- A tail call is a call expression in a *tail context*:
+				- The last body sub-expression in a lambda expression.
+				- Sub-expressions 2&3 in a tail context **if** expression
+-
+-
+-
+-
 - ![cs61a_homepage.pdf](../assets/cs61a_homepage_1656114998394_0.pdf)

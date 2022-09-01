@@ -72,13 +72,52 @@
   :block/updated-at 1660762192579}
  {:block/name "aug 18th, 2022",
   :block/created-at 1660836666516,
-  :block/updated-at 1660859951976}
+  :block/updated-at 1660861500115}
+ {:block/name "aug 19th, 2022",
+  :block/created-at 1660893871981,
+  :block/updated-at 1660958360618}
  {:block/name "aug 1st, 2022",
   :block/created-at 1659337221512,
   :block/updated-at 1659368946156}
+ {:block/name "aug 20th, 2022",
+  :block/created-at 1660984408004,
+  :block/updated-at 1660984408004}
+ {:block/name "aug 21st, 2022",
+  :block/created-at 1661065248527,
+  :block/updated-at 1661065248527}
+ {:block/name "aug 22nd, 2022",
+  :block/created-at 1661153339993,
+  :block/updated-at 1661153339993}
+ {:block/name "aug 23rd, 2022",
+  :block/created-at 1661244098280,
+  :block/updated-at 1661276365421}
+ {:block/name "aug 24th, 2022",
+  :block/created-at 1661330511603,
+  :block/updated-at 1661330511603}
+ {:block/name "aug 25th, 2022",
+  :block/created-at 1661418238156,
+  :block/updated-at 1661551702058}
+ {:block/name "aug 26th, 2022",
+  :block/created-at 1661497436549,
+  :block/updated-at 1661497436549}
+ {:block/name "aug 27th, 2022",
+  :block/created-at 1661589270432,
+  :block/updated-at 1661589270432}
+ {:block/name "aug 28th, 2022",
+  :block/created-at 1661678868516,
+  :block/updated-at 1661678868516}
+ {:block/name "aug 29th, 2022",
+  :block/created-at 1661786884075,
+  :block/updated-at 1661796075242}
  {:block/name "aug 2nd, 2022",
   :block/created-at 1659428583596,
   :block/updated-at 1659461403002}
+ {:block/name "aug 30th, 2022",
+  :block/created-at 1661842801987,
+  :block/updated-at 1661842801987}
+ {:block/name "aug 31st, 2022",
+  :block/created-at 1661929207313,
+  :block/updated-at 1661929207313}
  {:block/name "aug 3rd, 2022",
   :block/created-at 1659510057584,
   :block/updated-at 1659547263754}
@@ -150,10 +189,10 @@
   :block/updated-at 1654736639468}
  {:block/name "cs 61a course notes",
   :block/created-at 1652461404249,
-  :block/updated-at 1660763066651}
+  :block/updated-at 1662052585218}
  {:block/name "cs 61a my solutions notes",
   :block/created-at 1657217952014,
-  :block/updated-at 1660762362754}
+  :block/updated-at 1661991154111}
  {:block/name "cs 61b notes",
   :block/created-at 1650211443736,
   :block/updated-at 1654747378878}
@@ -202,6 +241,9 @@
  {:block/name "disjoint-set",
   :block/created-at 1649260200260,
   :block/updated-at 1649260200260}
+ {:block/name "distributed-system",
+  :block/created-at 1660860946590,
+  :block/updated-at 1660860946590}
  {:block/name "doing",
   :block/created-at 1646757913041,
   :block/updated-at 1646757913041}
@@ -400,6 +442,9 @@
  {:block/name "map",
   :block/created-at 1648245066085,
   :block/updated-at 1648245066085}
+ {:block/name "mapreduce",
+  :block/created-at 1660860935482,
+  :block/updated-at 1660860935482}
  {:block/name "mar 10th, 2022",
   :block/created-at 1646905814132,
   :block/updated-at 1647017020726}
@@ -559,6 +604,9 @@
  {:block/name "reflection",
   :block/created-at 1647377777103,
   :block/updated-at 1647377777103}
+ {:block/name "sep 1st, 2022",
+  :block/created-at 1662019896337,
+  :block/updated-at 1662050821263}
  {:block/name "serializable",
   :block/created-at 1648610228841,
   :block/updated-at 1648610228841}
