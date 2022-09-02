@@ -782,6 +782,7 @@ title:: CS 61A Course Notes
 			  >>> invert_safe(1/0) # Not handled this case
 			  ```
 	- ## Interpreter
+	  collapsed:: true
 		- ### Programming Languages
 			- **Machine Languages:** statements are interpreted by the hardware itself
 				- A fixed set of instructions invoke operations implemented by the circuitry of the CPU.
@@ -918,10 +919,12 @@ title:: CS 61A Course Notes
 			- In contrast to the `WHERE` clause, which filters out rows, the `HAVING` clause filters out entire groups.
 - # Misc
 	- ## MapReduce #mapreduce #distributed-system
+	  collapsed:: true
 		- Step 1: Each element in an input collection produces zero or more key-value pairs (map).
 		- Step 2: All key-value pairs that share a key are aggregated together (shuffle).
 		- Step 3: The values for a key are processed as a sequence (reduce).
 	- ## Tail Recursion
+	  collapsed:: true
 		- ### Functional Programming
 			- All functions are pure functions. They don't have side-effects.
 			- No re-assignment and no mutable data types.
@@ -935,8 +938,47 @@ title:: CS 61A Course Notes
 			- A procedure call that has not yet returned is *active*. Some procedure calls are *tail calls*. A Scheme interpreter should support an *unbounded number* of active tail calls using only a *constant* amount of space.
 			- A tail call is a call expression in a *tail context*:
 				- The last body sub-expression in a lambda expression.
-				- Sub-expressions 2&3 in a tail context **if** expression
--
+				- Sub-expressions 2&3 in a tail context **if** expression.
+				- All non-predicate sub-expressions in a tail context **cond**.
+				- The last sub-expression in a tail context **and** or **or**.
+				- The last sub-expression in a tail context **begin**.
+			- A call expression is not a tail call if more computation is still required in the calling procedure.
+				- ![image.png](../assets/image_1662138450760_0.png){:height 143, :width 475}
+			- Linear recursive procedures can often be re-written to use tail calls.
+				- ![image.png](../assets/image_1662138615951_0.png)
+			- Eval with Tail Call Optimization
+				- The return value of the tail call is the return value of the current procedure call.
+				- Therefore, tail calls shouldn't increase the environment size.
+		- ### Tail Recursion runs in **constant space** `O(1)`
+		- ### Map Reduce
+			- #### Example: Reduce
+				- ```scheme
+				  (define (reduce procedure s start))
+				  	(if (null? s) start
+				          (reduce procedure)
+				          	(cdr s)
+				          	(procedure start (car s)))
+				  ```
+				- Recursive call is a tail call.
+				- Other calls are not; constant space depends on whether `procedure` requires constant space.
+				- ```scheme
+				  (reduce * '(3 4 5) 2)
+				  120
+				  (reduce (lambda (x y) (cons y x)) '(3 4 5) '(2))
+				  (5 4 3 2) ;'(2) is x
+				  ```
+	- ## Macros
+		- ### Macros Perform Code Transformations
+			- A macro is an operation performed on the source code of a program before evaluation.
+			- Macros exist in many languages, but are easiest to define correctly in a language like Lisp.
+			- Scheme has a **define-macro** special form that defines a source code transformation.
+			- ```scheme
+			  (define-macro (twice expr)
+			                (list 'begin expr expr))
+			  ```
+			- Evaluation procedure of a macro call expression:
+				- Evaluate the operator sub-expression, which evaluates to a macro.
+				-
 -
 -
 -

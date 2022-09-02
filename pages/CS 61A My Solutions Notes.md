@@ -178,6 +178,30 @@
 			  )
 			  ; END PROBLEM 17
 			  ```
+		- ### Problem 19
+			- Complete the function  `optimize_tail_calls`  in  `scheme.py` . It returns an alternative to  `scheme_eval`  that is properly tail recursive. That is, the interpreter will allow an unbounded number of active [tail calls](http://en.wikipedia.org/wiki/Tail_call) in constant space.
+			- The  `Thunk`  class represents a [thunk](http://en.wikipedia.org/wiki/Thunk), an expression that needs to be evaluated in an environment. When  `scheme_optimized_eval`  receives a non-atomic expression in a  `tail`  context, then it returns an  `Thunk`  instance. Otherwise, it should repeatedly call  `original_scheme_eval`  until the result is a value, rather than a  `Thunk` .
+			- Solution:
+			- ```python
+			  def optimize_tail_calls(original_scheme_eval):
+			      """Return a properly tail recursive version of an eval function."""
+			      def optimized_eval(expr, env, tail=False):
+			          """Evaluate Scheme expression EXPR in environment ENV. If TAIL,
+			          return a Thunk containing an expression for further evaluation.
+			          """
+			          if tail and not scheme_symbolp(expr) and not self_evaluating(expr):
+			              return Thunk(expr, env)
+			  
+			          result = Thunk(expr, env)
+			          # BEGIN
+			          "*** YOUR CODE HERE ***"
+			          while isinstance(result, Thunk):
+			              result = original_scheme_eval(result.expr, result.env)
+			          return result
+			          # END
+			      return optimized_eval
+			  ```
+			- LATER Need to revise. Some tests doesn't pass.
 - # Homework
 	- ## HW 02
 	  collapsed:: true
