@@ -978,6 +978,8 @@ title:: CS 61A Course Notes
 			  ```
 			- Evaluation procedure of a macro call expression:
 				- Evaluate the operator sub-expression, which evaluates to a macro.
+				- Call the macro procedure on the operand expressions *without evaluating them first*.
+				- Evaluate the expression returned from the macro procedure.
 				-
 -
 -
