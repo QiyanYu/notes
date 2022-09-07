@@ -980,7 +980,37 @@ title:: CS 61A Course Notes
 				- Evaluate the operator sub-expression, which evaluates to a macro.
 				- Call the macro procedure on the operand expressions *without evaluating them first*.
 				- Evaluate the expression returned from the macro procedure.
-				-
+			- Example:
+				- ```scheme
+				  (define (twice expr) (list 'begin expr expr))
+				  ; This is equal to (define macro (twice))
+				  (eval (twice '(print 2)))
+				  
+				  (define-macro (twice expr) (list 'begin expr expr))
+				  ; do not need to eval() and '
+				  (twice (print 2))
+				  ```
+		- ### For Macro
+			- ```scheme
+			  (define (map fn vals)
+			    (if (null? vals)
+			        ()
+			        (cons (fn (car vals))
+			              (map fn (cdr vals)))))
+			  
+			  ; example
+			  scm> (map (lambda (x) (* x x)) '(2 3 4 5))
+			  (4 9 16 25)
+			  
+			  ; using macro to rewrite
+			  (define-macro (for sym vals expr)
+			                (list 'map (list 'lambda (list sym) expr) vals))
+			  
+			  ; when run this for expression, it will build with the above map expression
+			  ; and then evaluate it 
+			  scm> (for x '(2 3 4 5) (* x x))
+			  (4 9 16 25)
+			  ```
 -
 -
 -

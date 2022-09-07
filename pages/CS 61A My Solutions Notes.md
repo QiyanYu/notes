@@ -80,6 +80,7 @@
 			  ```
 		- LATER Extra Credit & Optional Problem
 	- ## Scheme
+	  collapsed:: true
 		- [Project description](https://inst.eecs.berkeley.edu/~cs61a/sp20/proj/scheme/)
 		- ### Problem 2
 			- > `lookup`  takes a symbol and returns the value bound to that name in the first  `Frame` that the name is found in the current environment. Recall that an *environment* is defined as a frame, its parent frame, and all its ancestor frames, including the Global Frame.
@@ -178,7 +179,7 @@
 			  )
 			  ; END PROBLEM 17
 			  ```
-		- ### Problem 19
+		- ### Problem 19 Tail calls
 			- Complete the function  `optimize_tail_calls`  in  `scheme.py` . It returns an alternative to  `scheme_eval`  that is properly tail recursive. That is, the interpreter will allow an unbounded number of active [tail calls](http://en.wikipedia.org/wiki/Tail_call) in constant space.
 			- The  `Thunk`  class represents a [thunk](http://en.wikipedia.org/wiki/Thunk), an expression that needs to be evaluated in an environment. When  `scheme_optimized_eval`  receives a non-atomic expression in a  `tail`  context, then it returns an  `Thunk`  instance. Otherwise, it should repeatedly call  `original_scheme_eval`  until the result is a value, rather than a  `Thunk` .
 			- Solution:
@@ -202,6 +203,9 @@
 			      return optimized_eval
 			  ```
 			- LATER Need to revise. Some tests doesn't pass.
+		- ### Problem 20 Macro
+			- LATER Need to revise
+			- [reference link](https://github.com/lovelyfrog/cs61A/blob/master/projects/scheme/scheme.py)
 - # Homework
 	- ## HW 02
 	  collapsed:: true
@@ -245,7 +249,6 @@
 		- ### Q6: Anonymous factorial
 			- To write a recursive function, we have always given it a name using a `def` or assignment statement so that we can refer to the function within its own body. In this question, your job is to define fact recursively without giving it a name!
 	- ## HW 05
-	  collapsed:: true
 		- ### Q4: Generate Paths
 			- Define a generator function  `generate_paths`  which takes in a Tree  `t` , a value  `value` , and returns a generator object which yields each path from the root of  `t`  to a node that has label  `value` .
 			- ```python
@@ -1132,8 +1135,6 @@
 			           	(replicate (car (car s)) (car (cdr (car s))))
 			              (uncompress (cdr s)))))
 			  ```
-	-
-	-
 	- ## Disc 11: SQL
 		-
 - # Guerrilla

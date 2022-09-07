@@ -10,7 +10,8 @@ title:: CS Notes
 			- [[CS 61A My Solutions Notes]]
 	- ## 1.3 Algorithms
 		- ### 1.3.1 UC Berkeley CS 61B
-			- [[CS 61B Notes]]
+			- [[CS 61B Course Notes]]
+			- [[CS 61B My Solutions Notes]]
 	- ## 1.4 Computer System
 		- ### 1.4.1 Nand2Tetris
 			- [[Nand2Tetris Notes]]
