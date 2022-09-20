@@ -36,10 +36,10 @@
   :block/updated-at 1649172417892}
  {:block/name "apr 6th, 2022",
   :block/created-at 1649230923634,
-  :block/updated-at 1649258291206}
+  :block/updated-at 1662523028606}
  {:block/name "apr 7th, 2022",
   :block/created-at 1649314817343,
-  :block/updated-at 1649394088887}
+  :block/updated-at 1662523014901}
  {:block/name "arrays",
   :block/created-at 1647799101643,
   :block/updated-at 1647799101643}
@@ -66,16 +66,16 @@
   :block/updated-at 1660604786070}
  {:block/name "aug 16th, 2022",
   :block/created-at 1660639559604,
-  :block/updated-at 1660717937895}
+  :block/updated-at 1662501950497}
  {:block/name "aug 17th, 2022",
   :block/created-at 1660719618806,
-  :block/updated-at 1660762192579}
+  :block/updated-at 1662501943219}
  {:block/name "aug 18th, 2022",
   :block/created-at 1660836666516,
-  :block/updated-at 1660861500115}
+  :block/updated-at 1662501944996}
  {:block/name "aug 19th, 2022",
   :block/created-at 1660893871981,
-  :block/updated-at 1660958360618}
+  :block/updated-at 1662523008982}
  {:block/name "aug 1st, 2022",
   :block/created-at 1659337221512,
   :block/updated-at 1659368946156}
@@ -90,13 +90,13 @@
   :block/updated-at 1661153339993}
  {:block/name "aug 23rd, 2022",
   :block/created-at 1661244098280,
-  :block/updated-at 1661276365421}
+  :block/updated-at 1662523002889}
  {:block/name "aug 24th, 2022",
   :block/created-at 1661330511603,
   :block/updated-at 1661330511603}
  {:block/name "aug 25th, 2022",
   :block/created-at 1661418238156,
-  :block/updated-at 1661551702058}
+  :block/updated-at 1662523015792}
  {:block/name "aug 26th, 2022",
   :block/created-at 1661497436549,
   :block/updated-at 1661497436549}
@@ -189,16 +189,19 @@
   :block/updated-at 1654736639468}
  {:block/name "cs 61a course notes",
   :block/created-at 1652461404249,
-  :block/updated-at 1662072262434}
+  :block/updated-at 1662500189053}
  {:block/name "cs 61a my solutions notes",
   :block/created-at 1657217952014,
-  :block/updated-at 1661991154111}
- {:block/name "cs 61b notes",
+  :block/updated-at 1662501888164}
+ {:block/name "cs 61b course notes",
   :block/created-at 1650211443736,
-  :block/updated-at 1654747378878}
+  :block/updated-at 1662528196585}
+ {:block/name "cs 61b my solutions notes",
+  :block/created-at 1662524695470,
+  :block/updated-at 1662528214690}
  {:block/name "cs notes",
   :block/created-at 1650210254286,
-  :block/updated-at 1659282576856}
+  :block/updated-at 1662524695470}
  {:block/name "cs50",
   :block/created-at 1646757913042,
   :block/updated-at 1646757913042}
@@ -540,7 +543,7 @@
   :block/updated-at 1655700069707}
  {:block/name "nand2tetris notes",
   :block/created-at 1658947642505,
-  :block/updated-at 1659549215430}
+  :block/updated-at 1662587966619}
  {:block/name "now",
   :block/created-at 1646757913043,
   :block/updated-at 1646757913043}
@@ -604,9 +607,54 @@
  {:block/name "reflection",
   :block/created-at 1647377777103,
   :block/updated-at 1647377777103}
+ {:block/name "sep 10th, 2022",
+  :block/created-at 1662799267218,
+  :block/updated-at 1662799267218}
+ {:block/name "sep 11th, 2022",
+  :block/created-at 1662886661642,
+  :block/updated-at 1662886661642}
+ {:block/name "sep 12th, 2022",
+  :block/created-at 1662970050639,
+  :block/updated-at 1662970050639}
+ {:block/name "sep 13th, 2022",
+  :block/created-at 1663055332240,
+  :block/updated-at 1663055332240}
+ {:block/name "sep 14th, 2022",
+  :block/created-at 1663153586891,
+  :block/updated-at 1663153586891}
+ {:block/name "sep 15th, 2022",
+  :block/created-at 1663226530937,
+  :block/updated-at 1663226530937}
+ {:block/name "sep 16th, 2022",
+  :block/created-at 1663315355739,
+  :block/updated-at 1663315355739}
  {:block/name "sep 1st, 2022",
   :block/created-at 1662019896337,
   :block/updated-at 1662050821263}
+ {:block/name "sep 2nd, 2022",
+  :block/created-at 1662102013102,
+  :block/updated-at 1662102013102}
+ {:block/name "sep 3rd, 2022",
+  :block/created-at 1662193469256,
+  :block/updated-at 1662193469256}
+ {:block/name "sep 4th, 2022",
+  :block/created-at 1662285559998,
+  :block/updated-at 1662285559998}
+ {:block/name "sep 5th, 2022",
+  :block/created-at 1662365754111,
+  :block/updated-at 1662365754111}
+ {:block/name "sep 6th, 2022",
+  :block/created-at 1662453238039,
+  :block/updated-at 1662523059257}
+ {:block/name "sep 7th, 2022",
+  :block/created-at 1662536284197,
+  :block/updated-at 1662536284197}
+ {:block/name "sep 8th, 2022",
+  :block/created-at 1662620491302,
+  :block/updated-at 1662620491302}
+ {:block/name "sep 9th, 2022",
+  :block/created-at 1662710324727,
+  :block/updated-at 1662710324727}
  {:block/name "serializable",
   :block/created-at 1648610228841,
   :block/updated-at 1648610228841}

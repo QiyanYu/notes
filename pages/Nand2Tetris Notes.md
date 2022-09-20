@@ -1,6 +1,7 @@
+- ![The Elements of Computing Systems  Building a Modern Computer from First Principles (Noam Nisan, Shimon Schocken) (z-lib.org).pdf](../assets/The_Elements_of_Computing_Systems_Building_a_Modern_Computer_from_First_Principles_(Noam_Nisan,_Shimon_Schocken)_(z-lib.org)_1662582260482_0.pdf)
 - # 1. Boolean Functions and Gate Logic
 	- ## Unit 1.1: Boolean logic
-		- ![image.png](../assets/image_1658865223522_0.png){:height 388, :width 494}
+		- ![image.png](../assets/image_1658865223522_0.png){:height 260, :width 327}
 	- ## Unit 1.2: Boolean Functions Synthesis
 		- ### NAND
 			- ![image.png](../assets/image_1658860482582_0.png){:height 197, :width 164}
@@ -75,6 +76,12 @@
 				- First, it makes the RAM register whose address is xxx the selected memory register, denoted M.
 				- Second, it makes the value of the ROM register whose address is xxx the selected instruction.
 			- A data register: this is the only way to get a constant into the Hack computer. `@17; D=A`
-- ### The Hack Language Specification
-	- ![image.png](../assets/image_1659652191360_0.png)
+	- ### The Hack Language Specification
+		- ![image.png](../assets/image_1659652191360_0.png)
+- # 5 Computer Architecture
+	- ### The von Neumann Architecture
+		- ![image.png](../assets/image_1662583008014_0.png)
+		- *Stored program* concept: the computer's memory stores not only the data that the computer manipulates but also the instructions that tell the computer what to do.
+	- ### *starvation:*
+		- is when a fast processor depends on a sluggish data store for supplying its inputs and consuming its outputs.
 	-
