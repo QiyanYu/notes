@@ -202,9 +202,6 @@
  {:block/name "cs 61b my solutions notes",
   :block/created-at 1662524695470,
   :block/updated-at 1662528214690}
- {:block/name "cs 61b spring21 course notes",
-  :block/created-at 1666721825523,
-  :block/updated-at 1666721866505}
  {:block/name "cs notes",
   :block/created-at 1650210254286,
   :block/updated-at 1662524695470}
@@ -238,6 +235,9 @@
  {:block/name "cs61b lecture guides",
   :block/created-at 1648162406305,
   :block/updated-at 1652397735175}
+ {:block/name "cs61b-sp21 course notes",
+  :block/created-at 1666721825523,
+  :block/updated-at 1666721866505}
  {:block/name "data-structure",
   :block/created-at 1648228299455,
   :block/updated-at 1648228299455}
@@ -565,6 +565,9 @@
  {:block/name "oct 25th, 2022",
   :block/created-at 1666719903154,
   :block/updated-at 1666719903154}
+ {:block/name "oct 26th, 2022",
+  :block/created-at 1666767614111,
+  :block/updated-at 1666767614111}
  {:block/name "optimization",
   :block/created-at 1648171033657,
   :block/updated-at 1648171033657}
