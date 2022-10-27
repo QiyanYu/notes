@@ -1,7 +1,4 @@
-[{:block/name "1. intro, hello world java",
-  :block/created-at 1666721866504,
-  :block/updated-at 1666721866504}
- {:block/name "a",
+[{:block/name "a",
   :block/created-at 1646757913041,
   :block/updated-at 1646757913041}
  {:block/name "a*",
@@ -442,6 +439,9 @@
  {:block/name "lazy-calculation",
   :block/created-at 1648740587510,
   :block/updated-at 1648740587510}
+ {:block/name "lec01. intro, hello world java",
+  :block/created-at 1666721866504,
+  :block/updated-at 1666721866504}
  {:block/name "linked-list",
   :block/created-at 1647467027563,
   :block/updated-at 1647467027563}
@@ -568,6 +568,9 @@
  {:block/name "oct 26th, 2022",
   :block/created-at 1666767614111,
   :block/updated-at 1666767614111}
+ {:block/name "oct 27th, 2022",
+  :block/created-at 1666854041094,
+  :block/updated-at 1666854041094}
  {:block/name "optimization",
   :block/created-at 1648171033657,
   :block/updated-at 1648171033657}

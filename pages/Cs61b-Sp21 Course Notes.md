@@ -1,1 +1,1 @@
-- [[1. Intro, Hello World Java]]
+- [[Lec01. Intro, Hello World Java]]
