@@ -1,1 +1,4 @@
-- [[Lec01. Intro, Hello World Java]]
+- ## Lecture
+	- [[Lec01. Intro, Hello World Java]]
+- ## Discussion
+-

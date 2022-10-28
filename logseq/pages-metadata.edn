@@ -234,7 +234,7 @@
   :block/updated-at 1652397735175}
  {:block/name "cs61b-sp21 course notes",
   :block/created-at 1666721825523,
-  :block/updated-at 1666721866505}
+  :block/updated-at 1666900786847}
  {:block/name "data-structure",
   :block/created-at 1648228299455,
   :block/updated-at 1648228299455}
@@ -571,6 +571,9 @@
  {:block/name "oct 27th, 2022",
   :block/created-at 1666854041094,
   :block/updated-at 1666854041094}
+ {:block/name "oct 28th, 2022",
+  :block/created-at 1666942723450,
+  :block/updated-at 1666942723450}
  {:block/name "optimization",
   :block/created-at 1648171033657,
   :block/updated-at 1648171033657}
