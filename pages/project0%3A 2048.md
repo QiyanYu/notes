@@ -1,0 +1,5 @@
+-
+- ### How to re-index the JDK and set up the project from scratch. #Intellij
+	- go to File > Invalidate / Restart, then in the following window hit “Invalidate and Restart”
+	- ![image.png](../assets/image_1667153506197_0.png){:height 487, :width 608}
+-

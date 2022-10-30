@@ -201,7 +201,7 @@
   :block/updated-at 1662528214690}
  {:block/name "cs notes",
   :block/created-at 1650210254286,
-  :block/updated-at 1662524695470}
+  :block/updated-at 1667149412147}
  {:block/name "cs50",
   :block/created-at 1646757913042,
   :block/updated-at 1646757913042}
@@ -232,9 +232,9 @@
  {:block/name "cs61b lecture guides",
   :block/created-at 1648162406305,
   :block/updated-at 1652397735175}
- {:block/name "cs61b-sp21 course notes",
+ {:block/name "cs61b-sp21 notes",
   :block/created-at 1666721825523,
-  :block/updated-at 1666900786847}
+  :block/updated-at 1667153302002}
  {:block/name "data-structure",
   :block/created-at 1648228299455,
   :block/updated-at 1648228299455}
@@ -325,6 +325,9 @@
  {:block/name "inheritance",
   :block/created-at 1647381343104,
   :block/updated-at 1647381343104}
+ {:block/name "intellij",
+  :block/created-at 1667153471968,
+  :block/updated-at 1667153471968}
  {:block/name "interface",
   :block/created-at 1648006075642,
   :block/updated-at 1648006075642}
@@ -441,7 +444,7 @@
   :block/updated-at 1648740587510}
  {:block/name "lec01. intro, hello world java",
   :block/created-at 1666721866504,
-  :block/updated-at 1666721866504}
+  :block/updated-at 1667004757696}
  {:block/name "linked-list",
   :block/created-at 1647467027563,
   :block/updated-at 1647467027563}
@@ -574,6 +577,12 @@
  {:block/name "oct 28th, 2022",
   :block/created-at 1666942723450,
   :block/updated-at 1666942723450}
+ {:block/name "oct 29th, 2022",
+  :block/created-at 1667039590027,
+  :block/updated-at 1667039590027}
+ {:block/name "oct 30th, 2022",
+  :block/created-at 1667113253070,
+  :block/updated-at 1667113253070}
  {:block/name "optimization",
   :block/created-at 1648171033657,
   :block/updated-at 1648171033657}
@@ -604,6 +613,9 @@
  {:block/name "profiling",
   :block/created-at 1647474041427,
   :block/updated-at 1647474041427}
+ {:block/name "project0: 2048",
+  :block/created-at 1667153302002,
+  :block/updated-at 1667153519943}
  {:block/name "python",
   :block/created-at 1646757913043,
   :block/updated-at 1646757913043}
