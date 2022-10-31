@@ -583,6 +583,9 @@
  {:block/name "oct 30th, 2022",
   :block/created-at 1667113253070,
   :block/updated-at 1667113253070}
+ {:block/name "oct 31st, 2022",
+  :block/created-at 1667200378321,
+  :block/updated-at 1667200378321}
  {:block/name "optimization",
   :block/created-at 1648171033657,
   :block/updated-at 1648171033657}
