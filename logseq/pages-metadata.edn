@@ -178,6 +178,9 @@
  {:block/name "complexity",
   :block/created-at 1648835426433,
   :block/updated-at 1648835426433}
+ {:block/name "constructor",
+  :block/created-at 1667326801781,
+  :block/updated-at 1667326801781}
  {:block/name "contents",
   :block/created-at 1659586549714,
   :block/updated-at 1659586559415}
@@ -553,6 +556,9 @@
  {:block/name "nand2tetris notes",
   :block/created-at 1658947642505,
   :block/updated-at 1662587966619}
+ {:block/name "nov 1st, 2022",
+  :block/created-at 1667288543532,
+  :block/updated-at 1667288543532}
  {:block/name "now",
   :block/created-at 1646757913043,
   :block/updated-at 1646757913043}
@@ -618,7 +624,7 @@
   :block/updated-at 1647474041427}
  {:block/name "project0: 2048",
   :block/created-at 1667153302002,
-  :block/updated-at 1667153519943}
+  :block/updated-at 1667326831904}
  {:block/name "python",
   :block/created-at 1646757913043,
   :block/updated-at 1646757913043}
