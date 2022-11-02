@@ -1,5 +1,7 @@
 - ## Lecture
 	- [[Lec01. Intro, Hello World Java]]
+	- [[Lec02. Defining and Using Classes]]
+	-
 - ## Discussion
 	- ### 02: Introduction To Java
 		- [[Fibonacci]]

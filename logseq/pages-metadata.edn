@@ -175,6 +175,9 @@
  {:block/name "comparable-comparator",
   :block/created-at 1648006011246,
   :block/updated-at 1648006011246}
+ {:block/name "compilation",
+  :block/created-at 1667412014909,
+  :block/updated-at 1667413688032}
  {:block/name "complexity",
   :block/created-at 1648835426433,
   :block/updated-at 1648835426433}
@@ -237,7 +240,7 @@
   :block/updated-at 1652397735175}
  {:block/name "cs61b-sp21 notes",
   :block/created-at 1666721825523,
-  :block/updated-at 1667153302002}
+  :block/updated-at 1667411632173}
  {:block/name "data-structure",
   :block/created-at 1648228299455,
   :block/updated-at 1648228299455}
@@ -448,6 +451,9 @@
  {:block/name "lec01. intro, hello world java",
   :block/created-at 1666721866504,
   :block/updated-at 1667004757696}
+ {:block/name "lec02. defining and using classes",
+  :block/created-at 1667411632173,
+  :block/updated-at 1667414009246}
  {:block/name "linked-list",
   :block/created-at 1647467027563,
   :block/updated-at 1647467027563}
@@ -559,6 +565,9 @@
  {:block/name "nov 1st, 2022",
   :block/created-at 1667288543532,
   :block/updated-at 1667288543532}
+ {:block/name "nov 2nd, 2022",
+  :block/created-at 1667372410991,
+  :block/updated-at 1667372410991}
  {:block/name "now",
   :block/created-at 1646757913043,
   :block/updated-at 1646757913043}
@@ -624,7 +633,7 @@
   :block/updated-at 1647474041427}
  {:block/name "project0: 2048",
   :block/created-at 1667153302002,
-  :block/updated-at 1667326831904}
+  :block/updated-at 1667411545167}
  {:block/name "python",
   :block/created-at 1646757913043,
   :block/updated-at 1646757913043}
@@ -715,6 +724,9 @@
  {:block/name "static nested class in java",
   :block/created-at 1646440695047,
   :block/updated-at 1646456651029}
+ {:block/name "static vs. non-static",
+  :block/created-at 1667413930850,
+  :block/updated-at 1667417269234}
  {:block/name "static-class",
   :block/created-at 1646757913041,
   :block/updated-at 1646757913041}

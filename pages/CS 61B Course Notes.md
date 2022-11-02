@@ -3,7 +3,6 @@ title:: CS 61B Course Notes
 - All lectures, readings, exams and discussions are from [sp21](https://sp21.datastructur.es/index.html) .
 - # Lecture 1: Hello World Java
 - # Lecture 2: Defining and Using Classes #java
-  collapsed:: true
 	- ## **Instance variables/non-static variables**:
 		- These must be declared inside the class.
 		- In Java, instance variables or non-static variables must be declared inside the class, unlike Python or Matlab. #java #language-comparison
