@@ -568,6 +568,12 @@
  {:block/name "nov 2nd, 2022",
   :block/created-at 1667372410991,
   :block/updated-at 1667372410991}
+ {:block/name "nov 3rd, 2022",
+  :block/created-at 1667458801227,
+  :block/updated-at 1667458801227}
+ {:block/name "nov 4th, 2022",
+  :block/created-at 1667545201896,
+  :block/updated-at 1667545201896}
  {:block/name "now",
   :block/created-at 1646757913043,
   :block/updated-at 1646757913043}
@@ -726,7 +732,7 @@
   :block/updated-at 1646456651029}
  {:block/name "static vs. non-static",
   :block/created-at 1667413930850,
-  :block/updated-at 1667417269234}
+  :block/updated-at 1667418158447}
  {:block/name "static-class",
   :block/created-at 1646757913041,
   :block/updated-at 1646757913041}
