@@ -1,7 +1,8 @@
 - ## Lecture
 	- [[Lec01. Intro, Hello World Java]]
 	- [[Lec02. Defining and Using Classes]]
-	-
+	- [[Lec03. Testing]]
+	- [[Lec04: References, Recursion, and Lists]]
 - ## Discussion
 	- ### 02: Introduction To Java
 		- [[Fibonacci]]

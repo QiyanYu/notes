@@ -240,7 +240,7 @@
   :block/updated-at 1652397735175}
  {:block/name "cs61b-sp21 notes",
   :block/created-at 1666721825523,
-  :block/updated-at 1667411632173}
+  :block/updated-at 1667676069746}
  {:block/name "data-structure",
   :block/created-at 1648228299455,
   :block/updated-at 1648228299455}
@@ -454,6 +454,12 @@
  {:block/name "lec02. defining and using classes",
   :block/created-at 1667411632173,
   :block/updated-at 1667414009246}
+ {:block/name "lec03. testing",
+  :block/created-at 1667602078919,
+  :block/updated-at 1667602399344}
+ {:block/name "lec04: references, recursion, and lists",
+  :block/created-at 1667676069745,
+  :block/updated-at 1667676069745}
  {:block/name "linked-list",
   :block/created-at 1647467027563,
   :block/updated-at 1647467027563}
@@ -574,6 +580,9 @@
  {:block/name "nov 4th, 2022",
   :block/created-at 1667545201896,
   :block/updated-at 1667545201896}
+ {:block/name "nov 5th, 2022",
+  :block/created-at 1667633565961,
+  :block/updated-at 1667633565961}
  {:block/name "now",
   :block/created-at 1646757913043,
   :block/updated-at 1646757913043}
