@@ -8,3 +8,6 @@
 		- [[Fibonacci]]
 - ## Project
 	- [[project0: 2048]]
+- ## Lab
+	- [Lab2: JUnit Tests and Debugging](https://sp21.datastructur.es/materials/lab/lab2/lab2)
+-
