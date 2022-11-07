@@ -1,0 +1,6 @@
+- #java
+- ### Static Nested Classes
+	- If the nested class never uses any instance variables or methods of the out class, declare it static.
+		- Static classes cannot access outer class's instance variables or methods.
+		- Results in a minor savings of memory.
+	-
