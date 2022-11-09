@@ -4,6 +4,7 @@
 	- [[Lec03. Testing]]
 	- [[Lec04: References, Recursion, and Lists]]
 	- [[Lec05: SLLists, Nested Classes, Sentinel Nodes]]
+	- [[Lec06: DDLists, Arrays]]
 - ## Discussion
 	- ### 02: Introduction To Java
 		- [[Fibonacci]]
