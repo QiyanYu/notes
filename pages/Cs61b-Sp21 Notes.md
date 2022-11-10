@@ -5,6 +5,8 @@
 	- [[Lec04: References, Recursion, and Lists]]
 	- [[Lec05: SLLists, Nested Classes, Sentinel Nodes]]
 	- [[Lec06: DDLists, Arrays]]
+	- [[Lec07: Alists, Resizing vs. SLists]]
+	-
 - ## Discussion
 	- ### 02: Introduction To Java
 		- [[Fibonacci]]

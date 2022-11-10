@@ -240,7 +240,7 @@
   :block/updated-at 1652397735175}
  {:block/name "cs61b-sp21 notes",
   :block/created-at 1666721825523,
-  :block/updated-at 1667948649487}
+  :block/updated-at 1668041110289}
  {:block/name "data-structure",
   :block/created-at 1648228299455,
   :block/updated-at 1648228299455}
@@ -466,6 +466,9 @@
  {:block/name "lec06: ddlists, arrays",
   :block/created-at 1667948649486,
   :block/updated-at 1667949490713}
+ {:block/name "lec07: alists, resizing vs. slists",
+  :block/created-at 1668041110288,
+  :block/updated-at 1668041110288}
  {:block/name "linked-list",
   :block/created-at 1647467027563,
   :block/updated-at 1647467027563}
@@ -574,6 +577,9 @@
  {:block/name "nand2tetris notes",
   :block/created-at 1658947642505,
   :block/updated-at 1662587966619}
+ {:block/name "nov 10th, 2022",
+  :block/created-at 1668067202939,
+  :block/updated-at 1668067202939}
  {:block/name "nov 1st, 2022",
   :block/created-at 1667288543532,
   :block/updated-at 1667288543532}
