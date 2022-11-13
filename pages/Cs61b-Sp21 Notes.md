@@ -10,6 +10,9 @@
 - ## Discussion
 	- ### 02: Introduction To Java
 		- [[Fibonacci]]
+	- ### 03: Linked Lists Exam Prep
+		- [[Linked List Partition]]
+		-
 - ## Project
 	- [[project0: 2048]]
 - ## Lab
@@ -18,4 +21,5 @@
 		- ### evaluate expression
 			- A good use of this functionality is to ensure that two objects in your code are equal (rather than being two instances of the same class) by evaluating a == b which can be difficult to tell from the Variables Panel alone. This has the added benefit of not changing any values in the code, so you don’t have to worry about accidentally modifying the behavior you trying to observe.
 			- ![image.png](../assets/image_1667780242407_0.png)
-			-
+	- [[Lab 03: Timing Tests and Randomized Comparison Tests]]
+	-

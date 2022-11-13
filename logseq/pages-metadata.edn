@@ -240,7 +240,7 @@
   :block/updated-at 1652397735175}
  {:block/name "cs61b-sp21 notes",
   :block/created-at 1666721825523,
-  :block/updated-at 1668041110289}
+  :block/updated-at 1668360624371}
  {:block/name "data-structure",
   :block/created-at 1648228299455,
   :block/updated-at 1648228299455}
@@ -433,6 +433,9 @@
  {:block/name "junit",
   :block/created-at 1647564907395,
   :block/updated-at 1647564907395}
+ {:block/name "lab 03: timing tests and randomized comparison tests",
+  :block/created-at 1668360624371,
+  :block/updated-at 1668364690851}
  {:block/name "language-comparison",
   :block/created-at 1646757913042,
   :block/updated-at 1647377733241}
@@ -469,6 +472,9 @@
  {:block/name "lec07: alists, resizing vs. slists",
   :block/created-at 1668041110288,
   :block/updated-at 1668041110288}
+ {:block/name "linked list partition",
+  :block/created-at 1668359637905,
+  :block/updated-at 1668360131322}
  {:block/name "linked-list",
   :block/created-at 1647467027563,
   :block/updated-at 1647467027563}
@@ -586,6 +592,9 @@
  {:block/name "nov 12th, 2022",
   :block/created-at 1668240037574,
   :block/updated-at 1668240037574}
+ {:block/name "nov 13th, 2022",
+  :block/created-at 1668326439983,
+  :block/updated-at 1668326439983}
  {:block/name "nov 1st, 2022",
   :block/created-at 1667288543532,
   :block/updated-at 1667288543532}
@@ -658,6 +667,9 @@
  {:block/name "palindrome",
   :block/created-at 1655443971482,
   :block/updated-at 1655443971482}
+ {:block/name "partition",
+  :block/created-at 1668359654611,
+  :block/updated-at 1668359654611}
  {:block/name "performance",
   :block/created-at 1648170270800,
   :block/updated-at 1648170270800}
