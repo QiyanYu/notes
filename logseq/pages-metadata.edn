@@ -240,13 +240,16 @@
   :block/updated-at 1652397735175}
  {:block/name "cs61b-sp21 notes",
   :block/created-at 1666721825523,
-  :block/updated-at 1668360624371}
+  :block/updated-at 1668399154179}
  {:block/name "data-structure",
   :block/created-at 1648228299455,
   :block/updated-at 1648228299455}
  {:block/name "debug",
   :block/created-at 1647467170185,
   :block/updated-at 1647467170185}
+ {:block/name "debug in intellij",
+  :block/created-at 1668399092776,
+  :block/updated-at 1668402407189}
  {:block/name "dijkstra",
   :block/created-at 1652372794733,
   :block/updated-at 1652372794733}
@@ -595,6 +598,9 @@
  {:block/name "nov 13th, 2022",
   :block/created-at 1668326439983,
   :block/updated-at 1668326439983}
+ {:block/name "nov 14th, 2022",
+  :block/created-at 1668412844493,
+  :block/updated-at 1668412844493}
  {:block/name "nov 1st, 2022",
   :block/created-at 1667288543532,
   :block/updated-at 1667288543532}

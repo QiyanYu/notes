@@ -17,9 +17,7 @@
 	- [[project0: 2048]]
 - ## Lab
 	- [Lab2: JUnit Tests and Debugging](https://sp21.datastructur.es/materials/lab/lab2/lab2)
-		- [Debugging Guide](https://sp21.datastructur.es/materials/guides/debugging-guide.html)
-		- ### evaluate expression
-			- A good use of this functionality is to ensure that two objects in your code are equal (rather than being two instances of the same class) by evaluating a == b which can be difficult to tell from the Variables Panel alone. This has the added benefit of not changing any values in the code, so you don’t have to worry about accidentally modifying the behavior you trying to observe.
-			- ![image.png](../assets/image_1667780242407_0.png)
+		- [[Debug in IntelliJ]]
+		-
 	- [[Lab 03: Timing Tests and Randomized Comparison Tests]]
 	-
