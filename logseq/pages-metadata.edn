@@ -240,7 +240,7 @@
   :block/updated-at 1652397735175}
  {:block/name "cs61b-sp21 notes",
   :block/created-at 1666721825523,
-  :block/updated-at 1668399154179}
+  :block/updated-at 1668709468257}
  {:block/name "data-structure",
   :block/created-at 1648228299455,
   :block/updated-at 1648228299455}
@@ -475,6 +475,12 @@
  {:block/name "lec07: alists, resizing vs. slists",
   :block/created-at 1668041110288,
   :block/updated-at 1668041110288}
+ {:block/name "lec08: inheritance, implements",
+  :block/created-at 1668644406808,
+  :block/updated-at 1668710220724}
+ {:block/name "lec09: extends, casting, higher order functions",
+  :block/created-at 1668709468256,
+  :block/updated-at 1668716353535}
  {:block/name "linked list partition",
   :block/created-at 1668359637905,
   :block/updated-at 1668360131322}
@@ -607,6 +613,9 @@
  {:block/name "nov 16th, 2022",
   :block/created-at 1668585602896,
   :block/updated-at 1668585602896}
+ {:block/name "nov 17th, 2022",
+  :block/created-at 1668672002206,
+  :block/updated-at 1668672002206}
  {:block/name "nov 1st, 2022",
   :block/created-at 1667288543532,
   :block/updated-at 1667288543532}

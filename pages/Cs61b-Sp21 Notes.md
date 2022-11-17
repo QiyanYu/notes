@@ -6,6 +6,8 @@
 	- [[Lec05: SLLists, Nested Classes, Sentinel Nodes]]
 	- [[Lec06: DDLists, Arrays]]
 	- [[Lec07: Alists, Resizing vs. SLists]]
+	- [[Lec08: Inheritance, Implements]]
+	- [[Lec09: Extends, Casting, Higher Order Functions]]
 	-
 - ## Discussion
 	- ### 02: Introduction To Java

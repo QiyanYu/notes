@@ -1,0 +1,6 @@
+- ### [#A] Implementation Inheritance Breaks Encapsulation
+	- [CS 61b Lecture Video](https://youtu.be/EfxYiAN6YME)
+	- ![image.png](../assets/image_1668716156162_0.png)
+	- ![image.png](../assets/image_1668716178021_0.png)
+		- `vd.barkMany(3)` will call Dog's `bark()`, but vd's dynamical type is `VerboseDog`, so `bark()` method will call `VerboseDog`'s `barkMany()` method, which will gets caught in an infinite loop!
+	-

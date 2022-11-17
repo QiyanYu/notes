@@ -1,0 +1,29 @@
+- ### Method Overloading in Java
+	- Java allows multiple methods with same name, but different parameters. This is called method **overloading.**
+- ### Overriding vs. Overloading
+	- If a "subclass" has a method with the exact same signature as in the "superclass", we say the subclass **overrides** the method.
+	- Methods with the same name but different signatures are **overloaded.**
+- ### Method Overriding
+	- Why use @Override?
+		- Main reason: Protects against typos.
+		- Reminds programmer that method definition came from somewhere higher up in the inheritance hierarchy.
+- ### Interface Inheritance
+	- Specifying the capabilities of a subclass using the **implements** keyword if known as **interface inheritance**.
+		- Interface: The list of all method signatures.
+		- Inheritance: The subclass "inherits" the interface from a super class.
+		- Specifies what the subclass can do, but not how.
+		- Subclass **must** override all of these methods!
+- ### Interface vs. Implementation Inheritance
+	- Interface Inheritance (a.k.a. what):
+		- Allows you to generalize code in a powerful, simple way.
+	- Implementation Inheritance (a.k.a. how):
+		- Allows code-reuse: Subclasses can rely on superclasses or interfaces.
+	- **Important:** In both cases, we specify "is-a" relationships, not "has-a".
+- ### Static Type vs. Dynamic Type
+	- Every variable in Java has a "compile-time type", a.k.a. "static type".
+		- This is the type specified at **declaration**. Never changes!
+	- Variables also have a "run-time type", a.k.a. "dynamic type".
+		- This is the type specified at **instantiation** (e.g. when using new).
+		- Equal to the type of the object being pointed at.
+	- Suppose we call a method of an object using a variable with compile-time type `X` and run-time type `Y`. Then if `Y` **overrides** the method, `Y`'s method is used instead.
+		- This is known as "dynamic method selection".
