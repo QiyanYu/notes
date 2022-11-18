@@ -240,7 +240,7 @@
   :block/updated-at 1652397735175}
  {:block/name "cs61b-sp21 notes",
   :block/created-at 1666721825523,
-  :block/updated-at 1668709468257}
+  :block/updated-at 1668746199013}
  {:block/name "data-structure",
   :block/created-at 1648228299455,
   :block/updated-at 1648228299455}
@@ -253,6 +253,9 @@
  {:block/name "dijkstra",
   :block/created-at 1652372794733,
   :block/updated-at 1652372794733}
+ {:block/name "disc04: inheritance and implements",
+  :block/created-at 1668744676229,
+  :block/updated-at 1668746148632}
  {:block/name "disjoint-set",
   :block/created-at 1649260200260,
   :block/updated-at 1649260200260}
@@ -439,6 +442,9 @@
  {:block/name "lab 03: timing tests and randomized comparison tests",
   :block/created-at 1668360624371,
   :block/updated-at 1668364690851}
+ {:block/name "lab04: git and debugging",
+  :block/created-at 1668746199012,
+  :block/updated-at 1668746199012}
  {:block/name "language-comparison",
   :block/created-at 1646757913042,
   :block/updated-at 1647377733241}
@@ -480,7 +486,7 @@
   :block/updated-at 1668710220724}
  {:block/name "lec09: extends, casting, higher order functions",
   :block/created-at 1668709468256,
-  :block/updated-at 1668716353535}
+  :block/updated-at 1668734360098}
  {:block/name "linked list partition",
   :block/created-at 1668359637905,
   :block/updated-at 1668360131322}
@@ -616,6 +622,9 @@
  {:block/name "nov 17th, 2022",
   :block/created-at 1668672002206,
   :block/updated-at 1668672002206}
+ {:block/name "nov 18th, 2022",
+  :block/created-at 1668758400375,
+  :block/updated-at 1668758400375}
  {:block/name "nov 1st, 2022",
   :block/created-at 1667288543532,
   :block/updated-at 1667288543532}

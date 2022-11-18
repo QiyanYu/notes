@@ -10,16 +10,17 @@
 	- [[Lec09: Extends, Casting, Higher Order Functions]]
 	-
 - ## Discussion
-	- ### 02: Introduction To Java
+	- 02: Introduction To Java
 		- [[Fibonacci]]
-	- ### 03: Linked Lists Exam Prep
+	- 03: Linked Lists Exam Prep
 		- [[Linked List Partition]]
-		-
+	- [[disc04: Inheritance and Implements]]
+	-
 - ## Project
 	- [[project0: 2048]]
 - ## Lab
 	- [Lab2: JUnit Tests and Debugging](https://sp21.datastructur.es/materials/lab/lab2/lab2)
 		- [[Debug in IntelliJ]]
-		-
 	- [[Lab 03: Timing Tests and Randomized Comparison Tests]]
+	- [[Lab04: Git and Debugging]]
 	-
