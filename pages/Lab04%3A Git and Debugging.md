@@ -1,0 +1,13 @@
+- ### How to retrieve the state of a particular file or directory.
+	- `git checkout (hashed string) -- (file or directory name)`
+- ### Git Intro Video by Itai Smith
+	- [Git Intro - Part 1](https://www.youtube.com/watch?v=yWBzCAY_5UI)
+	- [Git Intro - Part 2](https://www.youtube.com/watch?v=CnMpARAOhFg)
+	- [Git Intro - Part 3](https://www.youtube.com/watch?v=t0tzTcZESWk)
+	- [Git Intro - Part 4](https://www.youtube.com/watch?v=ca1oCEMQGRQ)
+	- [Git Intro - Part 5](https://www.youtube.com/watch?v=dZbj9gjjYv8)
+	- [Git Intro - Part 6](https://www.youtube.com/watch?v=r0oHi0vXhLE)
+- ### Other References:
+	- [Sarah’s Git Guide](https://sp19.datastructur.es/materials/guides/using-git)
+	- [Git WTFS](https://sp19.datastructur.es/materials/guides/git-wtfs)
+-
