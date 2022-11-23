@@ -1,5 +1,7 @@
 - ### How to retrieve the state of a particular file or directory.
-	- `git checkout (hashed string) -- (file or directory name)`
+	- `git checkout (hashed string) (file or directory name)`
+	- `git checkout -- (file or directory name)`
+		- Revert a file to its state at the time of the most recent commit
 	- *Also important:* Make sure to specify a file (or directory) when you use checkout. Otherwise, you’re using a more powerful version of checkout that will probably confuse you.
 - ### Git Intro Video by Itai Smith
 	- [Git Intro - Part 1](https://www.youtube.com/watch?v=yWBzCAY_5UI)

@@ -444,7 +444,7 @@
   :block/updated-at 1668364690851}
  {:block/name "lab04: git and debugging",
   :block/created-at 1668746199012,
-  :block/updated-at 1668919008432}
+  :block/updated-at 1669230585916}
  {:block/name "language-comparison",
   :block/created-at 1646757913042,
   :block/updated-at 1647377733241}
@@ -640,6 +640,9 @@
  {:block/name "nov 22nd, 2022",
   :block/created-at 1669104400127,
   :block/updated-at 1669104400127}
+ {:block/name "nov 23rd, 2022",
+  :block/created-at 1669190432342,
+  :block/updated-at 1669190432342}
  {:block/name "nov 2nd, 2022",
   :block/created-at 1667372410991,
   :block/updated-at 1667372410991}
