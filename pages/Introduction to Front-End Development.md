@@ -1,0 +1,4 @@
+- ### HTTP Status Codes
+	- ![image.png](../assets/image_1671561265894_0.png)
+	- [HTTP examples](https://www.coursera.org/learn/introduction-to-front-end-development/supplement/FqZuK/http-examples)
+	-
