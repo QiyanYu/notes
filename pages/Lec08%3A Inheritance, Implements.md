@@ -25,5 +25,19 @@
 	- Variables also have a "run-time type", a.k.a. "dynamic type".
 		- This is the type specified at **instantiation** (e.g. when using new).
 		- Equal to the type of the object being pointed at.
-	- Suppose we call a method of an object using a variable with compile-time type `X` and run-time type `Y`. Then if `Y` **overrides** the method, `Y`'s method is used instead.
-		- This is known as "dynamic method selection".
+- ### Dynamic Method Selection
+	- The rule is, if we have a static type `X`, and a dynamic type `Y`, then if `Y` overrides the method from `X`, then on runtime, we use the method in `Y` instead. Student often confuse overloading and overriding.
+- ### Overloading and Dynamic Method Selection
+	- Dynamic method selection plays no role when it comes to overloaded methods. Consider the following piece of code, where `Fox extends Animal`.
+	- ```
+	  1  Fox f = new Fox();
+	  2  Animal a = f;
+	  3  define(f);
+	  4  define(a);
+	  ```
+	- Let’s assume we have the following overloaded methods in the same class:
+	- ```
+	  public static void define(Fox f) { ... }
+	  public static void define(Animal a) { ... }
+	  ```
+	- Line 3 will execute `define(Fox f)`, while line 4 will execute `define(Animal a)`. Dynamic method selection only applies when we have overridden methods. There is no overriding here, and therefore dynamic method selection does not apply.

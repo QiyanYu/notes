@@ -19,4 +19,7 @@
 		- In terms of our visual metaphor, we “copy” the arrow by making the arrow in the b box point at the same instance as a.
 - ### The Golden Rule of Equals (and Parameter Passing)
 	- Passing parameters obeys the same rule: Simply **copy the bits** to the new scope.
+- ### Static Nested Classes
+	- If the `IntNode` class never uses any variable or method of the `SLList` class, we can turn this class static by adding the “static” keyword.
+	- Static nested classes are useful when you want to group related classes together, or when you want to define a class that is only used within the context of its outer class. They can also be useful for creating utility classes that can be used by other classes in the same package.
 -
