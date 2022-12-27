@@ -1,3 +1,17 @@
+- ### Calling Other Constructors
+	- If you want to use a super constructor other than the no-argument constructor, can give parameters to super.
+	- ```java
+	  public VengefulSLList(Item x) {
+	    	super(x); // calls SLList(Item x);
+	    	deletedItems = new SLList<Item>();
+	  }	
+	  ```
+	- Not equivalent! Code to the bottom makes implicit call to `super()`, not `super(x)`.
+	- ```java
+	  public VengefulSLList(Item x) {
+	    	deletedItems = new SLList<Item>();
+	  }
+	  ```
 - ### [#A] Implementation Inheritance Breaks Encapsulation
 	- [CS 61b Lecture Video](https://youtu.be/EfxYiAN6YME)
 	- ![image.png](../assets/image_1668716156162_0.png)

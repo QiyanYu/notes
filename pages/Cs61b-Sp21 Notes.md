@@ -8,6 +8,7 @@
 	- [[Lec07: Alists, Resizing vs. SLists]]
 	- [[Lec08: Inheritance, Implements]]
 	- [[Lec09: Extends, Casting, Higher Order Functions]]
+	- [[Lec10: Subtype Polymorphism vs. HoFs]]
 	-
 - ## Discussion
 	- 02: Introduction To Java

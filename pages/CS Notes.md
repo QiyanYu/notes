@@ -26,7 +26,7 @@ title:: CS Notes
 	- ## 2.3 Python
 		- ### Readings:
 			- TODO [Design Patterns in Python for the Untrained Eye](https://arielortiz.info/s201911/pycon2019/docs/design_patterns.html)
-	- ## 2.4 Front End
+	- ## 2.4 React
 		- ### 2.4.1 [Meta Front-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-front-end-developer)
 			- [[Introduction to Front-End Development]]
 			-
