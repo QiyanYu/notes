@@ -11,10 +11,10 @@
 	- [[Lec10: Subtype Polymorphism vs. HoFs]]
 	- [[Lec11: Exceptions, iterators, Object Methods]]
 	-
-	-
 - ## Discussion
 	- 02: Introduction To Java
 		- [[Fibonacci]]
+	- [[Exam Prep 02: Scope, Pass-by-Value, Static]]
 	- 03: Linked Lists Exam Prep
 		- [[Linked List Partition]]
 	- [[disc04: Inheritance and Implements]]

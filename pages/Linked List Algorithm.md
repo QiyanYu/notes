@@ -1,0 +1,6 @@
+- ### Using Reversed Linked List
+	- The act of creating a linked list destructively is inherently a reversing act.
+	- [[Linked List Partition]]
+- ### Use subclass of Node class for adding some function
+	- ((097ec9f5-35ab-47b5-9797-1f47f7e47ad9))
+	-

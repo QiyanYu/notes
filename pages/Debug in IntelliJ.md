@@ -1,5 +1,10 @@
 - #debug
 - [Debugging Guide](https://sp21.datastructur.es/materials/guides/debugging-guide.html)
+- ### More Resources
+	- If you want more details on using the IntelliJ debugger, JetBrains has some guides:
+	- [Debugging Your First Application](https://www.jetbrains.com/help/idea/debugging-your-first-java-application.html)
+	- [Setting Breakpoints](https://www.jetbrains.com/help/idea/using-breakpoints.html)
+	- [Stepping Through a Program](https://www.jetbrains.com/help/idea/stepping-through-the-program.html)
 - ### evaluate expression
 	- A good use of this functionality is to ensure that two objects in your code are equal (rather than being two instances of the same class) by evaluating a == b which can be difficult to tell from the Variables Panel alone. This has the added benefit of not changing any values in the code, so you don’t have to worry about accidentally modifying the behavior you trying to observe.
 	- ![image.png](../assets/image_1667780242407_0.png)

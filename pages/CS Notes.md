@@ -13,6 +13,9 @@ title:: CS Notes
 			- [[CS 61B Course Notes]]
 			- [[CS 61B My Solutions Notes]]
 			- Revised Version [[Cs61b-Sp21 Notes]]
+		- ### 1.3.2 Data Structures
+			- #### 1.3.2.1 [[Linked List Algorithm]]
+			-
 	- ## 1.4 Computer System
 		- ### 1.4.1 Nand2Tetris
 			- [[Nand2Tetris Notes]]

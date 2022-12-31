@@ -1,4 +1,5 @@
 - #linked-list #partition
+- {{video https://www.youtube.com/watch?v=OftbpaDmbbM&list=PLHnsju1DjvZOIlMxRFc15fSkVuKfYu_bj&index=3}}
 - > Implement partition, which takes in an IntList lst and an integer k, and destructively partitions lst into k IntLists such that each list has the following properties:
 	- >1. It is the same length as the other lists. If this is not possible, i.e. `lst` cannot be equally partitioned, then the later lists should be one element smaller.
 	  For example, partitioning an IntList of length 25 with k = 3 would result in partitioned lists of lengths 9, 8, and 8.
@@ -12,15 +13,14 @@
     	int index = 0;
     	IntList L = reverse(lst);
     	while (L != null) {
-        	int j = index % k;
-      	IntList temp =  array[j];
-        	L = L.rest;
-        	array[j].rest = temp;
-        	index++;
+        	IntList tempList = array[index];
+        	IntList tempNext = L.next;
+        	array[index] = L;
+        	array[index].rest = tempList;
+        	L = tempNext;
+        	index = (index + 1) % k;
       }
   }
   
-  // another way to increment index in one line at the end
-  	index = (index + 1) % k;
   ```
 -

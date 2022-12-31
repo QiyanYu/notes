@@ -168,6 +168,7 @@ title:: CS 61B Course Notes
 		- ![image.png](../assets/image_1647963350595_0.png)
 		- ![image.png](../assets/image_1647963365590_0.png)
 	- ## Dynamic Method Selection
+	  id:: 62e18839-f183-496d-875f-9c628d913ff0
 		- If overridden, decide which method to call based on **run-time** type of variable (Also called dynamic type).
 		- ![image.png](../assets/image_1647968210720_0.png)
 	- ## Compile-Time Type Checking
