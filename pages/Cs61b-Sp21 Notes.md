@@ -10,6 +10,7 @@
 	- [[Lec09: Extends, Casting, Higher Order Functions]]
 	- [[Lec10: Subtype Polymorphism vs. HoFs]]
 	- [[Lec11: Exceptions, iterators, Object Methods]]
+	- [[Lec12: Command Line Programming, Git]]
 	-
 - ## Discussion
 	- 02: Introduction To Java

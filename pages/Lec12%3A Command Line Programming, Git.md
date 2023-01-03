@@ -1,0 +1,4 @@
+- ### C don't need interpreter unlike Java
+	- Unlike Java, C code is typically compiled into a binary which doesn't require an interpreter.
+	- Thus, instead of saying `java git status`, we just type `git status`.
+	-
