@@ -1,0 +1,4 @@
+- ### If you keep getting a `NullPointerException`
+	- First, make sure you’re not trying to `get` from somewhere beyond the available size. Second, if you’re writing code like `int result = deque.removeFirst()`, instead write `Integer result = deque.removeFirst()`.
+	- This error happens because Java will freely convert from `Integer` (boxed type) to `int` (primitive type). This is called unboxing. However, only reference types can be null, so if you try to automatically convert a null `Integer` to an `int`, you’ll get a `NullPointerException` in your own code. The `StudentArrayDeque` is buggy and may return a null (incorrectly), which can trigger this problem in your code.
+-

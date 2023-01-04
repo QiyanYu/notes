@@ -1,0 +1,6 @@
+- ### 1800-1899
+	- [[1803. Count Pairs With XOR in a Range]]
+-
+- ### Brute Force
+	- [[1803. Count Pairs With XOR in a Range]]
+-

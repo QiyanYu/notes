@@ -1,0 +1,5 @@
+- # Java Tips
+	- [[Switch with break]]
+	- [[NullPointerException]]
+	- [[Using Reference Type]]
+	-
