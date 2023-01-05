@@ -1,5 +1,7 @@
-- # Java Tips
-	- [[Switch with break]]
+- ## Java Tips
+	- [[A switch clause must include a break statement]]
 	- [[NullPointerException]]
 	- [[Using Reference Type]]
+	- [[Use the overload method to simplify]]
 	-
+-

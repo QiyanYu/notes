@@ -1,0 +1,7 @@
+- > The lesson to take away is that **initial design decisions determine our code complexity and runtime.**
+- ### Quick Find
+- ### Quick Union
+- ### Weighted Quick Union (WQU)
+	- Not using Height Quick Union is because the implementation will be more complex and the runtime  is about the same.
+- ### WQU with Path Compression
+-

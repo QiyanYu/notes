@@ -1,6 +1,11 @@
-- ### 1800-1899
-	- [[1803. Count Pairs With XOR in a Range]]
+- ## LC Problems
+	- ### 1800-1899
+		- [[1803. Count Pairs With XOR in a Range]]
+	- ### 2100-2180
+		- [[2180. Count Integers With Even Digit Sum]]
+		-
 -
-- ### Brute Force
-	- [[1803. Count Pairs With XOR in a Range]]
+- ## Algorithm
+	- ### Brute Force
+		- [[1803. Count Pairs With XOR in a Range]]
 -

@@ -11,6 +11,8 @@
 	- [[Lec10: Subtype Polymorphism vs. HoFs]]
 	- [[Lec11: Exceptions, iterators, Object Methods]]
 	- [[Lec12: Command Line Programming, Git]]
+	- [[Lec13: Asymptotics I]]
+	- [[Lec14: Disjoint Sets (Union Find)]]
 	-
 - ## Discussion
 	- 02: Introduction To Java

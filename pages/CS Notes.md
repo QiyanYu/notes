@@ -1,5 +1,7 @@
 title:: CS Notes
 
+- # 0. Leetcode
+	- [[Leetcode]]
 - # 1. Computer Science
 	- ## 1.1 Introduction
 		- ### 1.1.1 MIT The Missing Semester - Finished ✅
@@ -42,3 +44,7 @@ title:: CS Notes
 		- ### 3.2.1 Redis
 		- ### 3.2.2 SQLite
 		- ### 3.2.3 Nginx
+- # 4. Misc
+	- ## 4.1 Programming Tips
+		- [[Tips]]
+	-
