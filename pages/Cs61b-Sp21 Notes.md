@@ -13,6 +13,7 @@
 	- [[Lec12: Command Line Programming, Git]]
 	- [[Lec13: Asymptotics I]]
 	- [[Lec14: Disjoint Sets (Union Find)]]
+	- [[Lec15: Asymptotics II]]
 	-
 - ## Discussion
 	- 02: Introduction To Java
