@@ -1,11 +1,16 @@
 - ## LC Problems
+	- ### 1600-1699
+		- [[1658. Minimum Operations to Reduce X to Zero]]
 	- ### 1800-1899
 		- [[1803. Count Pairs With XOR in a Range]]
-	- ### 2100-2180
+	- ### 2100-2199
 		- [[2180. Count Integers With Even Digit Sum]]
+		- [[2185. Counting Words With a Given Prefix]]
 		-
 -
 - ## Algorithm
 	- ### Brute Force
 		- [[1803. Count Pairs With XOR in a Range]]
+	- ### Two Pointers
+		- [[1658. Minimum Operations to Reduce X to Zero]]
 -
