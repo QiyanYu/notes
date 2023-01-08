@@ -6,6 +6,8 @@
 	- ### 2100-2199
 		- [[2180. Count Integers With Even Digit Sum]]
 		- [[2185. Counting Words With a Given Prefix]]
+	- ### 2500-2599
+		- [[2530. maximal Score After Applying K Operations]]
 		-
 -
 - ## Algorithm
@@ -13,4 +15,8 @@
 		- [[1803. Count Pairs With XOR in a Range]]
 	- ### Two Pointers
 		- [[1658. Minimum Operations to Reduce X to Zero]]
--
+- ## Tips
+	- ### Modify inputs for avoiding override default method
+		- [ [[2530. maximal Score After Applying K Operations]] ]
+	- ### Ceiling Function
+		- For `ceiling(d/i)`, we can use `(d + i - 1) / i` to get the ceiling value.

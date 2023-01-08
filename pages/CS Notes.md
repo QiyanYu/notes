@@ -18,6 +18,9 @@ title:: CS Notes
 		- ### 1.3.2 Data Structures
 			- #### 1.3.2.1 [[Linked List Algorithm]]
 			-
+		- ### 1.3.3 Algorithms
+			- #### 1.3.3.1 [[Binary Search]]
+			-
 	- ## 1.4 Computer System
 		- ### 1.4.1 Nand2Tetris
 			- [[Nand2Tetris Notes]]
