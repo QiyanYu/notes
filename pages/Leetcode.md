@@ -3,6 +3,8 @@
 		- [[1658. Minimum Operations to Reduce X to Zero]]
 	- ### 1800-1899
 		- [[1803. Count Pairs With XOR in a Range]]
+		- [[1806. Minimum Number of Operations to Reinitialize a Permutation]]
+		-
 	- ### 2100-2199
 		- [[2180. Count Integers With Even Digit Sum]]
 		- [[2185. Counting Words With a Given Prefix]]
@@ -20,3 +22,7 @@
 		- [ [[2530. maximal Score After Applying K Operations]] ]
 	- ### Ceiling Function
 		- For `ceiling(d/i)`, we can use `(d + i - 1) / i` to get the ceiling value.
+	- ### By applying the same rule to every element in the array, we can avoid having to examine the entire array and instead just check a single item.
+		- [[1806. Minimum Number of Operations to Reinitialize a Permutation]]
+-
+-
