@@ -8,6 +8,8 @@
 	- ### 2100-2199
 		- [[2180. Count Integers With Even Digit Sum]]
 		- [[2185. Counting Words With a Given Prefix]]
+	- ### 2200-2299
+		- [[2283. Check if Number Has Equal Digit Count and Digit Value]]
 	- ### 2500-2599
 		- [[2530. maximal Score After Applying K Operations]]
 		-

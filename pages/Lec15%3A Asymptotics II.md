@@ -9,8 +9,8 @@
 	- [[Binary Search]]
 - ### Log time is super good!
 	- It's almost as fast as constant time, and way better than linear time.
-	- *N*​2​​ vs. N log N*N**l**o**g**N* is an enormous difference.
-	- Going from N log N*N**l**o**g**N* to N*N* is nice, but not a radical change.
+	- *N*​^2​​ vs. *N**l**o**g**N*. *N**l**o**g**N* is an enormous difference.
+	- Going from *N**l**o**g**N* to *N* is nice, but not a radical change.
 - ### Merge Sort
 	- [[Merge Sort]]
 - ### Summary

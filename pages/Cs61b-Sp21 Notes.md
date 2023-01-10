@@ -14,6 +14,7 @@
 	- [[Lec13: Asymptotics I]]
 	- [[Lec14: Disjoint Sets (Union Find)]]
 	- [[Lec15: Asymptotics II]]
+	- [[Lec16: ADTs, Sets, Maps, BSTs]]
 	-
 - ## Discussion
 	- 02: Introduction To Java
