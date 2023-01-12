@@ -4,7 +4,7 @@
 	- ### 1800-1899
 		- [[1803. Count Pairs With XOR in a Range]]
 		- [[1806. Minimum Number of Operations to Reinitialize a Permutation]]
-		-
+		- [[1807. Evaluate the Bracket Pairs of a String]]
 	- ### 2100-2199
 		- [[2180. Count Integers With Even Digit Sum]]
 		- [[2185. Counting Words With a Given Prefix]]
@@ -26,5 +26,6 @@
 		- For `ceiling(d/i)`, we can use `(d + i - 1) / i` to get the ceiling value.
 	- ### By applying the same rule to every element in the array, we can avoid having to examine the entire array and instead just check a single item.
 		- [[1806. Minimum Number of Operations to Reinitialize a Permutation]]
--
+	- ### If we use `O(N^2)` algorithm, we should try to eliminate the time complexity.
+		-
 -

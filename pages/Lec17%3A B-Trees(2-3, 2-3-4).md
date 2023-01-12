@@ -1,0 +1,18 @@
+- ### BST Performance:
+	- Worst case `theta(N)` height.
+	- Best case `theta(log N)` height.
+	- `theta(log N)` height if constructed via random inserts.
+	- But we can't always insert our items in a random order.
+		- Data comes in over time, don't have all at once.
+- ### B Tree
+	- #### B-Tree Invariants
+		- All leaves must be the same distance from the source.
+		- A non-leaf node with k items must have exactly k+1 children.
+	- Nodes may contain between 1 and L items.
+	- contains works almost exactly like a normal BST.
+	- add works by adding items to existing leaf nodes.
+	- If nodes are too full, they split.
+	- Resulting tree has perfect balance. Runtime for operations is O(log N).
+	- B-trees are more complex, but they can efficiently handle ANY insertion order.
+- ### B-Tree Deleting
+	- ![2-3 trees, 2-3-4 trees Deleting.pdf](../assets/2-3_trees,_2-3-4_trees_Deleting_1673423654275_0.pdf)

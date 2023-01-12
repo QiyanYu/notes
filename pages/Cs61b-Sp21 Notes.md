@@ -15,6 +15,8 @@
 	- [[Lec14: Disjoint Sets (Union Find)]]
 	- [[Lec15: Asymptotics II]]
 	- [[Lec16: ADTs, Sets, Maps, BSTs]]
+	- [[Lec17: B-Trees(2-3, 2-3-4)]]
+	-
 	-
 - ## Discussion
 	- 02: Introduction To Java
@@ -23,6 +25,9 @@
 	- 03: Linked Lists Exam Prep
 		- [[Linked List Partition]]
 	- [[disc04: Inheritance and Implements]]
+	- Exam Prep Discussion 6
+		- [[Exam Prep 06: Asymptotics and Disjoint Sets]]
+	-
 	-
 - ## Project
 	- [[project0: 2048]]
