@@ -4,7 +4,7 @@
 	- Draw pictures
 - ### Sum Things to Know
 	- 1+2+3+...+*Q*=*Q*(*Q*+1)/2=Θ(*Q*​2​​) (Sum of First Natural Numbers)
-	  1 + 2 + 4 + 8 + ... + Q = 2Q - 1 = \Theta(Q)1+2+4+8+...+*Q*=2*Q*−1=Θ(*Q*) (Sum of First Powers of 2)
+	- 1 + 2 + 4 + 8 + ... + Q = 2Q - 1 = \Theta(Q)1+2+4+8+...+*Q*=2*Q*−1=Θ(*Q*) (Sum of First Powers of 2)
 - ### Binary Search
 	- [[Binary Search]]
 - ### Log time is super good!

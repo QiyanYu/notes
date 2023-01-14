@@ -16,6 +16,8 @@
 	- [[Lec15: Asymptotics II]]
 	- [[Lec16: ADTs, Sets, Maps, BSTs]]
 	- [[Lec17: B-Trees(2-3, 2-3-4)]]
+	- [[Lec18: Red Black Tree]]
+	- [[Lec19: Hashing]]
 	-
 	-
 - ## Discussion
@@ -27,7 +29,8 @@
 	- [[disc04: Inheritance and Implements]]
 	- Exam Prep Discussion 6
 		- [[Exam Prep 06: Asymptotics and Disjoint Sets]]
-	-
+	- Discussion 7:
+		- [[Discussion 7: ADTs and Asymptotic Analysis]]
 	-
 - ## Project
 	- [[project0: 2048]]

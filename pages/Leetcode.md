@@ -1,25 +1,32 @@
 - ## LC Problems
 	- ### 1600-1699
-		- [[1658. Minimum Operations to Reduce X to Zero]]
+		- [#B] [[1658. Minimum Operations to Reduce X to Zero]]
 	- ### 1800-1899
-		- [[1803. Count Pairs With XOR in a Range]]
-		- [[1806. Minimum Number of Operations to Reinitialize a Permutation]]
-		- [[1807. Evaluate the Bracket Pairs of a String]]
+		- [#A] [[1803. Count Pairs With XOR in a Range]]
+		- [#B] [[1806. Minimum Number of Operations to Reinitialize a Permutation]]
+		- [#B] [[1807. Evaluate the Bracket Pairs of a String]]
+		- [#A] [[1819. Number of Different Subsequences GCDs]]
 	- ### 2100-2199
-		- [[2180. Count Integers With Even Digit Sum]]
-		- [[2185. Counting Words With a Given Prefix]]
+		- [#C] [[2180. Count Integers With Even Digit Sum]]
+		- [#C] [[2185. Counting Words With a Given Prefix]]
 	- ### 2200-2299
-		- [[2283. Check if Number Has Equal Digit Count and Digit Value]]
+		- [#C] [[2283. Check if Number Has Equal Digit Count and Digit Value]]
+		- [#C] [[2287. Rearrange Characters to Make Target String]]
 	- ### 2500-2599
-		- [[2530. maximal Score After Applying K Operations]]
-		-
+		- [#B] [[2530. maximal Score After Applying K Operations]]
+	-
+	- [#A] For Hard
+	- [#B] For Medium
+	- [#C] For Easy
 -
 - ## Algorithm
 	- ### Brute Force
 		- [[1803. Count Pairs With XOR in a Range]]
 	- ### Two Pointers
+		- [[Discussion 7: ADTs and Asymptotic Analysis]]
 		- [[1658. Minimum Operations to Reduce X to Zero]]
 - ## Tips
+  id:: 63b90d19-5c34-4180-a8f5-6c208337d0c6
 	- ### Modify inputs for avoiding override default method
 		- [ [[2530. maximal Score After Applying K Operations]] ]
 	- ### Ceiling Function
@@ -27,5 +34,8 @@
 	- ### By applying the same rule to every element in the array, we can avoid having to examine the entire array and instead just check a single item.
 		- [[1806. Minimum Number of Operations to Reinitialize a Permutation]]
 	- ### If we use `O(N^2)` algorithm, we should try to eliminate the time complexity.
-		-
+	- ### Java Integer Array max()
+	  id:: 63bdebfa-acaf-4651-8dd0-b80b5903cccf
+		- `Arrays.stream(myArray).max().getAsInt()`
+	-
 -
