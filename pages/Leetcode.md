@@ -5,6 +5,8 @@
 		- [#A] [[1803. Count Pairs With XOR in a Range]]
 		- [#B] [[1806. Minimum Number of Operations to Reinitialize a Permutation]]
 		- [#B] [[1807. Evaluate the Bracket Pairs of a String]]
+		- [#B] [[1813. Sentence Similarity III]]
+		- [#B] [[1814. Count Nice Pairs in an Array]]
 		- [#A] [[1819. Number of Different Subsequences GCDs]]
 	- ### 2100-2199
 		- [#C] [[2180. Count Integers With Even Digit Sum]]
@@ -26,6 +28,7 @@
 	- ### Two Pointers
 		- [[Discussion 7: ADTs and Asymptotic Analysis]]
 		- [[1658. Minimum Operations to Reduce X to Zero]]
+		- [[1813. Sentence Similarity III]]
 - ## Tips
   id:: 63b90d19-5c34-4180-a8f5-6c208337d0c6
 	- ### Modify inputs for avoiding override default method
