@@ -1,0 +1,6 @@
+title:: add() vs. offer() in Java
+
+- The main difference between the `add()` and `offer()` methods in Java's Queue interface is how they handle errors or exceptions.
+- The `add()` method is used to insert an element into the queue. If the insertion is successful, the method returns `true`. However, if the insertion fails (for example, if the queue is full), the method throws an `IllegalStateException`. This means that if the queue has a fixed size, and it is full, the `add()` method will throw an exception.
+- On the other hand, the `offer()` method also inserts an element into the queue. But, if the insertion fails, the method returns `false`, instead of throwing an exception. This means that if the queue has a fixed size, and it is full, the `offer()` method will return `false` and the element will not be added to the queue.
+- In general, the `offer()` method is more appropriate to use when you want to add an element to a queue, but you don't want an exception to be thrown if the insertion fails.

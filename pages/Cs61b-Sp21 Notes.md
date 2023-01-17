@@ -18,6 +18,7 @@
 	- [[Lec17: B-Trees(2-3, 2-3-4)]]
 	- [[Lec18: Red Black Tree]]
 	- [[Lec19: Hashing]]
+	- [[Lec20: Heaps and PQs]]
 	-
 	-
 - ## Discussion
@@ -31,12 +32,14 @@
 		- [[Exam Prep 06: Asymptotics and Disjoint Sets]]
 	- Discussion 7:
 		- [[Discussion 7: ADTs and Asymptotic Analysis]]
+	- Exam Prep Discussion 7
+		- [[ADTs and Asymptotics II]]
 	-
 - ## Project
 	- [[project0: 2048]]
 - ## Lab
-	- [Lab2: JUnit Tests and Debugging](https://sp21.datastructur.es/materials/lab/lab2/lab2)
+	- [Lab02: JUnit Tests and Debugging](https://sp21.datastructur.es/materials/lab/lab2/lab2)
 		- [[Debug in IntelliJ]]
-	- [[Lab 03: Timing Tests and Randomized Comparison Tests]]
+	- [[Lab03: Timing Tests and Randomized Comparison Tests]]
 	- [[Lab04: Git and Debugging]]
 	-

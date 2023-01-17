@@ -5,5 +5,7 @@
 	- [[Use the overload method to simplify]]
 	- [[Nature module in Java]]
 	- ((63bdebfa-acaf-4651-8dd0-b80b5903cccf))
+	- [[add() vs. offer() in Java]]
+	-
 - ## Leetcode Tips
 	- ((63b90d19-5c34-4180-a8f5-6c208337d0c6))
