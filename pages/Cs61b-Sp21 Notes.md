@@ -19,7 +19,7 @@
 	- [[Lec18: Red Black Tree]]
 	- [[Lec19: Hashing]]
 	- [[Lec20: Heaps and PQs]]
-	-
+	- [[Lec21: Tree and Graph]]
 	-
 - ## Discussion
 	- 02: Introduction To Java
@@ -42,4 +42,5 @@
 		- [[Debug in IntelliJ]]
 	- [[Lab03: Timing Tests and Randomized Comparison Tests]]
 	- [[Lab04: Git and Debugging]]
+	- TODO Lab07: BSTMap
 	-

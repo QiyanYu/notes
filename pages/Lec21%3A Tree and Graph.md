@@ -1,0 +1,34 @@
+- ### File System Tree
+	- To find the total size of all files in a folder, we need to do "tree traversal".
+- ### Tree Traversal Orderings
+	- #### Depth First Traversals:
+		- 3 types: Preorder, Inorder, Postorder
+		- Basic (rough) idea: Traverse "deep nodes" before shallow ones.
+		- Note: Traversing a node is different than "visiting" a node.
+	- ![image.png](../assets/image_1674017062238_0.png)
+	- ![image.png](../assets/image_1674017148259_0.png)
+	- ![image.png](../assets/image_1674017260241_0.png)
+- ### Trees and Hierarchical Relationships
+	- #### Trees are fantastic for representing strict hierarchical relationships.
+		- But Not every relationship is hierirchical.
+		- ![image.png](../assets/image_1674017596594_0.png)
+- ### Tree Definition
+	- ![image.png](../assets/image_1674017730254_0.png)
+- ### Graph Definition
+	- ![image.png](../assets/image_1674017756490_0.png)
+- ### Graph Traversals
+	- ![image.png](../assets/image_1674019643912_0.png)
+- ### Summary
+	- #### Graphs are a more general idea than a tree.
+		- A tree is a graph where there are no cycles and every vertex is connected.
+		- Key graph terms: Directed, Undirected, Cyclic, Acyclic, Path, Cycle.
+	- #### Graph problems vary widely in difficulty.
+		- Common tool for solving almost all graph problems is traversal.
+		- A traversal is an order in which you visit / act upon vertices.
+		- Tree traversals:
+			- Preorder, inorder, postorder, level order.
+		- Graph traversals:
+			- DFS preorder, DFS postorder, BFS.
+		- By performing actions / setting instance variables during a graph (or tree) traversal, you can solve problems like s-t connectivity or path finding.
+-
+-

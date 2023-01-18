@@ -15,6 +15,7 @@
 		- [#C] [[2283. Check if Number Has Equal Digit Count and Digit Value]]
 		- [#C] [[2287. Rearrange Characters to Make Target String]]
 		- [#C] [[2293. Min Max Game]]
+		- [#C] [[2299. Strong Password Checker II]]
 	- ### 2500-2599
 		- [#B] [[2530. maximal Score After Applying K Operations]]
 	-
