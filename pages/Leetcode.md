@@ -1,4 +1,7 @@
 - ## LC Problems
+	- [#A] For Hard
+	- [#B] For Medium
+	- [#C] For Easy
 	- ### 1600-1699
 		- [#B] [[1658. Minimum Operations to Reduce X to Zero]]
 	- ### 1800-1899
@@ -7,7 +10,9 @@
 		- [#B] [[1807. Evaluate the Bracket Pairs of a String]]
 		- [#B] [[1813. Sentence Similarity III]]
 		- [#B] [[1814. Count Nice Pairs in an Array]]
+		- [#B] [[1817. Finding the Users Active Minutes]]
 		- [#A] [[1819. Number of Different Subsequences GCDs]]
+		- [#A] [[1825. Finding MK Average]]
 	- ### 2100-2199
 		- [#C] [[2180. Count Integers With Even Digit Sum]]
 		- [#C] [[2185. Counting Words With a Given Prefix]]
@@ -19,9 +24,6 @@
 	- ### 2500-2599
 		- [#B] [[2530. maximal Score After Applying K Operations]]
 	-
-	- [#A] For Hard
-	- [#B] For Medium
-	- [#C] For Easy
 -
 - ## Algorithm
 	- ### Brute Force
@@ -30,6 +32,8 @@
 		- [[Discussion 7: ADTs and Asymptotic Analysis]]
 		- [[1658. Minimum Operations to Reduce X to Zero]]
 		- [[1813. Sentence Similarity III]]
+	- ### Bit Manipulation
+		- [[2299. Strong Password Checker II]]
 - ## Tips
   id:: 63b90d19-5c34-4180-a8f5-6c208337d0c6
 	- ### Modify inputs for avoiding override default method
@@ -42,5 +46,6 @@
 	- ### Java Integer Array max()
 	  id:: 63bdebfa-acaf-4651-8dd0-b80b5903cccf
 		- `Arrays.stream(myArray).max().getAsInt()`
-	-
+	- ### Use Bit to represent multiple boolean variables
+		- [[2299. Strong Password Checker II]]
 -

@@ -1,0 +1,4 @@
+- ### BFS vs. DFS for Path Finding
+	- #### Space Efficiency.
+		- DFS is worse for spindly graphs.
+		- BFS is worse for absurdly "bushy" graphs.
