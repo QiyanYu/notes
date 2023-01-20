@@ -21,6 +21,7 @@
 	- [[Lec20: Heaps and PQs]]
 	- [[Lec21: Tree and Graph]]
 	- [[Lec22: Shortest Paths]]
+	- [[Lec23: Minimum Spanning Trees]]
 	-
 - ## Discussion
 	- 02: Introduction To Java
