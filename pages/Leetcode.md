@@ -10,8 +10,10 @@
 		- [#B] [[1807. Evaluate the Bracket Pairs of a String]]
 		- [#B] [[1813. Sentence Similarity III]]
 		- [#B] [[1814. Count Nice Pairs in an Array]]
+		- [#A] [[1815. Maximum Number of Groups Getting Fresh Donuts]]
 		- [#B] [[1817. Finding the Users Active Minutes]]
 		- [#A] [[1819. Number of Different Subsequences GCDs]]
+		- TODO [#B] [[1824. Minimum Sideway Jumps]]
 		- [#A] [[1825. Finding MK Average]]
 	- ### 2100-2199
 		- [#C] [[2180. Count Integers With Even Digit Sum]]
@@ -23,7 +25,10 @@
 		- [#C] [[2299. Strong Password Checker II]]
 	- ### 2500-2599
 		- [#B] [[2530. maximal Score After Applying K Operations]]
-	-
+	- ### Contest
+		- TODO [#B] [[6275. Minimum Operations to Make Array Equal II]]
+		- TODO [#B] [[6302. Maximum Subsequence Score]]
+		- TODO [#A] [[6301. Check if Point Is Reachable]]
 -
 - ## Algorithm
 	- ### Brute Force

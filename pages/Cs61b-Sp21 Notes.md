@@ -20,9 +20,10 @@
 	- [[Lec19: Hashing]]
 	- [[Lec20: Heaps and PQs]]
 	- [[Lec21: Tree and Graph]]
-	- [[Lec22: Shortest Paths]]
-	- [[Lec23: Minimum Spanning Trees]]
-	-
+	- [[Lec22: Graph Traversals and Implementations]]
+	- [[Lec23: Shortest Paths]]
+	- [[Lec24: Minimum Spanning Trees]]
+	- [[Lec25: Range Searching and Multi-Dimensional Data]]
 - ## Discussion
 	- 02: Introduction To Java
 		- [[Fibonacci]]

@@ -1,0 +1,32 @@
+- ### Determine if the undirected graph contains any cycles
+	- #### Approach 1: Do DFS from 0 (arbitrary vertex).
+		- Keep going until you see a marked vertex.
+		- Potential danger:
+			- 1 looks back at 0 and sees marked.
+			- Solution: Just don’t count the node you came from.
+		- Worst case runtime: O(V + E) -- do study guide problems to reinforce this.
+			- With some cleverness, can give a tighter bound of O(V).
+	- #### Approach 2: Use a WeightedQuickUnionUF object.
+		- For each edge, check if the two vertices are connected.
+			- If not, union them.
+			- If so, there is a cycle.
+		- Worst case runtime: O(V + E log * V) if we have path compression.
+			- Here α(V) is the [inverse Ackermann function](https://en.wikipedia.org/wiki/Ackermann_function) from [Disjoint Sets](https://docs.google.com/presentation/d/1CG8k94aQBUHjJPuO5_9pkNml9NYYWY__a9ed_rFH1j0/edit#slide=id.g636c46f3c_01156).
+- ### Prim Algorithm
+	- #### Prim Efficient Algorithm is much like Dijkstra's algorithm.
+		- Prim’s and Dijkstra’s algorithms are exactly the same, except Dijkstra’s considers “distance from the source”, and Prim’s considers “distance from the tree.”
+		- **Visit order:**
+			- Dijkstra’s algorithm visits vertices in order of distance from the source.
+			- Prim’s algorithm visits vertices in order of distance from the MST under construction.
+		- **Relaxation:**
+			- Relaxation in Dijkstra’s considers an edge better based on distance to source.
+			- Relaxation in Prim’s considers an edge better based on distance to tree.
+	- #### Prim’s Algorithm Runtime
+		- Priority Queue operation count, assuming binary heap based PQ:
+			- Insertion: V, each costing O(log V) time.
+			- Delete-min: V, each costing O(log V) time.
+			- Decrease priority: O(E), each costing O(log V) time.
+		- Overall runtime: O(V*log(V) + V*log(V) + E*logV).
+			- Assuming E > V, this is just O(E log V).
+- ### Kruskal's Algorithm
+	-
