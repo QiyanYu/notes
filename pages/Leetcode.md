@@ -15,6 +15,7 @@
 		- [#A] [[1819. Number of Different Subsequences GCDs]]
 		- TODO [#B] [[1824. Minimum Sideway Jumps]]
 		- [#A] [[1825. Finding MK Average]]
+		- [#C] [[1828. Queries on Number of Points Inside a Circle]]
 	- ### 2100-2199
 		- [#C] [[2180. Count Integers With Even Digit Sum]]
 		- [#C] [[2185. Counting Words With a Given Prefix]]
@@ -23,6 +24,8 @@
 		- [#C] [[2287. Rearrange Characters to Make Target String]]
 		- [#C] [[2293. Min Max Game]]
 		- [#C] [[2299. Strong Password Checker II]]
+	- ### 2300-2399
+		- [#C] [[2303. Calculate Amount Paid in Taxes]]
 	- ### 2500-2599
 		- [#B] [[2530. maximal Score After Applying K Operations]]
 	- ### Contest
