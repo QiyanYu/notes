@@ -42,6 +42,11 @@
 		- [[1813. Sentence Similarity III]]
 	- ### Bit Manipulation
 		- [[2299. Strong Password Checker II]]
+	- ### Binary Search
+		- [[Binary Search]]
+	- ### Union Find
+		- [[1632. Rank Transform of a Matrix]]
+		-
 - ## Tips
   id:: 63b90d19-5c34-4180-a8f5-6c208337d0c6
 	- ### Modify inputs for avoiding override default method
