@@ -3,6 +3,7 @@
 	- [#B] For Medium
 	- [#C] For Easy
 	- ### 1600-1699
+		- [#A] [[1632. Rank Transform of a Matrix]]
 		- [#B] [[1658. Minimum Operations to Reduce X to Zero]]
 	- ### 1800-1899
 		- [#A] [[1803. Count Pairs With XOR in a Range]]
@@ -13,9 +14,9 @@
 		- [#A] [[1815. Maximum Number of Groups Getting Fresh Donuts]]
 		- [#B] [[1817. Finding the Users Active Minutes]]
 		- [#A] [[1819. Number of Different Subsequences GCDs]]
-		- TODO [#B] [[1824. Minimum Sideway Jumps]]
+		- LATER [#B] [[1824. Minimum Sideway Jumps]]
 		- [#A] [[1825. Finding MK Average]]
-		- [#C] [[1828. Queries on Number of Points Inside a Circle]]
+		- LATER [#C] [[1828. Queries on Number of Points Inside a Circle]]
 	- ### 2100-2199
 		- [#C] [[2180. Count Integers With Even Digit Sum]]
 		- [#C] [[2185. Counting Words With a Given Prefix]]
@@ -26,12 +27,13 @@
 		- [#C] [[2299. Strong Password Checker II]]
 	- ### 2300-2399
 		- [#C] [[2303. Calculate Amount Paid in Taxes]]
+		- [#B] [[2359. Find Closest Node to Given Two Nodes]]
 	- ### 2500-2599
 		- [#B] [[2530. maximal Score After Applying K Operations]]
 	- ### Contest
-		- TODO [#B] [[6275. Minimum Operations to Make Array Equal II]]
-		- TODO [#B] [[6302. Maximum Subsequence Score]]
-		- TODO [#A] [[6301. Check if Point Is Reachable]]
+		- LATER [#B] [[6275. Minimum Operations to Make Array Equal II]]
+		- LATER [#A] [[6301. Check if Point Is Reachable]]
+		- LATER [#B] [[6302. Maximum Subsequence Score]]
 -
 - ## Algorithm
 	- ### Brute Force
@@ -46,7 +48,8 @@
 		- [[Binary Search]]
 	- ### Union Find
 		- [[1632. Rank Transform of a Matrix]]
-		-
+	- ### BFS
+		- [[2359. Find Closest Node to Given Two Nodes]]
 - ## Tips
   id:: 63b90d19-5c34-4180-a8f5-6c208337d0c6
 	- ### Modify inputs for avoiding override default method
