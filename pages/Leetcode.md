@@ -5,6 +5,7 @@
 	- ### 1600-1699
 		- [#A] [[1632. Rank Transform of a Matrix]]
 		- [#B] [[1658. Minimum Operations to Reduce X to Zero]]
+		- [#B] [[1663. Smallest String With A Given Numeric Value]]
 	- ### 1800-1899
 		- [#A] [[1803. Count Pairs With XOR in a Range]]
 		- [#B] [[1806. Minimum Number of Operations to Reinitialize a Permutation]]
@@ -27,7 +28,8 @@
 		- [#C] [[2299. Strong Password Checker II]]
 	- ### 2300-2399
 		- [#C] [[2303. Calculate Amount Paid in Taxes]]
-		- [#B] [[2359. Find Closest Node to Given Two Nodes]]
+		- [#C] [[2309. Greatest English Letter in Upper and Lower Case]]
+		- LATER [#B] [[2359. Find Closest Node to Given Two Nodes]]
 	- ### 2500-2599
 		- [#B] [[2530. maximal Score After Applying K Operations]]
 	- ### Contest
@@ -44,6 +46,7 @@
 		- [[1813. Sentence Similarity III]]
 	- ### Bit Manipulation
 		- [[2299. Strong Password Checker II]]
+		- [[2309. Greatest English Letter in Upper and Lower Case]]
 	- ### Binary Search
 		- [[Binary Search]]
 	- ### Union Find
