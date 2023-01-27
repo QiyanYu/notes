@@ -10,6 +10,8 @@
 	- `map.putIfAbsent()`
 		- [[1817. Finding the Users Active Minutes]]
 	- [[Java Stream]]
+	- `map.computeIfAbsent()`
+		- [[787. Cheapest Flights Within K Stops]]
 	-
 	-
 - ## Leetcode Tips

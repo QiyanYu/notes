@@ -2,6 +2,8 @@
 	- [#A] For Hard
 	- [#B] For Medium
 	- [#C] For Easy
+	- ### 700-799
+		- [[787. Cheapest Flights Within K Stops]]
 	- ### 1600-1699
 		- [#A] [[1632. Rank Transform of a Matrix]]
 		- [#B] [[1658. Minimum Operations to Reduce X to Zero]]
@@ -52,7 +54,12 @@
 	- ### Union Find
 		- [[1632. Rank Transform of a Matrix]]
 	- ### BFS
+		- [[787. Cheapest Flights Within K Stops]]
 		- [[2359. Find Closest Node to Given Two Nodes]]
+	- ### Dijkstra
+		- LATER [[787. Cheapest Flights Within K Stops]]
+	- ### Bellman Ford
+		- LATER [[787. Cheapest Flights Within K Stops]]
 - ## Tips
   id:: 63b90d19-5c34-4180-a8f5-6c208337d0c6
 	- ### Modify inputs for avoiding override default method
