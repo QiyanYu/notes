@@ -8,6 +8,8 @@
 		- [#A] [[1632. Rank Transform of a Matrix]]
 		- [#B] [[1658. Minimum Operations to Reduce X to Zero]]
 		- [#B] [[1663. Smallest String With A Given Numeric Value]]
+		- [#B] [[1664. Ways to Make a Fair Array]]
+		- [#B] [[1669. Merge In Between Linked Lists]]
 	- ### 1800-1899
 		- [#A] [[1803. Count Pairs With XOR in a Range]]
 		- [#B] [[1806. Minimum Number of Operations to Reinitialize a Permutation]]
@@ -31,9 +33,11 @@
 	- ### 2300-2399
 		- [#C] [[2303. Calculate Amount Paid in Taxes]]
 		- [#C] [[2309. Greatest English Letter in Upper and Lower Case]]
+		- [#C] [[2319. Check if Matrix Is X-Matrix]]
 		- LATER [#B] [[2359. Find Closest Node to Given Two Nodes]]
 	- ### 2500-2599
 		- [#B] [[2530. maximal Score After Applying K Operations]]
+		- LATER [#B] [[2550. Count Collisions of Monkeys on a Polygon]]
 	- ### Contest
 		- LATER [#B] [[6275. Minimum Operations to Make Array Equal II]]
 		- LATER [#A] [[6301. Check if Point Is Reachable]]
@@ -74,4 +78,8 @@
 		- `Arrays.stream(myArray).max().getAsInt()`
 	- ### Use Bit to represent multiple boolean variables
 		- [[2299. Strong Password Checker II]]
+	- ### Check even of odd
+		- `(i & 1) == 0`
+	- ### Fast way to get `pow(2, n)`
+		- [[2550. Count Collisions of Monkeys on a Polygon]]
 -

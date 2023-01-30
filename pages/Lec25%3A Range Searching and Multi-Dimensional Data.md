@@ -1,3 +1,5 @@
 - ### Sets and Maps on 2D Data
 	- Not all data can be compared along a single dimension.
+- ### QuadTree
+	- Every Node has **four** children.
 -
