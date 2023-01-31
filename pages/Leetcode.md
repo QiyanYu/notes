@@ -21,7 +21,7 @@
 		- [#A] [[1819. Number of Different Subsequences GCDs]]
 		- LATER [#B] [[1824. Minimum Sideway Jumps]]
 		- [#A] [[1825. Finding MK Average]]
-		- LATER [#C] [[1828. Queries on Number of Points Inside a Circle]]
+		- LATER [#B] [[1828. Queries on Number of Points Inside a Circle]]
 	- ### 2100-2199
 		- [#C] [[2180. Count Integers With Even Digit Sum]]
 		- [#C] [[2185. Counting Words With a Given Prefix]]
@@ -34,6 +34,7 @@
 		- [#C] [[2303. Calculate Amount Paid in Taxes]]
 		- [#C] [[2309. Greatest English Letter in Upper and Lower Case]]
 		- [#C] [[2319. Check if Matrix Is X-Matrix]]
+		- [#C] [[2325. Decode the Message]]
 		- LATER [#B] [[2359. Find Closest Node to Given Two Nodes]]
 	- ### 2500-2599
 		- [#B] [[2530. maximal Score After Applying K Operations]]
@@ -64,6 +65,8 @@
 		- LATER [[787. Cheapest Flights Within K Stops]]
 	- ### Bellman Ford
 		- LATER [[787. Cheapest Flights Within K Stops]]
+	- ### K-D Tree
+		- [[1828. Queries on Number of Points Inside a Circle]]
 - ## Tips
   id:: 63b90d19-5c34-4180-a8f5-6c208337d0c6
 	- ### Modify inputs for avoiding override default method
