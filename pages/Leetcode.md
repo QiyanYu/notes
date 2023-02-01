@@ -85,4 +85,6 @@
 		- `(i & 1) == 0`
 	- ### Fast way to get `pow(2, n)`
 		- [[2550. Count Collisions of Monkeys on a Polygon]]
+	- ### GCD
+		- [[Euclidean Division Algorithm: GCD]]
 -
