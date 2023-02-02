@@ -3,7 +3,11 @@
 	- [#B] For Medium
 	- [#C] For Easy
 	- ### 700-799
-		- [[787. Cheapest Flights Within K Stops]]
+		- [#B] [[787. Cheapest Flights Within K Stops]]
+	- ### 1000-1099
+		- [#C] [[1071. Greatest Common Divisor of Strings]]
+	- ### 1100-1199
+		- [#B] [[1129. Shortest Path with Alternating Colors]]
 	- ### 1600-1699
 		- [#A] [[1632. Rank Transform of a Matrix]]
 		- [#B] [[1658. Minimum Operations to Reduce X to Zero]]
@@ -60,6 +64,7 @@
 		- [[1632. Rank Transform of a Matrix]]
 	- ### BFS
 		- [[787. Cheapest Flights Within K Stops]]
+		- [[1129. Shortest Path with Alternating Colors]]
 		- [[2359. Find Closest Node to Given Two Nodes]]
 	- ### Dijkstra
 		- LATER [[787. Cheapest Flights Within K Stops]]
