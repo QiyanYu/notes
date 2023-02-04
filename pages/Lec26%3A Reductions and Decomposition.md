@@ -1,0 +1,12 @@
+- ## Topological Sorting
+	- ![image.png](../assets/image_1675490088444_0.png)
+	- A topological sort only exists if the graph is a directed acyclic graph (DAG).
+- ### Shortest Paths on DAGs
+	- ![image.png](../assets/image_1675496303805_0.png)
+	- ![image.png](../assets/image_1675496345454_0.png)
+- ### The Longest Paths Problem on DAG
+	- ![image.png](../assets/image_1675496812842_0.png)
+- ### Summary
+	- ![image.png](../assets/image_1675496962641_0.png)
+	-
+-

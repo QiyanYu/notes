@@ -24,6 +24,7 @@
 	- [[Lec23: Shortest Paths]]
 	- [[Lec24: Minimum Spanning Trees]]
 	- [[Lec25: Range Searching and Multi-Dimensional Data]]
+	- [[Lec26: Reductions and Decomposition]]
 - ## Discussion
 	- 02: Introduction To Java
 		- [[Fibonacci]]

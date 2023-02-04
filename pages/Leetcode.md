@@ -101,3 +101,7 @@
 		- [[Euclidean Division Algorithm: GCD]]
 	- ### Order is a powerful property. If sorting an array doesn't affect the solution, try sorting the array and rethinking to see if a new idea can be found.
 		- [[1798. Maximum Number of Consecutive Values You Can Make]]
+	- ### `addAll()`
+	- ### Arraylist to array
+		- `int[] numbersArray = numbers.stream().mapToInt(i -> i).toArray();`
+	-
