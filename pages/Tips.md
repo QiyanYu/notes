@@ -1,18 +1,3 @@
-- ## Java Tips
-	- [[A switch clause must include a break statement]]
-	- [[NullPointerException]]
-	- [[Using Reference Type]]
-	- [[Use the overload method to simplify]]
-	- [[Nature module in Java]]
-	- ((63bdebfa-acaf-4651-8dd0-b80b5903cccf))
-	- [[add() vs. offer() in Java]]
-	- [[BiFunction in Java]]
-	- `map.putIfAbsent()`
-		- [[1817. Finding the Users Active Minutes]]
-	- [[Java Stream]]
-	- `map.computeIfAbsent()`
-		- [[787. Cheapest Flights Within K Stops]]
-	-
-	-
-- ## Leetcode Tips
-	- ((63b90d19-5c34-4180-a8f5-6c208337d0c6))
+- ### [[Java syntax tips]]
+  id:: 63dc3901-6d95-4bc4-8318-92d286eb2a95
+- ### [[Leetcode Tips]]

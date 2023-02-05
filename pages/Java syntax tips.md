@@ -1,3 +1,21 @@
 - #java
 - Java supports scientific notation. `double someNumber = 1.03e-7;`
--
+- [[A switch clause must include a break statement]]
+- [[NullPointerException]]
+- [[Using Reference Type]]
+- [[Use the overload method to simplify]]
+- [[Nature module in Java]]
+- [[add() vs. offer() in Java]]
+- [[BiFunction in Java]]
+- `map.putIfAbsent()`
+	- [[1817. Finding the Users Active Minutes]]
+- [[Java Stream]]
+- `map.computeIfAbsent()`
+	- [[787. Cheapest Flights Within K Stops]]
+- switch clause
+	- [[2331. Evaluate Boolean Binary Tree]]
+- ### Java Integer Array max()
+	- `Arrays.stream(myArray).max().getAsInt()`
+- `addAll()`
+- Arraylist to array
+	- `int[] numbersArray = numbers.stream().mapToInt(i -> i).toArray();`
