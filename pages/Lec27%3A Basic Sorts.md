@@ -1,0 +1,7 @@
+- ## Selection Sort
+	- time: O(N^2)
+- ## Heap sort
+	- time: O(NlogN)
+- ## Merge Sort
+- ## Insertion Sort
+-

@@ -4,6 +4,8 @@
 	- [#C] For Easy
 	- ### 1-99
 		- [#B] [[6. Zigzag Conversion]]
+	- ### 400-499
+		- [#B] [[438. Find All Anagrams in a String]]
 	- ### 500-599
 		- [#B] [[567. Permutation in String]]
 	- ### 700-799
@@ -15,7 +17,10 @@
 	- ### 1100-1199
 		- [#B] [[1129. Shortest Path with Alternating Colors]]
 		- [#B] [[1145. Binary Tree Coloring Game]]
+	- ### 1400-1499
+		- [#C] [[1470. Shuffle the Array]]
 	- ### 1600-1699
+		- [#B] [[1604. Alert Using Same Key-Card Three or More Times in a One Hour Period]]
 		- [#A] [[1632. Rank Transform of a Matrix]]
 		- [#B] [[1658. Minimum Operations to Reduce X to Zero]]
 		- [#B] [[1663. Smallest String With A Given Numeric Value]]
@@ -65,6 +70,7 @@
 		- [[Discussion 7: ADTs and Asymptotic Analysis]]
 		- [[1658. Minimum Operations to Reduce X to Zero]]
 		- [[1813. Sentence Similarity III]]
+	- ### [[Sliding Window]]
 	- ### Bit Manipulation
 		- [[2299. Strong Password Checker II]]
 		- [[2309. Greatest English Letter in Upper and Lower Case]]
