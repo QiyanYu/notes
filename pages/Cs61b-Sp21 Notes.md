@@ -24,9 +24,10 @@
 	- [[Lec23: Shortest Paths]]
 	- [[Lec24: Minimum Spanning Trees]]
 	- [[Lec25: Range Searching and Multi-Dimensional Data]]
-	- [[Lec26: Reductions and Decomposition]]
-	- [[Lec27: Basic Sorts]]
-	-
+	- [[Lec26 Prefix Operations and Tries]]
+	- [[Lec28: Reductions and Decomposition]]
+	- [[Lec29: Basic Sorts]]
+	- [[Lec30: Quick Sort]]
 - ## Discussion
 	- 02: Introduction To Java
 		- [[Fibonacci]]

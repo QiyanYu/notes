@@ -1,0 +1,5 @@
+- ![image.png](../assets/image_1675747568520_0.png)
+- ### Why Runtime is $$O(N log N)$$
+	- ![image.png](../assets/image_1675747721856_0.png)
+	- ![image.png](../assets/image_1675747776339_0.png)
+	-
