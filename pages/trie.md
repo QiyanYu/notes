@@ -1,0 +1,4 @@
+- ## Basic
+	- ![cs61b 2019 lec22 tries.pdf](../assets/cs61b_2019_lec22_tries_1675839054668_0.pdf)
+- ## Leetcode
+	- [[1233. Remove Sub-Folders from the Filesystem]]

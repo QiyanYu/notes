@@ -11,12 +11,15 @@
 	- ### 700-799
 		- [#B] [[787. Cheapest Flights Within K Stops]]
 	- ### 900-999
+		- [#B] [[904. Fruit Into Baskets]]
 		- [#C] [[953. Verifying an Alien Dictionary]]
 	- ### 1000-1099
 		- [#C] [[1071. Greatest Common Divisor of Strings]]
 	- ### 1100-1199
 		- [#B] [[1129. Shortest Path with Alternating Colors]]
 		- [#B] [[1145. Binary Tree Coloring Game]]
+	- ### 1200-1299
+		- [#B] [[1233. Remove Sub-Folders from the Filesystem]]
 	- ### 1400-1499
 		- [#C] [[1470. Shuffle the Array]]
 	- ### 1600-1699
@@ -88,6 +91,7 @@
 		- LATER [[787. Cheapest Flights Within K Stops]]
 	- ### K-D Tree
 		- [[1828. Queries on Number of Points Inside a Circle]]
+	- ### [[Trie]]
 - ## Tips
   id:: 63b90d19-5c34-4180-a8f5-6c208337d0c6
 	- ### [[Leetcode Tips]]
