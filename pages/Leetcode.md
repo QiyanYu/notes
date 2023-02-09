@@ -1,9 +1,10 @@
-- ## LC Problems
+- ## 1. LC Problems
 	- [#A] For Hard
 	- [#B] For Medium
 	- [#C] For Easy
 	- ### 1-99
 		- [#B] [[6. Zigzag Conversion]]
+		- [#B] [[45. Jump Game II]]
 	- ### 400-499
 		- [#B] [[438. Find All Anagrams in a String]]
 	- ### 500-599
@@ -30,6 +31,7 @@
 		- [#B] [[1664. Ways to Make a Fair Array]]
 		- [#B] [[1669. Merge In Between Linked Lists]]
 	- ### 1700-1799
+		- [#B] [[1797. Design Authentication Manager]]
 		- [#B] [[1798. Maximum Number of Consecutive Values You Can Make]]
 	- ### 1800-1899
 		- [#A] [[1803. Count Pairs With XOR in a Range]]
@@ -53,6 +55,7 @@
 		- [#C] [[2299. Strong Password Checker II]]
 	- ### 2300-2399
 		- [#C] [[2303. Calculate Amount Paid in Taxes]]
+		- [#A] [[2306. Naming a Company]]
 		- [#C] [[2309. Greatest English Letter in Upper and Lower Case]]
 		- [#C] [[2319. Check if Matrix Is X-Matrix]]
 		- [#C] [[2325. Decode the Message]]
@@ -66,14 +69,14 @@
 		- LATER [#A] [[6301. Check if Point Is Reachable]]
 		- LATER [#B] [[6302. Maximum Subsequence Score]]
 -
-- ## Algorithm
-	- ### Brute Force
-		- [[1803. Count Pairs With XOR in a Range]]
-	- ### Two Pointers
+- ## 2. Algorithms & Data Structure
+	- ### 2.1 [[Brute Force]]
+	- ### 2.2 [[Hashing]]
+	- ### 2.3 Two Pointers
 		- [[Discussion 7: ADTs and Asymptotic Analysis]]
 		- [[1658. Minimum Operations to Reduce X to Zero]]
 		- [[1813. Sentence Similarity III]]
-	- ### [[Sliding Window]]
+	- ### 2.4 [[Sliding Window]]
 	- ### Bit Manipulation
 		- [[2299. Strong Password Checker II]]
 		- [[2309. Greatest English Letter in Upper and Lower Case]]
@@ -92,6 +95,7 @@
 	- ### K-D Tree
 		- [[1828. Queries on Number of Points Inside a Circle]]
 	- ### [[Trie]]
+	- ### [[Greedy]]
 - ## Tips
   id:: 63b90d19-5c34-4180-a8f5-6c208337d0c6
 	- ### [[Leetcode Tips]]

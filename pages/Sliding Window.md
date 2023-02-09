@@ -30,6 +30,7 @@
 	  
 	  ```
 - ## Leetcode
+	- [[45. Jump Game II]]
 	- [[438. Find All Anagrams in a String]]
 	- [[567. Permutation in String]]
 	- [[904. Fruit Into Baskets]]

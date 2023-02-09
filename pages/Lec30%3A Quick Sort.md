@@ -2,4 +2,22 @@
 - ### Why Runtime is $$O(N log N)$$
 	- ![image.png](../assets/image_1675747721856_0.png)
 	- ![image.png](../assets/image_1675747776339_0.png)
-	-
+- ## Avoiding the Worst Case
+	- ### If pivot always lands somewhere “good”, Quicksort is $$Θ(N log N)$$ . However, the very rare  $$Θ(N^2)$$ cases do happen in practice, e.g.
+		- Bad ordering: Array already in sorted order (or almost sorted order).
+		- Bad elements: Array with all duplicates.
+	- ### Four philosophies:
+		- 1. **Randomness**: Pick a random pivot or shuffle before sorting.
+		- 2. **Smarter pivot selection**: Calculate or approximate the median.
+		- 3. **Introspection**: Switch to a safer sort if recursion goes to deep.
+		- 4. **Preprocess the array**: Could analyze array to see if Quicksort will be slow. No obvious way to do this, though (can’t just check if array is sorted, almost sorted arrays are almost slow).
+- ## Quick Select
+	- ![image.png](../assets/image_1675922183933_0.png)
+	- ### On average, Quick Select will take $$Θ(N)$$ time.
+- ## Other Desirable Sorting Properties
+	- ### Stability
+		- ![image.png](../assets/image_1675922450151_0.png)
+		- ![image.png](../assets/image_1675922563752_0.png)
+- ## Optimizing Sorts
+	- ![image.png](../assets/image_1675922660640_0.png)
+-
