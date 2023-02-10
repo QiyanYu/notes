@@ -27,7 +27,9 @@
 	- [[Lec26 Prefix Operations and Tries]]
 	- [[Lec28: Reductions and Decomposition]]
 	- [[Lec29: Basic Sorts]]
-	- [[Lec30: Quick Sort]]
+	- Lec30: [[Quick Sort]]
+	- Lec35: [[Radix Sort]]
+	-
 - ## Discussion
 	- 02: Introduction To Java
 		- [[Fibonacci]]

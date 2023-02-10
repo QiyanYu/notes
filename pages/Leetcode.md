@@ -60,6 +60,7 @@
 		- [#C] [[2319. Check if Matrix Is X-Matrix]]
 		- [#C] [[2325. Decode the Message]]
 		- [#C] [[2331. Evaluate Boolean Binary Tree]]
+		- [#C] [[2335. Minimum Amount of Time to Fill Cups]]
 		- LATER [#B] [[2359. Find Closest Node to Given Two Nodes]]
 	- ### 2500-2599
 		- [#B] [[2530. maximal Score After Applying K Operations]]
@@ -96,6 +97,7 @@
 		- [[1828. Queries on Number of Points Inside a Circle]]
 	- ### [[Trie]]
 	- ### [[Greedy]]
+	- ### [[Sort]]
 - ## Tips
   id:: 63b90d19-5c34-4180-a8f5-6c208337d0c6
 	- ### [[Leetcode Tips]]
