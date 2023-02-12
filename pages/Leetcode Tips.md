@@ -15,3 +15,6 @@
 	- [[Euclidean Division Algorithm: GCD]]
 ### Order is a powerful property. If sorting an array doesn't affect the solution, try sorting the array and rethinking to see if a new idea can be found.
 	- [[1798. Maximum Number of Consecutive Values You Can Make]]
+- ### BFS
+	- #### When using BFS, do not forget `visited[][]` array. And also do not use `Set<> vistied`
+		- [[1162. As Far from Land as Possible]]

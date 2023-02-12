@@ -3,27 +3,38 @@
 	- [#B] For Medium
 	- [#C] For Easy
 	- ### 1-99
+	  collapsed:: true
 		- [#B] [[6. Zigzag Conversion]]
 		- [#B] [[45. Jump Game II]]
 	- ### 400-499
+	  collapsed:: true
 		- [#B] [[438. Find All Anagrams in a String]]
 	- ### 500-599
+	  collapsed:: true
 		- [#B] [[567. Permutation in String]]
 	- ### 700-799
+	  collapsed:: true
 		- [#B] [[787. Cheapest Flights Within K Stops]]
 	- ### 900-999
+	  collapsed:: true
 		- [#B] [[904. Fruit Into Baskets]]
 		- [#C] [[953. Verifying an Alien Dictionary]]
 	- ### 1000-1099
+	  collapsed:: true
 		- [#C] [[1071. Greatest Common Divisor of Strings]]
 	- ### 1100-1199
 		- [#B] [[1129. Shortest Path with Alternating Colors]]
+		- [#B] [[1138. Alphabet Board Path]]
 		- [#B] [[1145. Binary Tree Coloring Game]]
+		- LATER [#B] [[1162. As Far from Land as Possible]]
 	- ### 1200-1299
+	  collapsed:: true
 		- [#B] [[1233. Remove Sub-Folders from the Filesystem]]
 	- ### 1400-1499
+	  collapsed:: true
 		- [#C] [[1470. Shuffle the Array]]
 	- ### 1600-1699
+	  collapsed:: true
 		- [#B] [[1604. Alert Using Same Key-Card Three or More Times in a One Hour Period]]
 		- [#A] [[1632. Rank Transform of a Matrix]]
 		- [#B] [[1658. Minimum Operations to Reduce X to Zero]]
@@ -31,6 +42,7 @@
 		- [#B] [[1664. Ways to Make a Fair Array]]
 		- [#B] [[1669. Merge In Between Linked Lists]]
 	- ### 1700-1799
+	  collapsed:: true
 		- [#B] [[1797. Design Authentication Manager]]
 		- [#B] [[1798. Maximum Number of Consecutive Values You Can Make]]
 	- ### 1800-1899
@@ -46,9 +58,11 @@
 		- [#A] [[1825. Finding MK Average]]
 		- LATER [#B] [[1828. Queries on Number of Points Inside a Circle]]
 	- ### 2100-2199
+	  collapsed:: true
 		- [#C] [[2180. Count Integers With Even Digit Sum]]
 		- [#C] [[2185. Counting Words With a Given Prefix]]
 	- ### 2200-2299
+	  collapsed:: true
 		- [#C] [[2283. Check if Number Has Equal Digit Count and Digit Value]]
 		- [#C] [[2287. Rearrange Characters to Make Target String]]
 		- [#C] [[2293. Min Max Game]]
@@ -85,16 +99,14 @@
 		- [[Binary Search]]
 	- ### Union Find
 		- [[1632. Rank Transform of a Matrix]]
-	- ### BFS
-		- [[787. Cheapest Flights Within K Stops]]
-		- [[1129. Shortest Path with Alternating Colors]]
-		- [[2359. Find Closest Node to Given Two Nodes]]
-	- ### Dijkstra
-		- LATER [[787. Cheapest Flights Within K Stops]]
-	- ### Bellman Ford
-		- LATER [[787. Cheapest Flights Within K Stops]]
-	- ### K-D Tree
-		- [[1828. Queries on Number of Points Inside a Circle]]
+	- ### [[BFS]]
+		- #### [[Dijkstra]]
+			- We know that the heap-optimized Dijkstra algorithm is actually a variation of BFS, where the queue in BFS is transformed into a priority queue, and a relaxation operation is added when expanding new states.
+	- ### [[Bellman Ford]]
+		- #### [[Shortest Path Faster Algorithms]]
+			- (SPFA) is an improvement of the Bellman Ford algorithm which computes single-source shortest paths in a weighted graph.
+		-
+	- ### [[K-D Tree]]
 	- ### [[Trie]]
 	- ### [[Greedy]]
 	- ### [[Sort]]

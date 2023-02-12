@@ -1,2 +1,3 @@
 - ## Leetcode
+	- [[1138. Alphabet Board Path]]
 	- [[2306. Naming a Company]]
