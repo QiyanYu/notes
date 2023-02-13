@@ -28,11 +28,13 @@
 		- [#B] [[1145. Binary Tree Coloring Game]]
 		- LATER [#B] [[1162. As Far from Land as Possible]]
 	- ### 1200-1299
-	  collapsed:: true
 		- [#B] [[1233. Remove Sub-Folders from the Filesystem]]
+		- [#B] [[1234. Replace the Substring for Balanced String]]
 	- ### 1400-1499
 	  collapsed:: true
 		- [#C] [[1470. Shuffle the Array]]
+	- ### 1500-1599
+		- [#C] [[1523. Count Odd Numbers in an Interval Range]]
 	- ### 1600-1699
 	  collapsed:: true
 		- [#B] [[1604. Alert Using Same Key-Card Three or More Times in a One Hour Period]]
