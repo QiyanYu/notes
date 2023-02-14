@@ -1,0 +1,4 @@
+- ## Bézout's identity
+	- [Wiki](https://en.wikipedia.org/wiki/B%C3%A9zout%27s_identity#:~:text=In%20mathematics%2C%20B%C3%A9zout's%20identity%20(also,that%20ax%20%2B%20by%20%3D%20d.)
+	- For any integers a, b, and m, there exist integer solutions for x and y in the equation $$ax + by = m$$ if and only if m is a multiple of the greatest common divisor (GCD) of a and b, denoted as d.
+	- [[1250. Check If It Is a Good Array]]

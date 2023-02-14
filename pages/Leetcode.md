@@ -6,6 +6,7 @@
 	  collapsed:: true
 		- [#B] [[6. Zigzag Conversion]]
 		- [#B] [[45. Jump Game II]]
+		- [#C] [[67. Add Binary]]
 	- ### 400-499
 	  collapsed:: true
 		- [#B] [[438. Find All Anagrams in a String]]
@@ -23,17 +24,21 @@
 	  collapsed:: true
 		- [#C] [[1071. Greatest Common Divisor of Strings]]
 	- ### 1100-1199
+		- LATER [#B] [[1124. Longest Well-Performing Interval]]
 		- [#B] [[1129. Shortest Path with Alternating Colors]]
 		- [#B] [[1138. Alphabet Board Path]]
 		- [#B] [[1145. Binary Tree Coloring Game]]
 		- LATER [#B] [[1162. As Far from Land as Possible]]
 	- ### 1200-1299
+	  collapsed:: true
+		- [#A] [[1250. Check If It Is a Good Array]]
 		- [#B] [[1233. Remove Sub-Folders from the Filesystem]]
 		- [#B] [[1234. Replace the Substring for Balanced String]]
 	- ### 1400-1499
 	  collapsed:: true
 		- [#C] [[1470. Shuffle the Array]]
 	- ### 1500-1599
+	  collapsed:: true
 		- [#C] [[1523. Count Odd Numbers in an Interval Range]]
 	- ### 1600-1699
 	  collapsed:: true
@@ -78,6 +83,8 @@
 		- [#C] [[2331. Evaluate Boolean Binary Tree]]
 		- [#C] [[2335. Minimum Amount of Time to Fill Cups]]
 		- LATER [#B] [[2359. Find Closest Node to Given Two Nodes]]
+	- ### 2400-2499
+		- LATER [#B] [[2477. Minimum Fuel Cost to Report to the Capital]]
 	- ### 2500-2599
 		- [#B] [[2530. maximal Score After Applying K Operations]]
 		- LATER [#B] [[2550. Count Collisions of Monkeys on a Polygon]]
@@ -112,6 +119,7 @@
 	- ### [[Trie]]
 	- ### [[Greedy]]
 	- ### [[Sort]]
+	- ### [[Math]]
 - ## Tips
   id:: 63b90d19-5c34-4180-a8f5-6c208337d0c6
 	- ### [[Leetcode Tips]]
