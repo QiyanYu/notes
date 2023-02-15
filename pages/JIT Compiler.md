@@ -1,0 +1,5 @@
+- ## Java's Just-In-Time Compiler
+	- ### Java’s Just-In-Time Compiler secretly optimizes your code when it runs.
+		- #### The code you write is not necessarily the code that executes!
+		- #### As your code runs, the “interpreter” is watching everything that happens.
+			- If some segment of code is called many times, the interpreter actually studies and re-implements your code based on what it learned by watching WHILE ITS RUNNING (!!).

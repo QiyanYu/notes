@@ -29,7 +29,8 @@
 	- [[Lec29: Basic Sorts]]
 	- Lec30: [[Quick Sort]]
 	- Lec35: [[Radix Sort]]
-	-
+	- Lec36: Sorting and Data Structures Conclusion. [[JIT Compiler]]
+	- Lec38, Lec39: [[Compression]]
 - ## Discussion
 	- 02: Introduction To Java
 		- [[Fibonacci]]
