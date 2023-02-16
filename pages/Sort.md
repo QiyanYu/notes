@@ -161,4 +161,6 @@
 - ## 6. [[Quick Sort]]
 ## Summary
 	- ![image.png](../assets/image_1675744907861_0.png)
+- ## Leetcode
+	- [[2341. Maximum Number of Pairs in Array]]
 	-

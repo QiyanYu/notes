@@ -20,6 +20,7 @@
 	  collapsed:: true
 		- [#B] [[904. Fruit Into Baskets]]
 		- [#C] [[953. Verifying an Alien Dictionary]]
+		- [#C] [[989. Add to Array-Form of Integer]]
 	- ### 1000-1099
 	  collapsed:: true
 		- [#C] [[1071. Greatest Common Divisor of Strings]]
@@ -82,6 +83,7 @@
 		- [#C] [[2325. Decode the Message]]
 		- [#C] [[2331. Evaluate Boolean Binary Tree]]
 		- [#C] [[2335. Minimum Amount of Time to Fill Cups]]
+		- [#C] [[2341. Maximum Number of Pairs in Array]]
 		- LATER [#B] [[2359. Find Closest Node to Given Two Nodes]]
 	- ### 2400-2499
 		- LATER [#B] [[2477. Minimum Fuel Cost to Report to the Capital]]
@@ -109,7 +111,7 @@
 	- ### Union Find
 		- [[1632. Rank Transform of a Matrix]]
 	- ### [[BFS]]
-		- #### [[Dijkstra]]
+		- #### [[Dijkstra & A∗]]
 			- We know that the heap-optimized Dijkstra algorithm is actually a variation of BFS, where the queue in BFS is transformed into a priority queue, and a relaxation operation is added when expanding new states.
 	- ### [[Bellman Ford]]
 		- #### [[Shortest Path Faster Algorithms]]

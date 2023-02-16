@@ -692,7 +692,7 @@ title:: CS 61B Course Notes
 		- DFS traversal.
 		- **ANY** recursive algorithm can be implemented using iteration and a stack.
 		- In 61C, we'll learn how recursive calls are implemented at a low level using a stack, i.e. in REAL recursive code, there is an explicit stack being utilized.
-- # Lecture 23: Shortest Paths #algorithm #Dijkstra
+- # Lecture 23: Shortest Paths #algorithm #[[Dijkstra & A∗]]
   collapsed:: true
 	- ### Algorithm Pseudocode:
 		- #### Dijkstra's:

@@ -1,11 +1,18 @@
+- ## Prefix-Free Codes
+	- A prefix-free code is one in which no codeword is a prefix of any other.
+	- ![image.png](../assets/image_1676508642092_0.png)
+	-
 - ## Huffman Coding
 	- ### Given a file X.txt that we’d like to compress into X.huf:
 		- Consider each b-bit symbol (e.g. 8-bit chunks, Unicode characters, etc.) of X.txt, counting occurrences of each of the 2b possibilities, where b is the size of each symbol in bits.
 		- Use Huffman code construction algorithm to create a decoding trie and encoding map. Store this trie at the beginning of X.huf.
 		- Use encoding map to write codeword for each symbol of input into X.huf.
+		- ![image.png](../assets/image_1676509594450_0.png)
 	- ### To decompress X.huf:
 		- Read in the decoding trie.
 		- Repeatedly use the decoding trie’s longestPrefixOf operation until all bits in X.hug have been converted back to their uncompressed form.
 	- ![image.png](../assets/image_1676445455739_0.png)
 	- ![image.png](../assets/image_1676445468362_0.png)
-	-
+	- LATER [Huffman Implementation](https://algs4.cs.princeton.edu/55compression/Huffman.java)
+-
+-
