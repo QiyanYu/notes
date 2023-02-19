@@ -1,0 +1,9 @@
+- # Basic
+- # Traversal
+	- ## 1. Recursion
+	- ## 2. Iteration
+	- ## 3. Morris
+		- Morris Traversal is a tree traversal algorithm used to traverse a binary tree in O(n) time using O(1) space. Morris Traversal was developed by James Morris in 1979.
+		- Instead of using a stack or recursion like many other tree traversal algorithms, Morris Traversal uses threaded binary trees. A threaded binary tree is a binary tree that has additional pointers to help traverse the tree efficiently without using a stack. Morris Traversal first modifies the binary tree by adding these additional pointers, and then uses the threaded binary tree to traverse the tree in order.
+- # Leetcode
+	- [[783. Minimum Distance Between BST Nodes]]

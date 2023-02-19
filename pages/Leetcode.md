@@ -1,47 +1,52 @@
-- ## 1. LC Problems
+- # 1. LC Problems
 	- [#A] For Hard
 	- [#B] For Medium
 	- [#C] For Easy
-	- ### 1-99
+	- ## 1-99
 	  collapsed:: true
 		- [#B] [[6. Zigzag Conversion]]
 		- [#B] [[45. Jump Game II]]
 		- [#C] [[67. Add Binary]]
-	- ### 400-499
+	- ## 100-199
+	  collapsed:: true
+		- [#C] [[104. Maximum Depth of Binary Tree]]
+	- ## 400-499
 	  collapsed:: true
 		- [#B] [[438. Find All Anagrams in a String]]
-	- ### 500-599
+	- ## 500-599
 	  collapsed:: true
 		- [#B] [[567. Permutation in String]]
-	- ### 700-799
+	- ## 700-799
 	  collapsed:: true
+		- [#C] [[783. Minimum Distance Between BST Nodes]]
 		- [#B] [[787. Cheapest Flights Within K Stops]]
-	- ### 900-999
+	- ## 900-999
 	  collapsed:: true
 		- [#B] [[904. Fruit Into Baskets]]
 		- [#C] [[953. Verifying an Alien Dictionary]]
 		- [#C] [[989. Add to Array-Form of Integer]]
-	- ### 1000-1099
+	- ## 1000-1099
 	  collapsed:: true
 		- [#C] [[1071. Greatest Common Divisor of Strings]]
-	- ### 1100-1199
+	- ## 1100-1199
 		- LATER [#B] [[1124. Longest Well-Performing Interval]]
 		- [#B] [[1129. Shortest Path with Alternating Colors]]
 		- [#B] [[1138. Alphabet Board Path]]
+		- [#B] [[1139. Largest 1-Bordered Square]]
 		- [#B] [[1145. Binary Tree Coloring Game]]
 		- LATER [#B] [[1162. As Far from Land as Possible]]
-	- ### 1200-1299
-	  collapsed:: true
+	- ## 1200-1299
 		- [#A] [[1250. Check If It Is a Good Array]]
 		- [#B] [[1233. Remove Sub-Folders from the Filesystem]]
 		- [#B] [[1234. Replace the Substring for Balanced String]]
-	- ### 1400-1499
+		- LATER [#B] [[1237. Find Positive Integer Solution for a Given Equation]]
+	- ## 1400-1499
 	  collapsed:: true
 		- [#C] [[1470. Shuffle the Array]]
-	- ### 1500-1599
+	- ## 1500-1599
 	  collapsed:: true
 		- [#C] [[1523. Count Odd Numbers in an Interval Range]]
-	- ### 1600-1699
+	- ## 1600-1699
 	  collapsed:: true
 		- [#B] [[1604. Alert Using Same Key-Card Three or More Times in a One Hour Period]]
 		- [#A] [[1632. Rank Transform of a Matrix]]
@@ -49,11 +54,11 @@
 		- [#B] [[1663. Smallest String With A Given Numeric Value]]
 		- [#B] [[1664. Ways to Make a Fair Array]]
 		- [#B] [[1669. Merge In Between Linked Lists]]
-	- ### 1700-1799
+	- ## 1700-1799
 	  collapsed:: true
 		- [#B] [[1797. Design Authentication Manager]]
 		- [#B] [[1798. Maximum Number of Consecutive Values You Can Make]]
-	- ### 1800-1899
+	- ## 1800-1899
 		- [#A] [[1803. Count Pairs With XOR in a Range]]
 		- [#B] [[1806. Minimum Number of Operations to Reinitialize a Permutation]]
 		- [#B] [[1807. Evaluate the Bracket Pairs of a String]]
@@ -65,17 +70,17 @@
 		- LATER [#B] [[1824. Minimum Sideway Jumps]]
 		- [#A] [[1825. Finding MK Average]]
 		- LATER [#B] [[1828. Queries on Number of Points Inside a Circle]]
-	- ### 2100-2199
+	- ## 2100-2199
 	  collapsed:: true
 		- [#C] [[2180. Count Integers With Even Digit Sum]]
 		- [#C] [[2185. Counting Words With a Given Prefix]]
-	- ### 2200-2299
+	- ## 2200-2299
 	  collapsed:: true
 		- [#C] [[2283. Check if Number Has Equal Digit Count and Digit Value]]
 		- [#C] [[2287. Rearrange Characters to Make Target String]]
 		- [#C] [[2293. Min Max Game]]
 		- [#C] [[2299. Strong Password Checker II]]
-	- ### 2300-2399
+	- ## 2300-2399
 		- [#C] [[2303. Calculate Amount Paid in Taxes]]
 		- [#A] [[2306. Naming a Company]]
 		- [#C] [[2309. Greatest English Letter in Upper and Lower Case]]
@@ -85,46 +90,48 @@
 		- [#C] [[2335. Minimum Amount of Time to Fill Cups]]
 		- [#C] [[2341. Maximum Number of Pairs in Array]]
 		- LATER [#B] [[2359. Find Closest Node to Given Two Nodes]]
-	- ### 2400-2499
+	- ## 2400-2499
 		- LATER [#B] [[2477. Minimum Fuel Cost to Report to the Capital]]
-	- ### 2500-2599
+	- ## 2500-2599
 		- [#B] [[2530. maximal Score After Applying K Operations]]
 		- LATER [#B] [[2550. Count Collisions of Monkeys on a Polygon]]
-	- ### Contest
+		- LATER [#C] [[2566. Maximum Difference by Remapping a Digit]]
+	- ## Contest
 		- LATER [#B] [[6275. Minimum Operations to Make Array Equal II]]
 		- LATER [#A] [[6301. Check if Point Is Reachable]]
 		- LATER [#B] [[6302. Maximum Subsequence Score]]
 -
-- ## 2. Algorithms & Data Structure
-	- ### 2.1 [[Brute Force]]
-	- ### 2.2 [[Hashing]]
-	- ### 2.3 Two Pointers
-		- [[Discussion 7: ADTs and Asymptotic Analysis]]
-		- [[1658. Minimum Operations to Reduce X to Zero]]
-		- [[1813. Sentence Similarity III]]
-	- ### 2.4 [[Sliding Window]]
-	- ### Bit Manipulation
+- # 2. Algorithms & Data Structure
+	- ## 2.1 [[Brute Force]]
+	- ## 2.2 [[Hashing]]
+	- ## 2.3 [[Two Pointers]]
+	- ## 2.4 [[Sliding Window]]
+	- ## Bit Manipulation
 		- [[2299. Strong Password Checker II]]
 		- [[2309. Greatest English Letter in Upper and Lower Case]]
-	- ### Binary Search
-		- [[Binary Search]]
-	- ### Union Find
+	- ## [[Binary Search]]
+	- ## Union Find
 		- [[1632. Rank Transform of a Matrix]]
-	- ### [[BFS]]
-		- #### [[Dijkstra & A∗]]
+	- ## [[Tree]]
+	- ## [[Binary Search Tree]]
+	- ## [[BFS]]
+		- ### [[Dijkstra & A∗]]
 			- We know that the heap-optimized Dijkstra algorithm is actually a variation of BFS, where the queue in BFS is transformed into a priority queue, and a relaxation operation is added when expanding new states.
-	- ### [[Bellman Ford]]
-		- #### [[Shortest Path Faster Algorithms]]
+	- ## [[DFS]]
+	- ## [[Bellman Ford]]
+		- ### [[Shortest Path Faster Algorithms]]
 			- (SPFA) is an improvement of the Bellman Ford algorithm which computes single-source shortest paths in a weighted graph.
 		-
-	- ### [[K-D Tree]]
-	- ### [[Trie]]
-	- ### [[Greedy]]
-	- ### [[Sort]]
-	- ### [[Math]]
-- ## Tips
+	- ## [[K-D Tree]]
+	- ## [[Trie]]
+	- ## [[Greedy]]
+	- ## [[DP]]
+	- ## [[Prefix Sum]]
+	- ## [[Sort]]
+	- ## [[Math]]
+- # Tips
   id:: 63b90d19-5c34-4180-a8f5-6c208337d0c6
-	- ### [[Leetcode Tips]]
-	- ### [[Java syntax tips]]
+	- ## [[Leetcode Tips]]
+	- ## [[Java syntax tips]]
 	-
 	-

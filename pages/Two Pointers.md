@@ -1,0 +1,6 @@
+- [[Discussion 7: ADTs and Asymptotic Analysis]]
+- # Leetcode
+	- [[1237. Find Positive Integer Solution for a Given Equation]]
+	- [[1658. Minimum Operations to Reduce X to Zero]]
+	- [[1813. Sentence Similarity III]]
+-

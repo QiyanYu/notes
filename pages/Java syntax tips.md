@@ -19,3 +19,7 @@
 - `addAll()`
 - Arraylist to array
 	- `int[] numbersArray = numbers.stream().mapToInt(i -> i).toArray();`
+- ### Using `Deque` over `Stack`
+	- `Stack` is considered a legacy class and has been largely replaced by `Deque`.
+	- One advantage of using `Deque` over `Stack` is that it is generally faster and more efficient for most use cases.
+-

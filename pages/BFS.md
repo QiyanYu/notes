@@ -3,6 +3,7 @@
 	- ![Lecture 22: Graphs II: Graph Traversal Implementations](../assets/cs61b_2021_lec_22_graphs2_-_dfs,_bfs_1676187376478_0.pdf)
 	- ### Multi-source BFS
 - ## Leetcode
+	- [[104. Maximum Depth of Binary Tree]]
 	- [[787. Cheapest Flights Within K Stops]]
 	- [[1129. Shortest Path with Alternating Colors]]
 	- [[1162. As Far from Land as Possible]]

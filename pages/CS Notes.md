@@ -1,7 +1,6 @@
 title:: CS Notes
 
-- # 0. Leetcode
-	- [[Leetcode]]
+- # 0. [[Leetcode]]
 - # 1. Computer Science
 	- ## 1.1 Introduction
 		- ### 1.1.1 MIT The Missing Semester - Finished ✅
