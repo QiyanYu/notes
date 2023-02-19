@@ -635,7 +635,7 @@ title:: CS 61B Course Notes
 			- Can also lead to items getting lost and generally weird behavior.
 			- `HashMap`s and `HashSet`s use equals to determine if an item exists in a particular bucket.
 		-
-- # Lecture 20: Heaps and PQs #algorithm #priority-queue
+- # Lecture 20: Heaps and PQs #algorithm #[[PriorityQueue & Heap]]
   collapsed:: true
 	- Priority Queue is an Abstract Data Type that optimizes for handling minimum or maximum elements.
 	- There can be space/memory benefit to using this specialized data structure.

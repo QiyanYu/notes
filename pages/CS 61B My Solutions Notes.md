@@ -1,9 +1,7 @@
 - All labs, projects and homework are from [sp18](https://sp18.datastructur.es/).
 - # Discussion
 	- ## Linked Lists
-	  collapsed:: true
 		- ### Even Odd #algorithm #linked-list
-		  collapsed:: true
 			- Implement the method evenOdd by destructively changing the ordering of a given
 			  `IntList` so that even indexed links **precede** odd indexed links.
 			  
@@ -179,10 +177,9 @@
 			  }
 			  ```
 	- ## Abstract Data Types / Data Structures #data-structure
-	  collapsed:: true
 		- ### Solving problems with ADTs
 			- Given an unsorted array of integers, return the array sorted from least to
-			  greatest. #priority-queue
+			  greatest. #[[PriorityQueue & Heap]]
 				- Use a priority queue. For each integer in the unsorted array, enqueue the
 				  integer with a priority equal to its value. Calling dequeue will return the
 				  largest integer; therefore, we can insert these values from index length-1 to 0
@@ -242,7 +239,7 @@
 			      }
 			  }
 			  ```
-		- #### Using Java build-in data structures to find the `k` least common words in a document. #map #priority-queue #java
+		- #### Using Java build-in data structures to find the `k` least common words in a document. #map #[[PriorityQueue & Heap]] #java
 			- Keep a count of all the words in the document using a `HashMap <String, Integer>`. After we go through all of the words, each word will be mapped to how many times it’s appeared. What we can then do is put all the words into a `MaxPriorityQueue<String>`, using a custom comparator that compares words based on the counts in the HashMap. We can then pop off the `k` most common words by just calling `poll()` on the MaxPriorityQueue `k` times.
 			- ```java
 			  public static void topKPopularWords(String[] words, intk) {
@@ -276,7 +273,7 @@
 			  ```
 	- ## Selecting ADTs
 	  collapsed:: true
-		- ### Design a Parking Lot #priority-queue
+		- ### Design a Parking Lot #[[PriorityQueue & Heap]]
 		  collapsed:: true
 			- Design a ParkingLot package that allocates specific parking spaces to cars in a smart way. Decide what classes you’ll need, and design the API for each. Time permitting, select data structures to implement the API for each class. Try to deal with annoying cases (like disobedient humans).
 				- Parking spaces can be either regular, compact, or handicapped-only.
@@ -579,7 +576,7 @@
 			  }
 			  ```
 			- `O(N)` as long as we decrease i by dividing it, running time will be `O(N)`.
-# Lab
+- # Lab
 	- ## Lab 2: JUnit Tests and Debugging #java #test
 	  collapsed:: true
 		- If you have some terrible bug that is hard to fix, you can use `git` to revert back to a state when your code was working properly according to the JUnits tests. #debug #git
@@ -622,9 +619,7 @@
 			- `Revert` allows you to reverse the changes introduced by certain commits by recording new commits to undo the changes. This is a safer option that simply throwing away past commits.
 		- **`Cherry Pick`**
 			- `Cherry pick` allows you to apply the changes introduced by some existing commits.
-# Project
+- # Project
 	- ## Project 1 Gold
-	  collapsed:: true
 		- Autoboxing causing `NullPointerException` #autoboxing #java
-		  collapsed:: true
 			- This error happens because Java will freely convert from Integer (boxed type) to int (primitive type). This is called unboxing. However, only reference types can be null, so if you try to automatically convert a null Integer to an int, you’ll get a NullPointerException in your own code.

@@ -10,6 +10,8 @@
 	- ## 100-199
 	  collapsed:: true
 		- [#C] [[104. Maximum Depth of Binary Tree]]
+	- ## 200-299
+		- [#C] [[226. Invert Binary Tree]]
 	- ## 400-499
 	  collapsed:: true
 		- [#B] [[438. Find All Anagrams in a String]]
@@ -56,6 +58,7 @@
 		- [#B] [[1669. Merge In Between Linked Lists]]
 	- ## 1700-1799
 	  collapsed:: true
+		- [#B] [[1792. Maximum Average Pass Ratio]]
 		- [#B] [[1797. Design Authentication Manager]]
 		- [#B] [[1798. Maximum Number of Consecutive Values You Can Make]]
 	- ## 1800-1899
@@ -89,6 +92,7 @@
 		- [#C] [[2331. Evaluate Boolean Binary Tree]]
 		- [#C] [[2335. Minimum Amount of Time to Fill Cups]]
 		- [#C] [[2341. Maximum Number of Pairs in Array]]
+		- [#C] [[2347. Best Poker Hand]]
 		- LATER [#B] [[2359. Find Closest Node to Given Two Nodes]]
 	- ## 2400-2499
 		- LATER [#B] [[2477. Minimum Fuel Cost to Report to the Capital]]
@@ -96,6 +100,7 @@
 		- [#B] [[2530. maximal Score After Applying K Operations]]
 		- LATER [#B] [[2550. Count Collisions of Monkeys on a Polygon]]
 		- LATER [#C] [[2566. Maximum Difference by Remapping a Digit]]
+		- LATER [#B] [[2572. Count the Number of Square-Free Subsets]]
 	- ## Contest
 		- LATER [#B] [[6275. Minimum Operations to Make Array Equal II]]
 		- LATER [#A] [[6301. Check if Point Is Reachable]]
@@ -112,6 +117,7 @@
 	- ## [[Binary Search]]
 	- ## Union Find
 		- [[1632. Rank Transform of a Matrix]]
+	- ## [[PriorityQueue & Heap]]
 	- ## [[Tree]]
 	- ## [[Binary Search Tree]]
 	- ## [[BFS]]
