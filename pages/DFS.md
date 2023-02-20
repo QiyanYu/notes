@@ -1,2 +1,15 @@
-- ## Leetcode
+- # Basic
+	-
+- # Problem
+	- ## 1. An undirected graph is said to be bipartite if all of its vertices can be divided into two disjoint sets U and V such that every edge connects an item in U to an item in V . For example below, the graph on the left is bipartite, whereas on the graph on the right is not. Provide an algorithm which determines whether or not a graph is bipartite. What is the runtime of your algorithm?
+		- #### Hint: Can you modify an algorithm we already know?
+		- ![image.png](../assets/image_1676848726799_0.png)
+	- ## 2. Bug in Implementation
+		- ![image.png](../assets/image_1676850902653_0.png)
+		- ![image.png](../assets/image_1676850915369_0.png)
+	-
+	-
+- # Leetcode
+	- [[103. Binary Tree Zigzag Level Order Traversal]]
 	- [[104. Maximum Depth of Binary Tree]]
+	-

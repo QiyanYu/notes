@@ -1,10 +1,16 @@
-- ## Basic
+- # Basic
 	- ![lec 21. Tree and Graph Traversals](../assets/cs61b_2021_lec21_graphs1_-_intro_to_graphs_1676187237208_0.pdf)
 	- ![Lecture 22: Graphs II: Graph Traversal Implementations](../assets/cs61b_2021_lec_22_graphs2_-_dfs,_bfs_1676187376478_0.pdf)
 	- ### Multi-source BFS
-- ## Leetcode
+- # Problem
+	- ### 1. An undirected graph is said to be bipartite if all of its vertices can be divided into two disjoint sets U and V such that every edge connects an item in U to an item in V . For example below, the graph on the left is bipartite, whereas on the graph on the right is not. Provide an algorithm which determines whether or not a graph is bipartite. What is the runtime of your algorithm?
+		- #### Hint: Can you modify an algorithm we already know?
+		- ![image.png](../assets/image_1676848726799_0.png)
+- # Leetcode
+	- [[103. Binary Tree Zigzag Level Order Traversal]]
 	- [[104. Maximum Depth of Binary Tree]]
 	- [[787. Cheapest Flights Within K Stops]]
 	- [[1129. Shortest Path with Alternating Colors]]
 	- [[1162. As Far from Land as Possible]]
 	- [[2359. Find Closest Node to Given Two Nodes]]
+-

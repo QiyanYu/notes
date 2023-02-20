@@ -1,4 +1,4 @@
-- ## Utility Methods For Sorting
+- # 0. Utility Methods For Sorting
 	- ```java
 	  /** Returns true if v < w, false otherwise. */
 	  private static boolean less(Comparable v, Comparable w) {
@@ -13,7 +13,7 @@
 	    	a[j] = swap;
 	  }
 	  ```
-- ## 1. Selection Sort
+- # 1. Selection Sort
 	- ```java
 	  public static void selSort(Comparable[] a) {
 	    	int N = a.length;
@@ -35,7 +35,7 @@
 	- ### Runtime
 		- #### Selection sort: Runtime is independent of input, always $$Θ(N^2)$$.
 			- ~$$N^2/2$$ compares and ~$$N^2/2$$ exchanges. $$Θ(N^2)$$ runtime.
-- ## 2. Insertion Sort
+- # 2. Insertion Sort
 	- ```java
 	  public static void insSort(Comparable[] a) {
 	    	int N = a.length;
@@ -65,7 +65,7 @@
 			- More of an empirical fact than a theoretical one.
 			- Theoretical analysis beyond scope of the course.
 			- Rough idea: Divide and conquer algorithms like heapsort / mergesort spend too much time dividing, but insertion sort goes straight to the conquest.
-- ## 3. Merge Sort
+- # 3. Merge Sort
 	- ```java
 	  /** Given sorted arrays a and b, return sorted array
 	    * containing all items from a and b. Can be optimized 
@@ -98,7 +98,7 @@
 	- ### How can the above mergesort implementation be improved?
 		- Try and avoid making copies a and b, by adding parameters to the merge routine. `merge(input, 0, 5, 6, 10)`;
 		- Use a different for small N: Like maybe insertion sort. Industrial strength mergesorts, use insertion sort for `N < 15`.
-- ## 4. Heap sort
+- # 4. Heap sort
 	- ### Heapsort With Separate PQ
 		- ```java
 		  /** Uses a MaxPQ to do the sorting. Requires Θ(N) space. */
@@ -156,11 +156,19 @@
 		  ```
 	- ### Key idea
 		- Max-Heapfiy [$$Θ(N)$$], then delete max `N` times [$$Θ(log N)$$ per delete]
-- ## 5. Shell Sort
+- # 5. Shell Sort
 	- ![image.png](../assets/image_1675744935234_0.png)
-- ## 6. [[Quick Sort]]
-## Summary
+- # 6. [[Quick Sort]]
+- # 7. CS61B
+	- ![Discussion 12: Basic Sorts](../assets/disc12sol_1676869055359_0.pdf)
+	- ![Exam Prep Discussion 12: Sorting](../assets/examprep12sol_1676869947895_0.pdf)
+	- ![Discussion 13: More Sorting](../assets/disc13sol_1676874099625_0.pdf)
+	- ![Exam Prep Discussion 13: More Sorting](../assets/examprep13sol_1676874691145_0.pdf)
+- # 8. Summary
 	- ![image.png](../assets/image_1675744907861_0.png)
-- ## Leetcode
+- # 9. Leetcode
 	- [[2341. Maximum Number of Pairs in Array]]
-	-
+-
+- # 10. Misc
+	- Mergesort is preferred for sorting a linked list.
+-

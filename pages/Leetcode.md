@@ -5,12 +5,15 @@
 	- ## 1-99
 	  collapsed:: true
 		- [#B] [[6. Zigzag Conversion]]
+		- [#C] [[35. Search Insert Position]]
 		- [#B] [[45. Jump Game II]]
 		- [#C] [[67. Add Binary]]
 	- ## 100-199
 	  collapsed:: true
+		- [#B] [[103. Binary Tree Zigzag Level Order Traversal]]
 		- [#C] [[104. Maximum Depth of Binary Tree]]
 	- ## 200-299
+	  collapsed:: true
 		- [#C] [[226. Invert Binary Tree]]
 	- ## 400-499
 	  collapsed:: true
@@ -127,7 +130,7 @@
 	- ## [[Bellman Ford]]
 		- ### [[Shortest Path Faster Algorithms]]
 			- (SPFA) is an improvement of the Bellman Ford algorithm which computes single-source shortest paths in a weighted graph.
-		-
+	- ## [[Minimum Spanning Tree]]
 	- ## [[K-D Tree]]
 	- ## [[Trie]]
 	- ## [[Greedy]]

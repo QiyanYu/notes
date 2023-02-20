@@ -1,7 +1,6 @@
 - [GitHub Link](https://github.com/QiyanYu/UCB_CS61A) of My solution for homework and course projects
 - # Projects
 	- ## CATS
-	  collapsed:: true
 		- [GitHub Link](https://github.com/QiyanYu/UCB_CS61A/blob/main/cats/cats.py)
 		- [Description](https://inst.eecs.berkeley.edu/~cs61a/sp20/proj/cats/)
 		- ### Problem 5
@@ -68,7 +67,6 @@
 				        	break
 				  ```
 	- ## Ants
-	  collapsed:: true
 		- In Python 3, the plain `int` type is unbound. So if we need a maximum number, use `float("inf")`
 		- ### Problem 5
 			- > To damage the `FireAnt`, call the `reduce_armor` method inherited from `Ant`. Do *not* call `self.reduce_armor`, or you'll end up stuck in a recursive loop.
@@ -963,7 +961,7 @@
 			        for s in sum_paths_gen(t):
 			          	yield s + label(t)
 			  ```
-		- ### Trie Recursion #recursion #trie
+		- ### Trie Recursion #recursion #Trie
 			- A **trie** is a type of tree where the values of each node are *letters* representing part of a larger *word*. Implement `collect_words`, which takes in a trie `t` and returns a Python list containing all the words contained in the trie.
 			- ```python
 			  >>> print_tree(greetings)

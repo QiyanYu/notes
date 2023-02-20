@@ -2,7 +2,10 @@
 	- ![Lec 23 Shortest Paths](../assets/cs61b_2020_lec_25_shortest_paths_1676187442001_0.pdf)
 	- We know that the heap-optimized Dijkstra algorithm is actually a variation of BFS, where the queue in BFS is transformed into a priority queue, and a relaxation operation is added when expanding new states.
 - ## Pseudocode
-	- ![image.png](../assets/image_1676528825493_0.png)
-- ## Leetcode
+	- ![image.png](../assets/image_1676528825493_0.png){:height 643, :width 573}
+- # Problem
+	- ## 1. Oracle Dijkstra’s
+		- ![image.png](../assets/image_1676854113559_0.png)
+- # Leetcode
 	- LATER [[787. Cheapest Flights Within K Stops]]
 	- [[1162. As Far from Land as Possible]]

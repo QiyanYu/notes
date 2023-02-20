@@ -14,4 +14,5 @@
   ```
 -
 - # Leetcode
+	- [[35. Search Insert Position]]
 	- [[1237. Find Positive Integer Solution for a Given Equation]]
