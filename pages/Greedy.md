@@ -1,2 +1,4 @@
-- ## Leetcode
+- # Leetcode
 	- [[45. Jump Game II]]
+	- [[1326. Minimum Number of Taps to Open to Water a Garden]]
+	-

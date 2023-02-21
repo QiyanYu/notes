@@ -45,6 +45,8 @@
 		- [#B] [[1233. Remove Sub-Folders from the Filesystem]]
 		- [#B] [[1234. Replace the Substring for Balanced String]]
 		- LATER [#B] [[1237. Find Positive Integer Solution for a Given Equation]]
+	- ## 1300-1399
+		- [#A] [[1326. Minimum Number of Taps to Open to Water a Garden]]
 	- ## 1400-1499
 	  collapsed:: true
 		- [#C] [[1470. Shuffle the Array]]
