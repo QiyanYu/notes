@@ -19,7 +19,8 @@
 	  collapsed:: true
 		- [#B] [[438. Find All Anagrams in a String]]
 	- ## 500-599
-	  collapsed:: true
+		- [#A] [[502. IPO]]
+		- [#B] [[540. Single Element in a Sorted Array]]
 		- [#B] [[567. Permutation in String]]
 	- ## 700-799
 	  collapsed:: true
@@ -38,6 +39,7 @@
 		- [#B] [[1129. Shortest Path with Alternating Colors]]
 		- [#B] [[1138. Alphabet Board Path]]
 		- [#B] [[1139. Largest 1-Bordered Square]]
+		- LATER [#B] [[1140. Stone Game II]]
 		- [#B] [[1145. Binary Tree Coloring Game]]
 		- LATER [#B] [[1162. As Far from Land as Possible]]
 	- ## 1200-1299
@@ -46,6 +48,7 @@
 		- [#B] [[1234. Replace the Substring for Balanced String]]
 		- LATER [#B] [[1237. Find Positive Integer Solution for a Given Equation]]
 	- ## 1300-1399
+	  collapsed:: true
 		- [#A] [[1326. Minimum Number of Taps to Open to Water a Garden]]
 	- ## 1400-1499
 	  collapsed:: true
@@ -140,6 +143,8 @@
 	- ## [[Prefix Sum]]
 	- ## [[Sort]]
 	- ## [[Math]]
+	- ## Misc
+		- [[Gray Code]]
 - # Tips
   id:: 63b90d19-5c34-4180-a8f5-6c208337d0c6
 	- ## [[Leetcode Tips]]

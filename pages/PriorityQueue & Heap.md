@@ -3,4 +3,5 @@
 		- In Java, `PriorityQueue` is a class that represents a priority queue, which is an abstract data type that allows you to store elements in a collection and retrieve them in a certain order based on their priority. The elements are retrieved in ascending order by default, or in a custom order that can be specified using a `Comparator`.
 		- In Java 8 and later, you can use lambda expressions to specify a custom order for the elements in a `PriorityQueue`. This allows you to define a custom sorting order without having to write a separate `Comparator` class.
 - # Leetcode
+	- [[502. IPO]]
 	- [[1792. Maximum Average Pass Ratio]]
