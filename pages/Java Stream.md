@@ -20,3 +20,4 @@
 		- `Collectors.groupingBy(Function classifier)` - groups the elements of a stream by a classifier function and returns a Map
 	- #### Example
 		- [[1817. Finding the Users Active Minutes]]
+		- [[2357. Make Array Zero by Subtracting Equal Amounts]]

@@ -12,6 +12,9 @@
 			  NOT(x) = (x NAND x)
 			  (x AND y) = NOT(x NAND y)
 			  ```
+			- Any Boolean function can be represented using an expression containing AND and NOT operations.
+				- `(x OR y) = NOT(NOT(x) AND NOT(y))`
+			- Since `Nand` can present NOT and AND, so we can build everything just base on `Nand`.
 	- ## Unit 1.3: Logic Gates
 		- ### Logic Gates:
 			- Elementary(Nand, And, Or, Not)
@@ -23,12 +26,7 @@
 			- The bits are indexed from right to left, the rightmost bit being the 0'th bit and the leftmost bit being the 15'th bit (in a 16-bit setting).
 - # 2. Boolean Arithmetic
 	- ## Unit 2.3: Negative Numbers
-		- ### 2's Complement
-		  collapsed:: true
-			- ![image.png](../assets/image_1659021687767_0.png){:height 395, :width 504}
-			- ![image.png](../assets/image_1659021647517_0.png){:height 556, :width 505}
-			- ![image.png](../assets/image_1659022125138_0.png)
-			- ![image.png](../assets/image_1659022299690_0.png)
+		- ### [[2's Complement]]
 - # 3. Memory
 	- ## Combinational vs. Sequential
 		- The chips which are time independent, are called *combinational*: they respond to different combinations of their inputs without delay, except for the time it takes their inner chip-parts to complete the computation.

@@ -19,6 +19,7 @@
 	  collapsed:: true
 		- [#B] [[438. Find All Anagrams in a String]]
 	- ## 500-599
+	  collapsed:: true
 		- [#A] [[502. IPO]]
 		- [#B] [[540. Single Element in a Sorted Array]]
 		- [#B] [[567. Permutation in String]]
@@ -101,6 +102,7 @@
 		- [#C] [[2335. Minimum Amount of Time to Fill Cups]]
 		- [#C] [[2341. Maximum Number of Pairs in Array]]
 		- [#C] [[2347. Best Poker Hand]]
+		- [#C] [[2357. Make Array Zero by Subtracting Equal Amounts]]
 		- LATER [#B] [[2359. Find Closest Node to Given Two Nodes]]
 	- ## 2400-2499
 		- LATER [#B] [[2477. Minimum Fuel Cost to Report to the Capital]]
@@ -145,6 +147,8 @@
 	- ## [[Math]]
 	- ## Misc
 		- [[Gray Code]]
+	- ## Java:
+		- [[Java Stream]]: In most cases, using Java streams can cause code to run slower in Leetcode. This is because the test cases are not usually large enough for streams to provide significant performance improvements.
 - # Tips
   id:: 63b90d19-5c34-4180-a8f5-6c208337d0c6
 	- ## [[Leetcode Tips]]
