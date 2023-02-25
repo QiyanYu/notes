@@ -9,9 +9,9 @@
 		- [#B] [[45. Jump Game II]]
 		- [#C] [[67. Add Binary]]
 	- ## 100-199
-	  collapsed:: true
 		- [#B] [[103. Binary Tree Zigzag Level Order Traversal]]
 		- [#C] [[104. Maximum Depth of Binary Tree]]
+		- [#C] [[121. Best Time to Buy and Sell Stock]]
 	- ## 200-299
 	  collapsed:: true
 		- [#C] [[226. Invert Binary Tree]]
@@ -48,6 +48,7 @@
 		- [#B] [[1233. Remove Sub-Folders from the Filesystem]]
 		- [#B] [[1234. Replace the Substring for Balanced String]]
 		- LATER [#B] [[1237. Find Positive Integer Solution for a Given Equation]]
+		- [#B] [[1247. Minimum Swaps to Make Strings Equal]]
 	- ## 1300-1399
 	  collapsed:: true
 		- [#A] [[1326. Minimum Number of Taps to Open to Water a Garden]]
@@ -58,13 +59,13 @@
 	  collapsed:: true
 		- [#C] [[1523. Count Odd Numbers in an Interval Range]]
 	- ## 1600-1699
-	  collapsed:: true
 		- [#B] [[1604. Alert Using Same Key-Card Three or More Times in a One Hour Period]]
 		- [#A] [[1632. Rank Transform of a Matrix]]
 		- [#B] [[1658. Minimum Operations to Reduce X to Zero]]
 		- [#B] [[1663. Smallest String With A Given Numeric Value]]
 		- [#B] [[1664. Ways to Make a Fair Array]]
 		- [#B] [[1669. Merge In Between Linked Lists]]
+		- [#A] [[1675. Minimize Deviation in Array]]
 	- ## 1700-1799
 	  collapsed:: true
 		- [#B] [[1792. Maximum Average Pass Ratio]]
@@ -154,4 +155,7 @@
 	- ## [[Leetcode Tips]]
 	- ## [[Java syntax tips]]
 	-
+- # Mistake Notebook
+	- [[121. Best Time to Buy and Sell Stock]]
+-
 	-
