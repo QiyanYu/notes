@@ -1,2 +1,6 @@
+- # Quad Tree
+	- ## Leetcode
+		- [[427. Construct Quad Tree]]
 - ## Leetcode
 	- [[104. Maximum Depth of Binary Tree]]
+-

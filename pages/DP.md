@@ -1,3 +1,4 @@
 - ## Leetcode
+	- [[72. Edit Distance]]
 	- [[1139. Largest 1-Bordered Square]]
 	- [[1140. Stone Game II]]

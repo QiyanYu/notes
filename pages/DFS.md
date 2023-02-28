@@ -12,4 +12,4 @@
 - # Leetcode
 	- [[103. Binary Tree Zigzag Level Order Traversal]]
 	- [[104. Maximum Depth of Binary Tree]]
-	-
+	- [[427. Construct Quad Tree]]

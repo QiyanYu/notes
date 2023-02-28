@@ -54,6 +54,7 @@
 	- ## Hack Programming
 		- ### Working with registers and memory
 			- ![image.png](../assets/image_1659547805041_0.png){:height 511, :width 563}
+			- ![image.png](../assets/image_1677558037784_0.png)
 		- ### Branching
 		- ### Variables
 		- ### Iteration

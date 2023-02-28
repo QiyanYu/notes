@@ -40,7 +40,7 @@ title:: CS 61B Course Notes
 		- Circular may be better style to implement the Doubly Linked List.
 	- ## Generic Types #generic #java
 		- Generics only work with reference types. If you need to instantiate a generic over a primitive type, use `Integer`, `Double`, `Character`, `Boolean`, `Long`, `Short`, `Byte`, or `Float` instead of their primitive equivalents.
-	- ## Arrays vs. Classes #arrays #class #java
+	- ## Arrays vs. Classes #array #class #java
 		- ### The key differences between memory boxes:
 			- Array boxes are numbered and accessed using `[]` notation, and class boxes are named and accessed using dot notation.
 			- Array boxes must all be the same type. Class boxes can be different types.

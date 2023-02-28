@@ -3,12 +3,13 @@
 	- [#B] For Medium
 	- [#C] For Easy
 	- ## 1-99
-	  collapsed:: true
 		- [#B] [[6. Zigzag Conversion]]
 		- [#C] [[35. Search Insert Position]]
 		- [#B] [[45. Jump Game II]]
 		- [#C] [[67. Add Binary]]
+		- LATER [#A] [[72. Edit Distance]]
 	- ## 100-199
+	  collapsed:: true
 		- [#B] [[103. Binary Tree Zigzag Level Order Traversal]]
 		- [#C] [[104. Maximum Depth of Binary Tree]]
 		- [#C] [[121. Best Time to Buy and Sell Stock]]
@@ -16,7 +17,7 @@
 	  collapsed:: true
 		- [#C] [[226. Invert Binary Tree]]
 	- ## 400-499
-	  collapsed:: true
+		- LATER [#B] [[427. Construct Quad Tree]]
 		- [#B] [[438. Find All Anagrams in a String]]
 	- ## 500-599
 	  collapsed:: true
@@ -41,6 +42,7 @@
 		- [#B] [[1138. Alphabet Board Path]]
 		- [#B] [[1139. Largest 1-Bordered Square]]
 		- LATER [#B] [[1140. Stone Game II]]
+		- [#B] [[1144. Decrease Elements To Make Array Zigzag]]
 		- [#B] [[1145. Binary Tree Coloring Game]]
 		- LATER [#B] [[1162. As Far from Land as Possible]]
 	- ## 1200-1299
@@ -49,6 +51,7 @@
 		- [#B] [[1234. Replace the Substring for Balanced String]]
 		- LATER [#B] [[1237. Find Positive Integer Solution for a Given Equation]]
 		- [#B] [[1247. Minimum Swaps to Make Strings Equal]]
+		- LATER [#A] [[1255. Maximum Score Words Formed by Letters]]
 	- ## 1300-1399
 	  collapsed:: true
 		- [#A] [[1326. Minimum Number of Taps to Open to Water a Garden]]
@@ -59,6 +62,7 @@
 	  collapsed:: true
 		- [#C] [[1523. Count Odd Numbers in an Interval Range]]
 	- ## 1600-1699
+	  collapsed:: true
 		- [#B] [[1604. Alert Using Same Key-Card Three or More Times in a One Hour Period]]
 		- [#A] [[1632. Rank Transform of a Matrix]]
 		- [#B] [[1658. Minimum Operations to Reduce X to Zero]]
@@ -105,6 +109,7 @@
 		- [#C] [[2347. Best Poker Hand]]
 		- [#C] [[2357. Make Array Zero by Subtracting Equal Amounts]]
 		- LATER [#B] [[2359. Find Closest Node to Given Two Nodes]]
+		- [#C] [[2363. Merge Similar Items]]
 	- ## 2400-2499
 		- LATER [#B] [[2477. Minimum Fuel Cost to Report to the Capital]]
 	- ## 2500-2599
@@ -122,6 +127,7 @@
 	- ## 2.2 [[Hashing]]
 	- ## 2.3 [[Two Pointers]]
 	- ## 2.4 [[Sliding Window]]
+	- ## [[Array]]
 	- ## Bit Manipulation
 		- [[2299. Strong Password Checker II]]
 		- [[2309. Greatest English Letter in Upper and Lower Case]]
