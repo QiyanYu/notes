@@ -24,6 +24,9 @@
 		- [#A] [[502. IPO]]
 		- [#B] [[540. Single Element in a Sorted Array]]
 		- [#B] [[567. Permutation in String]]
+	- ## 600-699
+	  collapsed:: true
+		- [#B] [[652. Find Duplicate Subtrees]]
 	- ## 700-799
 	  collapsed:: true
 		- [#C] [[783. Minimum Distance Between BST Nodes]]
@@ -110,6 +113,7 @@
 		- [#C] [[2357. Make Array Zero by Subtracting Equal Amounts]]
 		- LATER [#B] [[2359. Find Closest Node to Given Two Nodes]]
 		- [#C] [[2363. Merge Similar Items]]
+		- [#C] [[2373. Largest Local Values in a Matrix]]
 	- ## 2400-2499
 		- LATER [#B] [[2477. Minimum Fuel Cost to Report to the Capital]]
 	- ## 2500-2599
