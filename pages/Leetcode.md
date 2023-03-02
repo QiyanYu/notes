@@ -32,8 +32,8 @@
 		- [#C] [[783. Minimum Distance Between BST Nodes]]
 		- [#B] [[787. Cheapest Flights Within K Stops]]
 	- ## 900-999
-	  collapsed:: true
 		- [#B] [[904. Fruit Into Baskets]]
+		- [#B] [[912. Sort an array]]
 		- [#C] [[953. Verifying an Alien Dictionary]]
 		- [#C] [[989. Add to Array-Form of Integer]]
 	- ## 1000-1099
