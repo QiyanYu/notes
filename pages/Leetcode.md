@@ -4,6 +4,7 @@
 	- [#C] For Easy
 	- ## 1-99
 		- [#B] [[6. Zigzag Conversion]]
+		- [#B] [[28. Find the Index of the First Occurrence in a String]]
 		- [#C] [[35. Search Insert Position]]
 		- [#B] [[45. Jump Game II]]
 		- [#C] [[67. Add Binary]]
